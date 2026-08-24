@@ -2,7 +2,7 @@
 
 ###
 
-<p data-importer="text" align="left">My name is Anirban kar and I'm a from Bangalore</p>
+<p data-importer="text" align="left">Hi, I'm Anirban kar 👋<br><br>I’m a beginner backend developer passionate about learning how web applications work behind the scenes. I enjoy building simple APIs, working with databases, and improving my programming skills every day.</p>
 
 ###
 
@@ -10,7 +10,7 @@
 
 ###
 
-<p data-importer="text" align="left">✨ Creating bugs since ...<br>📚 I'm currently learning ...<br>🎯 Goals: ...<br>🎲 Fun fact: ...</p>
+<p data-importer="text" align="left">🌱 Currently learning backend development fundamentals<br><br>💻 Interested in APIs, databases, authentication, and server-side applications<br><br>🚀 Building small projects to strengthen my practical skills<br><br>📚 Open to learning, feedback, and collaboration<br><br>🎯 Goal: Become a skilled backend developer and contribute to meaningful projects</p>
 
 ###
 
