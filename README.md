@@ -38,6 +38,12 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="35" alt="vscode logo"  />
   <img width="15" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="35" alt="intellij logo"  />
+  <img width="15" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="35" alt="spring logo"  />
+  <img width="15" />
+  <img src="https://cdn.simpleicons.org/stackoverflow/F58025" height="35" alt="stackoverflow logo"  />
+  <img width="15" />
+  <img src="https://cdn.simpleicons.org/vim/019733" height="35" alt="vim logo"  />
 </div>
 
 ###
