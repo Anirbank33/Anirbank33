@@ -50,10 +50,10 @@
 
 <br clear="both">
 
-<picture data-importer="snake">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/github-contribution-grid-snake.svg">
-  <img alt="Snake animation of Anirbank33's GitHub contribution graph" src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/github-contribution-grid-snake-dark.svg">
+<picture data-importer="arcade-game">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph.svg">
+  <img alt="Puzzle Bobble animation of Anirbank33's GitHub contribution graph" src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph-dark.svg">
 </picture>
 
 ###
