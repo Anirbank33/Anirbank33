@@ -46,6 +46,14 @@ I'm a beginner backend developer from Bengaluru, India, focused on understanding
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anirbank33&theme=tokyo-night&hide_border=true" alt="Anirban's contribution activity" />
 </p>
 
+## Arcade game
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph.svg">
+  <img alt="Puzzle Bobble animation of Anirbank33's GitHub contribution graph" src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph-dark.svg">
+</picture>
+
 ## Contribution playground
 
 <p align="center">
