@@ -1,219 +1,120 @@
-# Hey, I'm Anirban Kar 👋
+# Anirban Kar
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=2F81F7&center=true&vCenter=true&width=700&lines=Backend+developer+in+the+making;Java+%7C+Spring+%7C+APIs+%7C+Databases;Learning+by+building+every+day+%F0%9F%9A%80;Open+to+collaboration+%26+feedback" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Backend+developer;Java+%7C+Spring+%7C+APIs;Learning+by+building" alt="Typing" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/Anirbank33"><img src="https://img.shields.io/github/followers/Anirbank33?label=Followers&style=for-the-badge&color=236ad3" alt="GitHub followers" /></a>
-  <a href="https://github.com/Anirbank33?tab=repositories"><img src="https://img.shields.io/badge/Repositories-21-2ea44f?style=for-the-badge" alt="Repositories" /></a>
-  <a href="https://www.linkedin.com/in/anirban-kar-23645414a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
-  <a href="mailto:anirbankar23@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail" alt="Email" /></a>
+  <a href="https://github.com/Anirbank33"><img src="https://img.shields.io/github/followers/Anirbank33?label=Followers&style=flat-square&color=236ad3" /></a>
+  <a href="https://github.com/Anirbank33?tab=repositories"><img src="https://img.shields.io/badge/Repos-21-2ea44f?style=flat-square" /></a>
+  <a href="https://www.linkedin.com/in/anirban-kar-23645414a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin" /></a>
+  <a href="mailto:anirbankar23@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail" /></a>
 </p>
 
 ---
 
-## 🚀 About Me
+## About
 
-I'm a **beginner backend developer** from **Bengaluru, India**, focused on understanding how applications work behind the scenes. I enjoy building APIs, working with databases, and turning small ideas into working software.
+Backend developer from **Bengaluru, India** — building APIs, working with databases, turning ideas into software.
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  🔭 Currently Building    │  Full-stack & Backend Projects  │
-│  🌱 Currently Learning    │  Java, Spring Boot, REST APIs   │
-│  🧰 Exploring             │  Node.js, MongoDB, Auth, DevOps │
-│  🎯 Goal                  │  Strong Backend Developer       │
-│  💬 Open to               │  Feedback, Collab, Learning     │
-└─────────────────────────────────────────────────────────────┘
+🔭 Building: Full-stack & Backend projects
+🌱 Learning: Java, Spring Boot, REST APIs
+🧰 Exploring: Node.js, MongoDB, Auth, DevOps
+🎯 Goal: Strong backend developer
+💬 Open to: Feedback, collaboration, learning in public
 ```
 
 ---
 
-## ⭐ Featured Projects
+## Featured Projects
 
-| Project | Description | Tech Stack | Stars |
-|---------|-------------|------------|-------|
-| [**Medical Department Tracker**](https://github.com/Anirbank33/medical-department-tracker) | Ward operations tracker for hospitals | React, TypeScript, Vite, Express | ⭐ 1 |
-| [**Profile README Generator**](https://github.com/Anirbank33/profile-readme-generator) | Create personalized GitHub profiles | JavaScript, HTML, CSS | ⭐ 1 |
-| [**Java Core Troubleshooting**](https://github.com/Anirbank33/java-core-troubleshooting) | Java debugging & core concepts practice | Java | ⭐ 1 |
-| [**Backend Demo**](https://github.com/Anirbank33/backend-demo) | Node.js + Express REST API with web client | JavaScript, Express | — |
-| [**Nemotron Resources**](https://github.com/Anirbank33/Nemotron) | NVIDIA Nemotron training recipes & datasets | — | — |
-
----
-
-## 🛠️ Tech Stack
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,nodejs,js,ts,express,mongodb,postgres,html,css,bootstrap,git,github,vscode,idea,docker,linux" alt="Technology icons" />
-</p>
-
-<details>
-<summary><b>📋 Detailed Skills Breakdown</b></summary>
-
-| Category | Technologies |
-|----------|--------------|
-| **Languages** | Java ☕, JavaScript, TypeScript, HTML/CSS |
-| **Backend** | Spring Boot, Express.js, REST APIs, JWT Auth |
-| **Databases** | MongoDB, PostgreSQL, MySQL |
-| **Frontend** | React, Vite, Bootstrap, Vanilla JS |
-| **Tools** | Git, GitHub Actions, VS Code, IntelliJ, Docker |
-| **Learning** | Spring Security, Microservices, Kafka, Redis |
-
-</details>
+| Project | Stack | Description |
+|---------|-------|-------------|
+| [Medical Department Tracker](https://github.com/Anirbank33/medical-department-tracker) | React, TypeScript, Express | Ward operations tracker for hospitals |
+| [Profile README Generator](https://github.com/Anirbank33/profile-readme-generator) | JS, HTML, CSS | Create personalized GitHub profiles |
+| [Java Core Troubleshooting](https://github.com/Anirbank33/java-core-troubleshooting) | Java | Debugging & core concepts practice |
+| [Backend Demo](https://github.com/Anirbank33/backend-demo) | Node.js, Express | REST API with web client |
 
 ---
 
-## 📊 GitHub Analytics
+## Tech Stack
 
-<div align="center">
-
-### 📈 Overview Stats
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Anirbank33&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&count_private=true&include_all_commits=true" alt="GitHub stats" />
-<img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Anirbank33&theme=tokyonight&hide_border=true&fire=FF5722&currStreakLabel=Current%20Streak&sideNums=FFF" alt="GitHub streak" />
-
-### 🌍 Contribution Activity Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Anirbank33&theme=tokyo-night&hide_border=true&area=true&color=2F81F7&point=FFFFFF&line=2F81F7" alt="Contribution activity graph" width="100%" />
-
-### 🗣️ Most Used Languages
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&size_weight=0.5&count_weight=0.5" alt="Top languages" />
-
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,nodejs,js,ts,express,mongodb,postgres,html,css,git,github,vscode,idea,docker,linux" />
+</p>
 
 ---
 
-## 📊 Detailed Statistics
+## GitHub Analytics
 
-<table align="center">
-<tr>
-<td align="center" width="50%">
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Anirbank33&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&count_private=true" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Anirbank33&theme=tokyonight&hide_border=true" />
+</p>
 
-### 🏆 GitHub Trophies
-<img src="https://github-profile-trophy.vercel.app/?username=Anirbank33&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub trophies" />
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anirbank33&theme=tokyo-night&hide_border=true&area=true" width="100%" />
+</p>
 
-</td>
-<td align="center" width="50%">
-
-### 📅 Contribution Calendar (2026)
-<img src="https://ghchart.rshah.org/Anirbank33" alt="Contribution calendar" width="100%" />
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+</p>
 
 ---
 
-## 🕹️ Arcade Contribution Games
+## Arcade Games
 
-> My GitHub contribution graph transformed into playable arcade games! Updated automatically every 12 hours.
+> Contribution graph as playable arcade games — updated every 12h
 
-<div align="center">
-
-### 🫧 Puzzle Bobble
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph.svg">
-    <img alt="Puzzle Bobble" src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph-dark.svg" width="100%">
-  </picture>
+  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph-dark.svg" width="100%" alt="Puzzle Bobble" />
 </p>
 
-### 👻 Pac-Man
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/pacman-contribution-graph.svg">
-    <img alt="Pac-Man" src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/pacman-contribution-graph-dark.svg" width="100%">
-  </picture>
+  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/pacman-contribution-graph-dark.svg" width="100%" alt="Pac-Man" />
 </p>
 
-### 🧱 Breakout
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/breakout-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/breakout-contribution-graph.svg">
-    <img alt="Breakout" src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/breakout-contribution-graph-dark.svg" width="100%">
-  </picture>
+  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/breakout-contribution-graph-dark.svg" width="100%" alt="Breakout" />
 </p>
 
-### 🚀 Galaga
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph.svg">
-    <img alt="Galaga" src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph-dark.svg" width="100%">
-  </picture>
+  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph-dark.svg" width="100%" alt="Galaga" />
 </p>
 
-### 💣 Bomberman
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/bomberman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/bomberman-contribution-graph.svg">
-    <img alt="Bomberman" src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/bomberman-contribution-graph-dark.svg" width="100%">
-  </picture>
+  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/bomberman-contribution-graph-dark.svg" width="100%" alt="Bomberman" />
 </p>
 
-### 🐍 Snake (Classic)
 <p align="center">
-  <img alt="Snake Game" src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/github-contribution-grid-snake.svg" width="100%">
+  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/github-contribution-grid-snake.svg" width="100%" alt="Snake" />
 </p>
-
-</div>
 
 ---
 
-## 🎯 2026 Highlights
-
-<div align="center">
+## 2026 Highlights
 
 | Metric | Value |
 |--------|-------|
-| **Total Contributions** | 321 |
+| **Contributions** | 321 |
 | **Active Days** | 137 / 365 |
-| **Peak Day** | 73 contributions |
-| **Repos Created/Updated** | 13 |
-| **Primary Languages** | Java, TypeScript, JavaScript |
-| **Current Streak** | 🔥 Active |
-
-</div>
+| **Peak Day** | 73 |
+| **Repos Updated** | 13 |
+| **Top Languages** | Java, TypeScript, JavaScript |
 
 ---
 
-## 📈 Contribution Timeline
-
-```
-2021 ██ (5)      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-2022 ██████████ (20) ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-2023 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ (0)
-2024 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ (0)
-2025 ████████████████████████████████████░░░░░░░░░░ (65)
-2026 ████████████████████████████████████████████████████████████████████████ (321) 🚀
-```
-
----
-
-## 🤝 Let's Connect
+## Connect
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/anirban-kar-23645414a/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/Anirbank33">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="mailto:anirbankar23@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+  <a href="https://www.linkedin.com/in/anirban-kar-23645414a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/Anirbank33"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="mailto:anirbankar23@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
 </p>
 
----
+<p align="center"><i>"The best way to learn is to build, break, and build again."</i></p>
 
 <p align="center">
-  <i>“The best way to learn is to build, break, and build again.”</i>
+  <img src="https://komarev.com/ghpvc/?username=Anirbank33&color=2F81F7&style=flat-square&label=Views" />
 </p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Anirbank33&color=2F81F7&style=for-the-badge&label=Profile+Views" alt="Profile views" />
-</p>
-
-<p align="center">Thanks for stopping by — let's build something useful! ✨</p>
