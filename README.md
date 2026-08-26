@@ -65,24 +65,48 @@ I'm a **beginner backend developer** from **Bengaluru, India**, focused on under
 
 ## 📊 GitHub Analytics
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Anirbank33&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&count_private=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Anirbank33&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anirbank33&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph" />
-</p>
+### 📈 Overview Stats
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Anirbank33&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&count_private=true&include_all_commits=true" alt="GitHub stats" />
+<img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Anirbank33&theme=tokyonight&hide_border=true&fire=FF5722&currStreakLabel=Current%20Streak&sideNums=FFF" alt="GitHub streak" />
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-</p>
+### 🌍 Contribution Activity Graph
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Anirbank33&theme=tokyo-night&hide_border=true&area=true&color=2F81F7&point=FFFFFF&line=2F81F7" alt="Contribution activity graph" width="100%" />
+
+### 🗣️ Most Used Languages
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&size_weight=0.5&count_weight=0.5" alt="Top languages" />
+
+</div>
+
+---
+
+## 📊 Detailed Statistics
+
+<table align="center">
+<tr>
+<td align="center" width="50%">
+
+### 🏆 GitHub Trophies
+<img src="https://github-profile-trophy.vercel.app/?username=Anirbank33&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub trophies" />
+
+</td>
+<td align="center" width="50%">
+
+### 📅 Contribution Calendar (2026)
+<img src="https://ghchart.rshah.org/Anirbank33" alt="Contribution calendar" width="100%" />
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🕹️ Arcade Contribution Games
 
 > My GitHub contribution graph transformed into playable arcade games! Updated automatically every 12 hours.
+
+<div align="center">
 
 ### 🫧 Puzzle Bobble
 <p align="center">
@@ -138,6 +162,8 @@ I'm a **beginner backend developer** from **Bengaluru, India**, focused on under
   </picture>
 </p>
 
+</div>
+
 ---
 
 ## 🎯 2026 Highlights
@@ -151,6 +177,7 @@ I'm a **beginner backend developer** from **Bengaluru, India**, focused on under
 | **Peak Day** | 73 contributions |
 | **Repos Created/Updated** | 13 |
 | **Primary Languages** | Java, TypeScript, JavaScript |
+| **Current Streak** | 🔥 Active |
 
 </div>
 
