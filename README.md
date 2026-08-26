@@ -49,16 +49,16 @@ Backend developer from **Bengaluru, India** — building APIs, working with data
 ## GitHub Analytics
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Anirbank33&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&count_private=true" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Anirbank33&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://ghstats.vercel.app/api?username=Anirbank33&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Anirbank33&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anirbank33&theme=tokyo-night&hide_border=true&area=true" width="100%" />
+  <img src="https://ghchart.rshah.org/Anirbank33" alt="Contribution Calendar" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img src="https://ghstats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
 </p>
 
 ---
