@@ -1,4 +1,4 @@
-name: Generate Puzzle Bobble contribution game
+name: Generate Arcade Contribution Games
 
 on:
   push:
@@ -14,7 +14,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - name: Generate Puzzle Bobble animation
         uses: abozanona/pacman-contribution-graph@main
@@ -22,7 +22,37 @@ jobs:
           github_user_name: Anirbank33
           games: puzzle-bobble
 
-      - name: Publish animation to the output branch
+      - name: Generate Pac-Man animation
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: Anirbank33
+          games: pacman
+
+      - name: Generate Breakout animation
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: Anirbank33
+          games: breakout
+
+      - name: Generate Galaga animation
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: Anirbank33
+          games: galaga
+
+      - name: Generate Bomberman animation
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: Anirbank33
+          games: bomberman
+
+      - name: Generate Snake animation
+        uses: Platane/snk@master
+        with:
+          github_user_name: Anirbank33
+          outputs: dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg
+
+      - name: Publish animations to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
