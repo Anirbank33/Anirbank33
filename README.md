@@ -1,4 +1,10 @@
 <div align="center">
+  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/backend-transition.svg" width="100%" alt="Backend Developer Skills Transition" />
+</div>
+
+<br/>
+
+<div align="center">
   <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph-dark.svg" width="100%" alt="Puzzle Bobble contribution game" />
 </div>
 
@@ -67,7 +73,7 @@
       </td>
     </tr>
   </table>
-  <p><sub><code><font color="#00f0ff">Client Ingress</font> ──► <font color="#ec4899">Spring Gateway</font> ──► <font color="#10b981">Distributed Storage</font> ──► <font color="#fbbf24">Live Metrics</font></code></sub></p>
+  <p><sub><code><font color="#00f0ff">Client Ingress</font> ──► <font color="#ec4899">Spring Gateway</font> ──► <font color="#10b981">Distributed Persistence</font> ──► <font color="#fbbf24">Live Metrics</font></code></sub></p>
 </div>
 
 <br/>
