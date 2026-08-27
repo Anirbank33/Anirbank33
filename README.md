@@ -7,13 +7,6 @@
     <source media="(prefers-color-scheme: dark)" srcset="./dark_mode.svg" />
     <img src="./light_mode.svg" alt="Anirban Kar — GitHub profile" width="100%" />
   </picture>
-
-  <p>
-    <img src="./java-coffee.svg" width="110" alt="Client" />
-    <img src="./server-animation.svg" width="110" alt="API" />
-    <img src="./database-animation.svg" width="110" alt="Database" />
-    <img src="./terminal-animation.svg" width="110" alt="Terminal" />
-  </p>
 </div>
 
 ---
