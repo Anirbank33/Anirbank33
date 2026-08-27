@@ -1,5 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1125" height="536" viewBox="0 0 1125 536" role="img" aria-label="GitHub profile card for Anirbank33">
-  <rect x="0.5" y="0.5" width="1124" height="535" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <defs>
+    <linearGradient id="neonCardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="35%" stop-color="#a855f7"/>
+      <stop offset="70%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="1124" height="535" rx="8" fill="#0d1117" stroke="url(#neonCardBorder)" stroke-width="1.6"/>
   <clipPath id="codeClip-dark">
     <rect x="18" y="18" width="500" height="500" rx="6"/>
   </clipPath>
@@ -34,15 +42,15 @@
       <animate attributeName="y" values="52;508;52" dur="9s" repeatCount="indefinite"/>
     </rect>
   </g>
-  <text x="540" y="153" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#3d444d">─</tspan><tspan fill="#58a6ff"> Anirbank33@github </tspan><tspan fill="#3d444d">──────────────────────────────────────</tspan></text>
-  <text x="540" y="173" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Uptime: </tspan><tspan fill="#484f58">....................</tspan><tspan fill="#c9d1d9"> 5 years, 4 months, 25 days</tspan></text>
-  <text x="540" y="193" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Location: </tspan><tspan fill="#484f58">........................</tspan><tspan fill="#c9d1d9"> Bengaluru, Karnataka</tspan></text>
-  <text x="540" y="213" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Languages: </tspan><tspan fill="#484f58">......................</tspan><tspan fill="#c9d1d9"> Java, JavaScript, HTML</tspan></text>
-  <text x="540" y="253" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#3d444d">─</tspan><tspan fill="#58a6ff"> Contact </tspan><tspan fill="#3d444d">────────────────────────────────────────────────</tspan></text>
-  <text x="540" y="273" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Website: </tspan><tspan fill="#484f58">..</tspan><tspan fill="#c9d1d9"> https://www.linkedin.com/in/anirban-kar-23…</tspan></text>
-  <text x="540" y="293" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Twitter: </tspan><tspan fill="#484f58">.....................................</tspan><tspan fill="#c9d1d9"> @3anir33</tspan></text>
-  <text x="540" y="313" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. GitHub: </tspan><tspan fill="#484f58">.........................</tspan><tspan fill="#c9d1d9"> github.com/Anirbank33</tspan></text>
-  <text x="540" y="353" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#3d444d">─</tspan><tspan fill="#58a6ff"> GitHub Stats </tspan><tspan fill="#3d444d">───────────────────────────────────────────</tspan></text>
-  <text x="540" y="373" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Repos: </tspan><tspan fill="#484f58">..............</tspan><tspan fill="#79c0ff"> 23</tspan><tspan fill="#3d444d"> | </tspan><tspan fill="#ffa657">. Stars: </tspan><tspan fill="#484f58">...............</tspan><tspan fill="#79c0ff"> 5</tspan></text>
-  <text x="540" y="393" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Commits: </tspan><tspan fill="#484f58">............</tspan><tspan fill="#79c0ff"> 410</tspan><tspan fill="#3d444d"> | </tspan><tspan fill="#ffa657">. Followers: </tspan><tspan fill="#484f58">...........</tspan><tspan fill="#79c0ff"> 2</tspan></text>
+  <text x="540" y="153" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#3d444d">─</tspan><tspan fill="#00f0ff"> Anirbank33@github </tspan><tspan fill="#3d444d">──────────────────────────────────────</tspan></text>
+  <text x="540" y="173" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#fbbf24">. Uptime: </tspan><tspan fill="#484f58">....................</tspan><tspan fill="#f0f6fc"> 5 years, 4 months, 25 days</tspan></text>
+  <text x="540" y="193" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#38bdf8">. Location: </tspan><tspan fill="#484f58">........................</tspan><tspan fill="#f0f6fc"> Bengaluru, Karnataka</tspan></text>
+  <text x="540" y="213" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#34d399">. Languages: </tspan><tspan fill="#484f58">......................</tspan><tspan fill="#f0f6fc"> Java, JavaScript, HTML</tspan></text>
+  <text x="540" y="253" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#3d444d">─</tspan><tspan fill="#ec4899"> Contact </tspan><tspan fill="#3d444d">────────────────────────────────────────────────</tspan></text>
+  <text x="540" y="273" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#f472b6">. Website: </tspan><tspan fill="#484f58">..</tspan><tspan fill="#f0f6fc"> https://www.linkedin.com/in/anirban-kar-23…</tspan></text>
+  <text x="540" y="293" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#60a5fa">. Twitter: </tspan><tspan fill="#484f58">.....................................</tspan><tspan fill="#f0f6fc"> @3anir33</tspan></text>
+  <text x="540" y="313" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#c084fc">. GitHub: </tspan><tspan fill="#484f58">.........................</tspan><tspan fill="#f0f6fc"> github.com/Anirbank33</tspan></text>
+  <text x="540" y="353" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#3d444d">─</tspan><tspan fill="#10b981"> GitHub Stats </tspan><tspan fill="#3d444d">───────────────────────────────────────────</tspan></text>
+  <text x="540" y="373" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Repos: </tspan><tspan fill="#484f58">..............</tspan><tspan fill="#00f0ff"> 23</tspan><tspan fill="#3d444d"> | </tspan><tspan fill="#ffa657">. Stars: </tspan><tspan fill="#484f58">...............</tspan><tspan fill="#fbbf24"> 5</tspan></text>
+  <text x="540" y="393" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Commits: </tspan><tspan fill="#484f58">............</tspan><tspan fill="#ec4899"> 411</tspan><tspan fill="#3d444d"> | </tspan><tspan fill="#ffa657">. Followers: </tspan><tspan fill="#484f58">...........</tspan><tspan fill="#10b981"> 2</tspan></text>
 </svg>

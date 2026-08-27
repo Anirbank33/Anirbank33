@@ -4,7 +4,7 @@
 
 <div align="center">
   <details>
-    <summary>🕹️ <i>Arcade Modes (Snake, Pac-Man, Galaga, Breakout, Bomberman)</i></summary>
+    <summary><b>🕹️ ARCADE MATRIX &nbsp;·&nbsp; <font color="#00f0ff">Snake</font> &nbsp;•&nbsp; <font color="#ec4899">Pac-Man</font> &nbsp;•&nbsp; <font color="#a855f7">Galaga</font> &nbsp;•&nbsp; <font color="#fbbf24">Breakout</font> &nbsp;•&nbsp; <font color="#10b981">Bomberman</font></b></summary>
     <br/>
     <table align="center">
       <tr>
@@ -45,29 +45,29 @@
       <td align="center" width="22%">
         <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/java-coffee.svg" width="140" alt="3D Client Node" />
         <br />
-        <code>01 / CLIENT</code>
+        <font color="#00f0ff"><b>01 / CLIENT</b></font>
       </td>
-      <td align="center" width="4%">➜</td>
+      <td align="center" width="4%"><font color="#6366f1"><b>➜</b></font></td>
       <td align="center" width="22%">
         <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/server-animation.svg" width="140" alt="3D API Gateway" />
         <br />
-        <code>02 / GATEWAY</code>
+        <font color="#ec4899"><b>02 / GATEWAY</b></font>
       </td>
-      <td align="center" width="4%">➜</td>
+      <td align="center" width="4%"><font color="#d946ef"><b>➜</b></font></td>
       <td align="center" width="22%">
         <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/database-animation.svg" width="140" alt="3D Database Engine" />
         <br />
-        <code>03 / DATABASE</code>
+        <font color="#10b981"><b>03 / DATABASE</b></font>
       </td>
-      <td align="center" width="4%">➜</td>
+      <td align="center" width="4%"><font color="#14b8a6"><b>➜</b></font></td>
       <td align="center" width="22%">
         <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/terminal-animation.svg" width="140" alt="3D Terminal &amp; Metrics" />
         <br />
-        <code>04 / LOGS</code>
+        <font color="#fbbf24"><b>04 / TELEMETRY</b></font>
       </td>
     </tr>
   </table>
-  <p><sub><code>Client Requests ──► Spring REST Gateway ──► Distributed Storage ──► Live Observability</code></sub></p>
+  <p><sub><code><font color="#00f0ff">Client Ingress</font> ──► <font color="#ec4899">Spring Gateway</font> ──► <font color="#10b981">Distributed Storage</font> ──► <font color="#fbbf24">Live Metrics</font></code></sub></p>
 </div>
 
 <br/>
@@ -78,11 +78,11 @@
   </a>
   <p>
     <sub>
-      <a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank">Live Dashboard ↗</a>
-      &nbsp;•&nbsp;
-      <a href="https://github.com/Anirbank33/github-activity-2021-2026" target="_blank">Repository ↗</a>
-      &nbsp;•&nbsp;
-      <a href="https://github.com/Anirbank33/Anirbank33/blob/main/github-activity-2021-2026.html" target="_blank">Direct Source ↗</a>
+      <b><a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank"><font color="#00f0ff">⚡ Open Live Dashboard ↗</font></a></b>
+      &nbsp;&nbsp;•&nbsp;&nbsp;
+      <b><a href="https://github.com/Anirbank33/github-activity-2021-2026" target="_blank"><font color="#ec4899">📦 Activity Repo ↗</font></a></b>
+      &nbsp;&nbsp;•&nbsp;&nbsp;
+      <b><a href="https://github.com/Anirbank33/Anirbank33/blob/main/github-activity-2021-2026.html" target="_blank"><font color="#10b981">📄 Direct Source ↗</font></a></b>
     </sub>
   </p>
 </div>
@@ -93,13 +93,13 @@
   <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/cyber-divider.svg" width="100%" alt="Divider" />
 </div>
 
-### Featured Projects
+### ⚡ Featured Projects
 
-* [**github-activity-2021-2026**](https://github.com/Anirbank33/github-activity-2021-2026) — Contribution analytics dashboard with dark/light themes `HTML` `CSS` `JS`
-* [**medical-department-tracker**](https://github.com/Anirbank33/medical-department-tracker) — Hospital ward operations & clinical staff workflow platform `React` `TS` `Express`
-* [**backend-demo**](https://github.com/Anirbank33/backend-demo) — Modular document REST API service `Node.js` `Express`
-* [**Cool-tracks-form-90-s**](https://github.com/Anirbank33/Cool-tracks-form-90-s) — 90s Bollywood music streaming player and web audio experience `TypeScript`
-* [**java-core-troubleshooting**](https://github.com/Anirbank33/java-core-troubleshooting) — JVM concurrency patterns and core server practice `Java` `Spring Boot`
+* 📊 [**github-activity-2021-2026**](https://github.com/Anirbank33/github-activity-2021-2026) — Contribution analytics dashboard with dark/light themes `HTML` `CSS` `JS`
+* 🏥 [**medical-department-tracker**](https://github.com/Anirbank33/medical-department-tracker) — Hospital ward operations & clinical staff workflow platform `React` `TS` `Express`
+* 🚀 [**backend-demo**](https://github.com/Anirbank33/backend-demo) — Modular document REST API architecture `Node.js` `Express`
+* 🎵 [**Cool-tracks-form-90-s**](https://github.com/Anirbank33/Cool-tracks-form-90-s) — 90s Bollywood music streaming player and web audio app `TypeScript`
+* ☕ [**java-core-troubleshooting**](https://github.com/Anirbank33/java-core-troubleshooting) — JVM concurrency patterns and core server practice `Java` `Spring Boot`
 
 <br/>
 
@@ -118,11 +118,15 @@
 <br/>
 
 <div align="center">
-  <sub>
-    <a href="https://www.linkedin.com/in/anirban-kar-23645414a/" target="_blank">LinkedIn</a>
-    &nbsp;•&nbsp;
-    <a href="https://x.com/3anir33" target="_blank">X (Twitter)</a>
-    &nbsp;•&nbsp;
-    <a href="mailto:anirbankar23@gmail.com">Email</a>
-  </sub>
+  <a href="https://www.linkedin.com/in/anirban-kar-23645414a/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://x.com/3anir33" target="_blank">
+    <img src="https://img.shields.io/badge/X%20(Twitter)-1DA1F2?style=flat-square&logo=x&logoColor=white" alt="X" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:anirbankar23@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </div>
