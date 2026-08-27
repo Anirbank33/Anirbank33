@@ -145,9 +145,19 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,nodejs,express,ts,js,postgres,mongodb,docker,git,linux,postman,maven&perline=13&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring,nodejs,express,ts,js,postgres,mongodb,docker,git,linux,postman,maven&perline=13&theme=light" />
-    <img src="https://skillicons.dev/icons?i=java,spring,nodejs,express,ts,js,postgres,mongodb,docker,git,linux,postman,maven&perline=13&theme=dark" alt="Tech stack" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/tech-stack-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/tech-stack-light.svg" />
+    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/tech-stack-dark.svg" width="100%" alt="Technical Skills Matrix" />
+  </picture>
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,nodejs,express,ts,js,postgres,mongodb,docker,git,linux,postman,maven&perline=7&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring,nodejs,express,ts,js,postgres,mongodb,docker,git,linux,postman,maven&perline=7&theme=light" />
+    <img src="https://skillicons.dev/icons?i=java,spring,nodejs,express,ts,js,postgres,mongodb,docker,git,linux,postman,maven&perline=7&theme=dark" width="460" alt="Tech stack icons" />
   </picture>
 </div>
 
