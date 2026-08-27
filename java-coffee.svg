@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <style>
+      @keyframes steam {
+        0% { transform: translateY(0) scale(1); opacity: 0.6; }
+        50% { transform: translateY(-25px) scale(0.8); opacity: 0.3; }
+        100% { transform: translateY(-50px) scale(0.5); opacity: 0; }
+      }
+      @keyframes steam-delayed {
+        0% { transform: translateY(0) scale(1); opacity: 0; }
+        25% { transform: translateY(-10px) scale(0.9); opacity: 0.4; }
+        75% { transform: translateY(-35px) scale(0.6); opacity: 0.2; }
+        100% { transform: translateY(-60px) scale(0.3); opacity: 0; }
+      }
+      @keyframes steam-delayed-two {
+        0% { transform: translateY(0) scale(1); opacity: 0; }
+        15% { transform: translateY(-5px) scale(0.95); opacity: 0.3; }
+        65% { transform: translateY(-30px) scale(0.7); opacity: 0.15; }
+        100% { transform: translateY(-55px) scale(0.4); opacity: 0; }
+      }
+      @keyframes glow {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.6; }
+      }
+    </style>
+  </defs>
+  
+  <!-- Cup body -->
+  <path d="M35 35 L30 95 Q30 105 40 105 L80 105 Q90 105 90 95 L85 35 Z" fill="#1e1e2e" stroke="#2F81F7" stroke-width="2"/>
+  
+  <!-- Cup inner (coffee) -->
+  <path d="M38 40 L36 92 Q36 100 44 100 L76 100 Q84 100 84 92 L82 40 Z" fill="#4a2c2a"/>
+  
+  <!-- Coffee surface highlight -->
+  <ellipse cx="60" cy="44" rx="20" ry="3" fill="#5a3a36" opacity="0.6"/>
+  
+  <!-- Handle -->
+  <path d="M85 50 Q105 50 105 70 Q105 90 85 90" fill="none" stroke="#2F81F7" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Handle inner -->
+  <path d="M88 52 Q100 52 100 70 Q100 88 88 88" fill="none" stroke="#1e1e2e" stroke-width="1"/>
+  
+  <!-- Steam 1 -->
+  <g transform-origin="60 35">
+    <path d="M55 35 Q55 20 60 15 Q65 20 65 35" fill="none" stroke="#888" stroke-width="1.5" stroke-linecap="round" opacity="0.5">
+      <animate attributeName="d" values="M55 35 Q55 20 60 15 Q65 20 65 35; M55 35 Q55 10 60 5 Q65 10 65 35; M55 35 Q55 20 60 15 Q65 20 65 35" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.2;0" dur="3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Steam 2 (left) -->
+  <g transform-origin="45 35">
+    <path d="M42 35 Q42 22 45 18 Q48 22 48 35" fill="none" stroke="#888" stroke-width="1.2" stroke-linecap="round" opacity="0.4">
+      <animate attributeName="d" values="M42 35 Q42 22 45 18 Q48 22 48 35; M42 35 Q42 12 45 8 Q48 12 48 35; M42 35 Q42 22 45 18 Q48 22 48 35" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+      <animate attributeName="opacity" values="0;0.3;0" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+    </path>
+  </g>
+  
+  <!-- Steam 3 (right) -->
+  <g transform-origin="75 35">
+    <path d="M72 35 Q72 22 75 18 Q78 22 78 35" fill="none" stroke="#888" stroke-width="1.2" stroke-linecap="round" opacity="0.4">
+      <animate attributeName="d" values="M72 35 Q72 22 75 18 Q78 22 78 35; M72 35 Q72 12 75 8 Q78 12 78 35; M72 35 Q72 22 75 18 Q78 22 78 35" dur="3.2s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="opacity" values="0;0.3;0" dur="3.2s" repeatCount="indefinite" begin="1s"/>
+    </path>
+  </g>
+  
+  <!-- Java text on cup -->
+  <text x="60" y="78" font-family="monospace" font-size="14" font-weight="bold" fill="#2F81F7" text-anchor="middle" opacity="0.8">JAVA</text>
+  
+  <!-- Small beans decoration -->
+  <ellipse cx="25" cy="100" rx="4" ry="2.5" fill="#3d1f1d" transform="rotate(-20 25 100)"/>
+  <ellipse cx="95" cy="100" rx="4" ry="2.5" fill="#3d1f1d" transform="rotate(20 95 100)"/>
+  <ellipse cx="15" cy="105" rx="3" ry="2" fill="#3d1f1d" transform="rotate(-35 15 105)"/>
+  <ellipse cx="105" cy="105" rx="3" ry="2" fill="#3d1f1d" transform="rotate(35 105 105)"/>
+  
+  <!-- Subtle glow ring -->
+  <circle cx="60" cy="65" r="35" fill="none" stroke="#2F81F7" stroke-width="0.5" opacity="0.2">
+    <animate attributeName="opacity" values="0.15;0.3;0.15" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>

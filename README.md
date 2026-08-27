@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/java-coffee.svg" width="120" alt="Java" />
+</p>
+
+<p align="center">
   <a href="https://github.com/Anirbank33"><img src="https://img.shields.io/github/followers/Anirbank33?label=Followers&style=flat-square&color=236ad3" /></a>
   <a href="https://github.com/Anirbank33?tab=repositories"><img src="https://img.shields.io/badge/Repos-21-2ea44f?style=flat-square" /></a>
   <a href="https://www.linkedin.com/in/anirban-kar-23645414a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin" /></a>
