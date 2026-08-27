@@ -34,7 +34,7 @@
 
   <br/>
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=900&color=00A651&center=true&vCenter=true&width=560&height=32&lines=Building+reliable+APIs;Java+%7C+Spring+Boot+%7C+Node.js;Designing+scalable+data+layers;Learning+by+shipping+production+code" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=900&color=00F0FF&center=true&vCenter=true&width=560&height=34&lines=⚡+Building+scalable+backend+services;☕+Java+%7C+Spring+Boot+%7C+Node.js;🚀+Designing+high-throughput+APIs;💎+Shipping+clean%2C+production+code" alt="Typing animation" />
 </div>
 
 <div align="center">
@@ -47,31 +47,31 @@
   <table>
     <tr align="center" valign="middle">
       <td align="center" width="22%">
-        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/java-coffee.svg" width="140" alt="Client" />
+        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/java-coffee.svg" width="145" alt="3D Client Node" />
         <br />
         <code>01 / CLIENT</code>
       </td>
-      <td align="center" width="4%">➜</td>
+      <td align="center" width="4%"><b>➜</b></td>
       <td align="center" width="22%">
-        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/server-animation.svg" width="140" alt="API Gateway" />
+        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/server-animation.svg" width="145" alt="3D API Gateway" />
         <br />
         <code>02 / API GATEWAY</code>
       </td>
-      <td align="center" width="4%">➜</td>
+      <td align="center" width="4%"><b>➜</b></td>
       <td align="center" width="22%">
-        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/database-animation.svg" width="140" alt="Database" />
+        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/database-animation.svg" width="145" alt="3D Database Engine" />
         <br />
         <code>03 / DATABASE</code>
       </td>
-      <td align="center" width="4%">➜</td>
+      <td align="center" width="4%"><b>➜</b></td>
       <td align="center" width="22%">
-        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/terminal-animation.svg" width="140" alt="Terminal" />
+        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/terminal-animation.svg" width="145" alt="3D Terminal &amp; Metrics" />
         <br />
         <code>04 / LOGS &amp; MON</code>
       </td>
     </tr>
   </table>
-  <p><sub><code>Data Flow: Client Requests ──► Spring REST Gateway ──► Persistence Layer ──► Live Monitoring</code></sub></p>
+  <p><sub><code>Data Flow: Client Requests ──► Spring REST Gateway ──► Distributed Database ──► Live Observability</code></sub></p>
 </div>
 
 <div align="center">
@@ -118,9 +118,9 @@ Backend developer based in **Bengaluru**, focused on building resilient APIs, di
 ### 📈 GitHub Analytics
 
 <div align="center">
-  <img height="158" src="https://ghstats.vercel.app/api?username=Anirbank33&show_icons=true&theme=transparent&hide_border=true&title_color=00A651&icon_color=00A651&text_color=C9D1D9&rank_icon=github" alt="GitHub stats" />
+  <img height="158" src="https://ghstats.vercel.app/api?username=Anirbank33&show_icons=true&theme=transparent&hide_border=true&title_color=00F0FF&icon_color=EC4899&text_color=C9D1D9&rank_icon=github" alt="GitHub stats" />
   &nbsp;&nbsp;
-  <img height="158" src="https://ghstats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=transparent&hide_border=true&title_color=00A651&text_color=C9D1D9&langs_count=6" alt="Top languages" />
+  <img height="158" src="https://ghstats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=transparent&hide_border=true&title_color=00F0FF&text_color=C9D1D9&langs_count=6" alt="Top languages" />
 </div>
 
 <div align="center">
