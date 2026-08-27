@@ -40,12 +40,6 @@
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/cyber-divider.svg" width="100%" alt="Divider" />
-</div>
-
-<br/>
-
-<div align="center">
   <table>
     <tr align="center" valign="middle">
       <td align="center" width="22%">
@@ -94,10 +88,6 @@
 </div>
 
 <br/>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/cyber-divider.svg" width="100%" alt="Divider" />
-</div>
 
 ### ⚡ Featured Projects
 

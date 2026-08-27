@@ -48,24 +48,4 @@
     <polygon points="450,8 454,13 450,18 446,13" fill="#ffffff" opacity="0.9"/>
   </g>
 
-  <!-- Animated Multi-Color Laser Pulses Traveling Across -->
-  <g filter="url(#rgbGlow)">
-    <!-- Cyan to Right -->
-    <ellipse cy="13" rx="16" ry="2.6" fill="url(#pulseCyan)">
-      <animate attributeName="cx" values="40;860;40" dur="5.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.75s" repeatCount="indefinite"/>
-    </ellipse>
-
-    <!-- Magenta to Left -->
-    <ellipse cy="13" rx="14" ry="2.4" fill="url(#pulsePink)">
-      <animate attributeName="cx" values="860;40;860" dur="7s" begin="0.8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.2;0.95;0.2" dur="3.5s" repeatCount="indefinite"/>
-    </ellipse>
-
-    <!-- Gold Center-Wave Pulse -->
-    <ellipse cy="13" rx="12" ry="2" fill="url(#pulseGold)">
-      <animate attributeName="cx" values="300;600;300" dur="4s" begin="1.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.1;0.9;0.1" dur="2s" repeatCount="indefinite"/>
-    </ellipse>
-  </g>
 </svg>

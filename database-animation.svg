@@ -125,10 +125,5 @@
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/>
     </circle>
 
-    <!-- Outgoing Data Pulse Stream -->
-    <circle cx="126" cy="112" r="3.2" fill="#00f59b" filter="url(#glowGreen)">
-      <animate attributeName="cx" values="110;150;110" dur="1.7s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.7s" repeatCount="indefinite"/>
-    </circle>
   </g>
 </svg>
