@@ -8,7 +8,6 @@
   <a href="https://github.com/Anirbank33"><img src="https://img.shields.io/github/followers/Anirbank33?label=Followers&style=flat-square&color=236ad3" /></a>
   <a href="https://github.com/Anirbank33?tab=repositories"><img src="https://img.shields.io/badge/Repos-21-2ea44f?style=flat-square" /></a>
   <a href="https://www.linkedin.com/in/anirban-kar-23645414a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin" /></a>
-  <a href="mailto:anirbankar23@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail" /></a>
 </p>
 
 ---
@@ -22,7 +21,7 @@ Backend developer from **Bengaluru, India** — building APIs, working with data
 🌱 Learning: Java, Spring Boot, REST APIs
 🧰 Exploring: Node.js, MongoDB, Auth, DevOps
 🎯 Goal: Strong backend developer
-💬 Open to: Feedback, collaboration, learning in public
+💬 Open to: Feedback, collaboration
 ```
 
 ---
@@ -31,10 +30,10 @@ Backend developer from **Bengaluru, India** — building APIs, working with data
 
 | Project | Stack | Description |
 |---------|-------|-------------|
-| [Medical Department Tracker](https://github.com/Anirbank33/medical-department-tracker) | React, TypeScript, Express | Ward operations tracker for hospitals |
-| [Profile README Generator](https://github.com/Anirbank33/profile-readme-generator) | JS, HTML, CSS | Create personalized GitHub profiles |
-| [Java Core Troubleshooting](https://github.com/Anirbank33/java-core-troubleshooting) | Java | Debugging & core concepts practice |
-| [Backend Demo](https://github.com/Anirbank33/backend-demo) | Node.js, Express | REST API with web client |
+| [Medical Department Tracker](https://github.com/Anirbank33/medical-department-tracker) | React, TypeScript, Express | Ward operations tracker |
+| [Profile README Generator](https://github.com/Anirbank33/profile-readme-generator) | JS, HTML, CSS | Create GitHub profiles |
+| [Java Core Troubleshooting](https://github.com/Anirbank33/java-core-troubleshooting) | Java | Debugging practice |
+| [Backend Demo](https://github.com/Anirbank33/backend-demo) | Node.js, Express | REST API with client |
 
 ---
 
@@ -49,59 +48,27 @@ Backend developer from **Bengaluru, India** — building APIs, working with data
 ## GitHub Analytics
 
 <p align="center">
-  <img height="165" src="https://ghstats.vercel.app/api?username=Anirbank33&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Anirbank33&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img height="165" src="https://ghstats.vercel.app/api?username=Anirbank33&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Anirbank33&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/Anirbank33" alt="Contribution Calendar" width="100%" />
+  <img src="https://ghchart.rshah.org/Anirbank33" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://ghstats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+  <img src="https://ghstats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 </p>
 
 ---
 
-## Arcade Games
+## Arcade Game
 
-> Contribution graph as playable arcade games — updated every 12h
+> Contribution graph as a playable arcade game — updated every 12h
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph-dark.svg" width="100%" alt="Puzzle Bobble" />
 </p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/pacman-contribution-graph-dark.svg" width="100%" alt="Pac-Man" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/breakout-contribution-graph-dark.svg" width="100%" alt="Breakout" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph-dark.svg" width="100%" alt="Galaga" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/bomberman-contribution-graph-dark.svg" width="100%" alt="Bomberman" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/github-contribution-grid-snake.svg" width="100%" alt="Snake" />
-</p>
-
----
-
-## 2026 Highlights
-
-| Metric | Value |
-|--------|-------|
-| **Contributions** | 321 |
-| **Active Days** | 137 / 365 |
-| **Peak Day** | 73 |
-| **Repos Updated** | 13 |
-| **Top Languages** | Java, TypeScript, JavaScript |
 
 ---
 
