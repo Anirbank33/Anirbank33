@@ -144,21 +144,43 @@
 <br/>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/tech-stack-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/tech-stack-light.svg" />
-    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/tech-stack-dark.svg" width="100%" alt="Technical Skills Matrix" />
-  </picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,nodejs,express,ts,js,postgres,mongodb,docker,git,linux,postman,maven&perline=7&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring,nodejs,express,ts,js,postgres,mongodb,docker,git,linux,postman,maven&perline=7&theme=light" />
-    <img src="https://skillicons.dev/icons?i=java,spring,nodejs,express,ts,js,postgres,mongodb,docker,git,linux,postman,maven&perline=7&theme=dark" width="460" alt="Tech stack icons" />
-  </picture>
+  <p>
+    <a href="https://www.java.com" target="_blank" title="Java"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="46" height="46" alt="Java" /></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://spring.io" target="_blank" title="Spring Boot"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="46" height="46" alt="Spring Boot" /></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://nodejs.org" target="_blank" title="Node.js"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="46" height="46" alt="Node.js" /></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/icons/express-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/icons/express-light.svg" />
+      <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/icons/express-dark.svg" width="46" height="46" alt="Express" title="Express" />
+    </picture>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.typescriptlang.org" target="_blank" title="TypeScript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="46" height="46" alt="TypeScript" /></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://developer.mozilla.org" target="_blank" title="JavaScript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="46" height="46" alt="JavaScript" /></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.postgresql.org" target="_blank" title="PostgreSQL"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="46" height="46" alt="PostgreSQL" /></a>
+  </p>
+  <br/>
+  <p>
+    <a href="https://www.mongodb.com" target="_blank" title="MongoDB"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="46" height="46" alt="MongoDB" /></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.mysql.com" target="_blank" title="MySQL"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="46" height="46" alt="MySQL" /></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://redis.io" target="_blank" title="Redis"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" width="46" height="46" alt="Redis" /></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.docker.com" target="_blank" title="Docker"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="46" height="46" alt="Docker" /></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://git-scm.com" target="_blank" title="Git"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="46" height="46" alt="Git" /></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.linux.org" target="_blank" title="Linux"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="46" height="46" alt="Linux" /></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.postman.com" target="_blank" title="Postman"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="46" height="46" alt="Postman" /></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://maven.apache.org" target="_blank" title="Maven"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg" width="46" height="46" alt="Maven" /></a>
+  </p>
 </div>
 
 <br/>
