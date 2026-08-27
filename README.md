@@ -4,19 +4,54 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dark_mode.svg" />
-    <img src="./light_mode.svg" alt="Anirban Kar — GitHub profile" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/dark_mode.svg" />
+    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/light_mode.svg" alt="Anirban Kar — GitHub profile" width="100%" />
   </picture>
 
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=520&height=28&lines=Building+reliable+APIs;Java+%7C+Spring+%7C+Node.js;Learning+by+shipping" alt="Typing" />
 
   <p>
-    <img src="./anim-api.svg" width="120" alt="API" />
+    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/anim-api.svg" width="120" alt="API" />
     &nbsp;&nbsp;
-    <img src="./anim-db.svg" width="120" alt="Database" />
+    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/anim-db.svg" width="120" alt="Database" />
     &nbsp;&nbsp;
-    <img src="./anim-code.svg" width="120" alt="Terminal" />
+    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/anim-code.svg" width="120" alt="Terminal" />
   </p>
+</div>
+
+---
+
+### System Architecture
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/java-coffee.svg" width="160" alt="Client" />
+        <br />
+        <sub><strong>CLIENT</strong></sub>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/server-animation.svg" width="160" alt="API Gateway" />
+        <br />
+        <sub><strong>API GATEWAY</strong></sub>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/database-animation.svg" width="160" alt="Database" />
+        <br />
+        <sub><strong>DATABASE</strong></sub>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/terminal-animation.svg" width="160" alt="Terminal" />
+        <br />
+        <sub><strong>TERMINAL</strong></sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <sub><em>Data flows: Client → API Gateway → Database → Terminal (logs/monitoring)</em></sub>
 </div>
 
 ---

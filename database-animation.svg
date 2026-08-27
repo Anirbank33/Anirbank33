@@ -82,22 +82,25 @@
   <ellipse cx="60" cy="33" rx="30" ry="8" fill="#1a1a2a" opacity="0.8"/>
   <ellipse cx="60" cy="33" rx="28" ry="7" fill="url(#dataGrad)" opacity="0.3"/>
   
-  <!-- Data rings pulsing from center - using animateTransform scale instead of rx/ry -->
+  <!-- Data rings pulsing from center - using animate for rx/ry -->
   <g stroke="url(#ringGrad)" stroke-width="2" fill="none" filter="url(#glow)">
     <ellipse cx="60" cy="70" rx="28" ry="7">
-      <animateTransform attributeName="transform" type="scale" values="0.2;1" additive="sum" dur="2.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.6;0" dur="2.5s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-width" values="2;0.5" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="5;28;28" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="ry" values="1;7;7" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.6;0" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" values="2;2;0.5" dur="2.5s" repeatCount="indefinite"/>
     </ellipse>
     <ellipse cx="60" cy="70" rx="28" ry="7">
-      <animateTransform attributeName="transform" type="scale" values="0.2;1" additive="sum" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
-      <animate attributeName="opacity" values="0.6;0" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
-      <animate attributeName="stroke-width" values="2;0.5" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="rx" values="5;28;28" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="ry" values="1;7;7" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="opacity" values="0.6;0.6;0" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="stroke-width" values="2;2;0.5" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
     </ellipse>
     <ellipse cx="60" cy="70" rx="28" ry="7">
-      <animateTransform attributeName="transform" type="scale" values="0.2;1" additive="sum" dur="2.5s" repeatCount="indefinite" begin="1.6s"/>
-      <animate attributeName="opacity" values="0.6;0" dur="2.5s" repeatCount="indefinite" begin="1.6s"/>
-      <animate attributeName="stroke-width" values="2;0.5" dur="2.5s" repeatCount="indefinite" begin="1.6s"/>
+      <animate attributeName="rx" values="5;28;28" dur="2.5s" repeatCount="indefinite" begin="1.6s"/>
+      <animate attributeName="ry" values="1;7;7" dur="2.5s" repeatCount="indefinite" begin="1.6s"/>
+      <animate attributeName="opacity" values="0.6;0.6;0" dur="2.5s" repeatCount="indefinite" begin="1.6s"/>
+      <animate attributeName="stroke-width" values="2;2;0.5" dur="2.5s" repeatCount="indefinite" begin="1.6s"/>
     </ellipse>
   </g>
   
