@@ -31,10 +31,6 @@
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/dark_mode.svg" />
     <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/light_mode.svg" alt="Anirban Kar — GitHub profile" width="100%" />
   </picture>
-
-  <br/>
-
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=900&color=00F0FF&center=true&vCenter=true&width=560&height=34&lines=⚡+Building+scalable+backend+services;☕+Java+%7C+Spring+Boot+%7C+Node.js;🚀+Designing+high-throughput+APIs;💎+Shipping+clean%2C+production+code" alt="Typing animation" />
 </div>
 
 <div align="center">
