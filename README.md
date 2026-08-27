@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/java-coffee.svg" width="100" alt="Java" />
-  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/server-animation.svg" width="100" alt="Server" />
-  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/database-animation.svg" width="100" alt="Database" />
-  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/terminal-animation.svg" width="100" alt="Terminal" />
+  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/java-coffee.svg" width="120" alt="Client" />
+  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/server-animation.svg" width="120" alt="API Gateway" />
+  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/database-animation.svg" width="120" alt="Database" />
+  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/terminal-animation.svg" width="120" alt="Terminal" />
 </p>
 
 <p align="center">
