@@ -7,7 +7,7 @@
     </linearGradient>
     <linearGradient id="coffeeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#5d3a36"/>
-      <stop offset="30%" stop-color "#3d1f1d"/>
+      <stop offset="30%" stop-color="#3d1f1d"/>
       <stop offset="100%" stop-color="#1a0d0c"/>
     </linearGradient>
     <linearGradient id="handleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -15,7 +15,7 @@
       <stop offset="100%" stop-color="#2F81F7"/>
     </linearGradient>
     <radialGradient id="steamGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#aaa" stop-opacity="0.6"/>
+      <stop offset="0%" stop-color="#ccc" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#888" stop-opacity="0"/>
     </radialGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
@@ -50,48 +50,45 @@
   <path d="M85 50 Q105 50 105 70 Q105 90 85 90" fill="none" stroke="url(#handleGrad)" stroke-width="4" stroke-linecap="round" filter="url(#shadow)"/>
   <path d="M88 52 Q100 52 100 70 Q100 88 88 88" fill="none" stroke="#1e1e2e" stroke-width="1.5" opacity="0.5"/>
   
-  <!-- Steam 1 (center) - 3D wavy -->
-  <g filter="url(#glow)">
-    <path d="M55 35 Q55 20 60 15 Q65 20 65 35" fill="none" stroke="url(#steamGrad)" stroke-width="2" stroke-linecap="round" opacity="0.7">
-      <animate attributeName="d" values="M55 35 Q55 20 60 15 Q65 20 65 35; M55 35 Q53 10 60 5 Q67 10 65 35; M55 35 Q55 20 60 15 Q65 20 65 35" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.7;0.3;0" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-width" values="2;1.5;1" dur="3s" repeatCount="indefinite"/>
-    </path>
-  </g>
+  <!-- Steam paths (static, animated via transform) -->
+  <defs>
+    <path id="steamPath" d="M-5 0 Q-5 -20 0 -25 Q5 -20 5 0" fill="none" stroke="url(#steamGrad)" stroke-width="2" stroke-linecap="round" opacity="0.7" filter="url(#glow)"/>
+    <path id="steamPathThin" d="M-5 0 Q-5 -15 0 -18 Q5 -15 5 0" fill="none" stroke="url(#steamGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.5" filter="url(#glow)"/>
+    <path id="steamPathThinner" d="M-3 0 Q-3 -12 0 -15 Q3 -12 3 0" fill="none" stroke="url(#steamGrad)" stroke-width="1" stroke-linecap="round" opacity="0.4" filter="url(#glow)"/>
+  </defs>
+  
+  <!-- Steam 1 (center) - rises and fades -->
+  <use href="#steamPath" x="60" y="35">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -40; 0 -60" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.3;0" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="2;1.5;1" dur="3s" repeatCount="indefinite"/>
+  </use>
   
   <!-- Steam 2 (left) -->
-  <g filter="url(#glow)">
-    <path d="M42 35 Q42 22 45 18 Q48 22 48 35" fill="none" stroke="url(#steamGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.5">
-      <animate attributeName="d" values="M42 35 Q42 22 45 18 Q48 22 48 35; M42 35 Q40 12 45 8 Q50 12 48 35; M42 35 Q42 22 45 18 Q48 22 48 35" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
-      <animate attributeName="opacity" values="0;0.5;0" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
-      <animate attributeName="stroke-width" values="1.5;1;0.5" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
-    </path>
-  </g>
+  <use href="#steamPathThin" x="45" y="35">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -35; 0 -55" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="stroke-width" values="1.5;1;0.5" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+  </use>
   
   <!-- Steam 3 (right) -->
-  <g filter="url(#glow)">
-    <path d="M72 35 Q72 22 75 18 Q78 22 78 35" fill="none" stroke="url(#steamGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.5">
-      <animate attributeName="d" values="M72 35 Q72 22 75 18 Q78 22 78 35; M72 35 Q70 12 75 8 Q80 12 78 35; M72 35 Q72 22 75 18 Q78 22 78 35" dur="3.2s" repeatCount="indefinite" begin="1s"/>
-      <animate attributeName="opacity" values="0;0.5;0" dur="3.2s" repeatCount="indefinite" begin="1s"/>
-      <animate attributeName="stroke-width" values="1.5;1;0.5" dur="3.2s" repeatCount="indefinite" begin="1s"/>
-    </path>
-  </g>
+  <use href="#steamPathThin" x="75" y="35">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -35; 0 -55" dur="3.2s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="3.2s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="stroke-width" values="1.5;1;0.5" dur="3.2s" repeatCount="indefinite" begin="1s"/>
+  </use>
   
   <!-- Steam 4 (far left) -->
-  <g filter="url(#glow)">
-    <path d="M35 38 Q35 25 38 20 Q41 25 41 38" fill="none" stroke="url(#steamGrad)" stroke-width="1" stroke-linecap="round" opacity="0.4">
-      <animate attributeName="d" values="M35 38 Q35 25 38 20 Q41 25 41 38; M35 38 Q33 15 38 10 Q43 15 41 38; M35 38 Q35 25 38 20 Q41 25 41 38" dur="4s" repeatCount="indefinite" begin="0.2s"/>
-      <animate attributeName="opacity" values="0;0.4;0" dur="4s" repeatCount="indefinite" begin="0.2s"/>
-    </path>
-  </g>
+  <use href="#steamPathThinner" x="38" y="38">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -30; 0 -50" dur="4s" repeatCount="indefinite" begin="0.2s"/>
+    <animate attributeName="opacity" values="0;0.4;0" dur="4s" repeatCount="indefinite" begin="0.2s"/>
+  </use>
   
   <!-- Steam 5 (far right) -->
-  <g filter="url(#glow)">
-    <path d="M79 38 Q79 25 82 20 Q85 25 85 38" fill="none" stroke="url(#steamGrad)" stroke-width="1" stroke-linecap="round" opacity="0.4">
-      <animate attributeName="d" values="M79 38 Q79 25 82 20 Q85 25 85 38; M79 38 Q77 15 82 10 Q87 15 85 38; M79 38 Q79 25 82 20 Q85 25 85 38" dur="3.8s" repeatCount="indefinite" begin="1.5s"/>
-      <animate attributeName="opacity" values="0;0.4;0" dur="3.8s" repeatCount="indefinite" begin="1.5s"/>
-    </path>
-  </g>
+  <use href="#steamPathThinner" x="82" y="38">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -30; 0 -50" dur="3.8s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="opacity" values="0;0.4;0" dur="3.8s" repeatCount="indefinite" begin="1.5s"/>
+  </use>
   
   <!-- Java text on cup with 3D effect -->
   <text x="60" y="80" font-family="monospace" font-size="16" font-weight="bold" fill="#2F81F7" text-anchor="middle" opacity="0.9" filter="url(#glow)">JAVA</text>
