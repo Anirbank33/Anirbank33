@@ -3,7 +3,7 @@
     <linearGradient id="cylGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#1e1e2e"/>
       <stop offset="30%" stop-color="#2a2a3e"/>
-      <stop offset="50%" stop-color "#3a3a4e"/>
+      <stop offset="50%" stop-color="#3a3a4e"/>
       <stop offset="70%" stop-color="#2a2a3e"/>
       <stop offset="100%" stop-color="#1e1e2e"/>
     </linearGradient>
