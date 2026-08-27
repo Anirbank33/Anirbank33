@@ -5,10 +5,10 @@
   </picture>
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=18&duration=3000&pause=800&color=8B949E&center=true&vCenter=true&width=520&height=28&lines=Backend+developer;Java+%7C+Spring+%7C+APIs;Learning+by+building" alt="Typing" />
   <p>
-    <img src="./java-coffee.svg" width="88" alt="Client" />
-    <img src="./server-animation.svg" width="88" alt="API Gateway" />
-    <img src="./database-animation.svg" width="88" alt="Database" />
-    <img src="./terminal-animation.svg" width="88" alt="Terminal" />
+    <img src="./java-coffee.svg" width="120" alt="Client" />
+    <img src="./server-animation.svg" width="120" alt="API Gateway" />
+    <img src="./database-animation.svg" width="120" alt="Database" />
+    <img src="./terminal-animation.svg" width="120" alt="Terminal" />
   </p>
   <p>
     <a href="https://github.com/Anirbank33"><img src="https://img.shields.io/github/followers/Anirbank33?label=followers&style=flat&labelColor=0d1117&color=238636" alt="Followers" /></a>
@@ -40,7 +40,7 @@ open to    feedback · collaboration
 
 **stack**
 
-<div align="center">
+<div align="left">
   <img src="https://skillicons.dev/icons?i=java,spring,nodejs,js,ts,express,mongodb,postgres,html,css,git,github,vscode,idea,docker,linux&perline=8" alt="Tech stack" />
 </div>
 
