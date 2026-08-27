@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/backend-transition.svg?v=3" width="100%" alt="Backend Developer Learning Journey &amp; Skills Stream" />
+  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/backend-skills-stream.svg" width="100%" alt="Backend Developer Learning Journey &amp; Skills Stream" />
 </div>
 
 <br/>
