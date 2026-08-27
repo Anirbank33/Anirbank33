@@ -47,10 +47,10 @@ open to    feedback · collaboration
 **analytics**
 
 <div align="center">
-  <img height="148" src="https://github-readme-stats.vercel.app/api?username=Anirbank33&show_icons=true&theme=transparent&hide_border=true&title_color=8B949E&icon_color=58A6FF&text_color=C9D1D9&rank_icon=github" alt="GitHub stats" />
-  <img height="148" src="https://streak-stats.demolab.com/?user=Anirbank33&theme=transparent&hide_border=true&ring=58A6FF&fire=58A6FF&currStreakLabel=8B949E" alt="GitHub streak" />
+  <img height="148" src="https://ghstats.vercel.app/api?username=Anirbank33&show_icons=true&theme=transparent&hide_border=true&title_color=8B949E&icon_color=58A6FF&text_color=C9D1D9&rank_icon=github" alt="GitHub stats" />
+  <img height="148" src="https://github-readme-streak-stats.herokuapp.com/?user=Anirbank33&theme=transparent&hide_border=true&ring=58A6FF&fire=58A6FF&currStreakLabel=8B949E" alt="GitHub streak" />
   <img src="https://ghchart.rshah.org/58A6FF/Anirbank33" width="100%" alt="Contribution chart" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=transparent&hide_border=true&title_color=8B949E&text_color=C9D1D9&langs_count=8" alt="Top languages" />
+  <img src="https://ghstats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=transparent&hide_border=true&title_color=8B949E&text_color=C9D1D9&langs_count=8" alt="Top languages" />
 </div>
 
 **arcade** · contribution graph game · updates every 12h
