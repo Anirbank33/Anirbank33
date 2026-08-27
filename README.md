@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/java-coffee.svg" width="120" alt="Java" />
+  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/java-coffee.svg" width="120" alt="Java" />
 </p>
 
 <p align="center">
