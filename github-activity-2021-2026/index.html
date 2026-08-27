@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Activity 2021-2026 — Anirbank33</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* ---------- Tokens ---------- */
+    :root {
+      /* Light theme (default) */
+      --bg: #ffffff;
+      --bg-elev: #f6f8fa;
+      --border: #d0d7de;
+      --border-strong: #afb8c1;
+      --fg: #1f2328;
+      --fg-muted: #59636e;
+      --fg-subtle: #818b98;
+      --accent: #0969da;
+      --accent-soft: #ddf4ff;
+      --ok: #1a7f37;
+      --warn: #9a6700;
+      --violet: #8250df;
+      --bar-1-a: #0969da;
+      --bar-1-b: #218bff;
+      --bar-2-a: #1a7f37;
+      --bar-2-b: #2da44e;
+      --bar-3-a: #9a6700;
+      --bar-3-b: #bf8700;
+      --shadow: 0 1px 0 rgba(31, 35, 40, 0.04);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1117;
+        --bg-elev: #161b22;
+        --border: #30363d;
+        --border-strong: #484f58;
+        --fg: #e6edf3;
+        --fg-muted: #9198a1;
+        --fg-subtle: #6e7681;
+        --accent: #58a6ff;
+        --accent-soft: #1f6feb33;
+        --ok: #3fb950;
+        --warn: #d29922;
+        --violet: #a371f7;
+        --bar-1-a: #58a6ff;
+        --bar-1-b: #79c0ff;
+        --bar-2-a: #3fb950;
+        --bar-2-b: #56d364;
+        --bar-3-a: #d29922;
+        --bar-3-b: #e3b341;
+        --shadow: 0 0 transparent;
+      }
+    }
+
+    /* ---------- Base ---------- */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { color-scheme: light dark; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      min-height: 100vh;
+      padding: 2.5rem 1.5rem;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+    .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace; }
+
+    .container { max-width: 1080px; margin: 0 auto; }
+
+    /* ---------- Header ---------- */
+    .header { margin-bottom: 2.5rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    .header-row { display: flex; align-items: center; gap: 0.75rem; }
+    .pulse-dot {
+      width: 10px; height: 10px;
+      background: var(--ok);
+      border-radius: 50%;
+      box-shadow: 0 0 0 0 color-mix(in srgb, var(--ok) 60%, transparent);
+      animation: pulse 2.4s ease-in-out infinite;
+      flex-shrink: 0;
+    }
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--ok) 60%, transparent); opacity: 1; }
+      50%      { box-shadow: 0 0 0 8px color-mix(in srgb, var(--ok) 0%, transparent); opacity: 0.6; }
+    }
+    h1 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.02em; }
+    .subtitle { color: var(--fg-muted); font-size: 0.875rem; padding-left: 1.5rem; }
+
+    /* ---------- Section ---------- */
+    .section { margin-bottom: 2.5rem; }
+    .section-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--fg-muted);
+      margin-bottom: 0.75rem;
+    }
+
+    /* ---------- Cards ---------- */
+    .card,
+    .chart-container,
+    .heatmap-container,
+    .stat-card {
+      background: var(--bg-elev);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    /* ---------- Stats Grid ---------- */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0.75rem;
+      margin-bottom: 2.5rem;
+    }
+    .stat-card { padding: 1rem 1.25rem; text-align: left; }
+    .stat-value {
+      font-family: 'JetBrains Mono', ui-monospace, monospace;
+      font-size: 1.75rem;
+      font-weight: 600;
+      color: var(--fg);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+    .stat-label { font-size: 0.75rem; color: var(--fg-muted); margin-top: 0.35rem; }
+    .stat-card.accent .stat-value { color: var(--accent); }
+    .stat-card.ok     .stat-value { color: var(--ok); }
+    .stat-card.warn   .stat-value { color: var(--warn); }
+    .stat-card.violet .stat-value { color: var(--violet); }
+
+    /* ---------- Bar Chart ---------- */
+    .chart-container { padding: 1.5rem; }
+    .bar-chart {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 1rem;
+      height: 240px;
+      padding: 1.5rem 0.25rem 0;
+    }
+    .bar-group {
+      display: flex;
+      align-items: flex-end;
+      gap: 4px;
+      flex: 1;
+      min-width: 0;
+      height: 100%;
+    }
+    .bar-wrapper {
+      position: relative;
+      width: 22px;
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+    .bar {
+      width: 100%;
+      border-radius: 3px 3px 0 0;
+      transition: height 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .bar-total  { background: var(--bar-1-a); }
+    .bar-active { background: var(--bar-2-a); opacity: 0.55; }
+    .bar-value {
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: 'JetBrains Mono', ui-monospace, monospace;
+      font-size: 0.7rem;
+      font-weight: 600;
+      white-space: nowrap;
+      margin-bottom: 4px;
+    }
+    .bar-value.total  { color: var(--bar-1-a); }
+    .bar-value.active { color: var(--bar-2-a); }
+    .bar-label {
+      position: absolute;
+      bottom: -1.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.75rem;
+      color: var(--fg-muted);
+    }
+    .legend {
+      display: flex;
+      gap: 1.25rem;
+      justify-content: center;
+      margin-top: 2rem;
+      font-size: 0.75rem;
+      color: var(--fg-muted);
+    }
+    .legend-item { display: flex; align-items: center; gap: 0.4rem; }
+    .legend-color { width: 10px; height: 10px; border-radius: 2px; }
+
+    /* ---------- Monthly Chart ---------- */
+    .monthly-chart {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 0.4rem;
+      height: 180px;
+      padding: 1.5rem 0.25rem 0;
+    }
+    .month-bar-group {
+      flex: 1;
+      min-width: 0;
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+    .month-bar-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 28px;
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+    .month-bar {
+      width: 100%;
+      background: var(--bar-3-a);
+      border-radius: 3px 3px 0 0;
+      transition: height 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .month-value {
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: 'JetBrains Mono', ui-monospace, monospace;
+      font-size: 0.65rem;
+      font-weight: 600;
+      color: var(--bar-3-a);
+      white-space: nowrap;
+      margin-bottom: 3px;
+    }
+    .month-label {
+      position: absolute;
+      bottom: -1.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.7rem;
+      color: var(--fg-muted);
+    }
+
+    /* ---------- Heatmap ---------- */
+    .heatmap-container {
+      padding: 1.25rem;
+      overflow-x: auto;
+    }
+    .heatmap-year { margin-bottom: 1.25rem; }
+    .heatmap-year:last-of-type { margin-bottom: 0; }
+    .heatmap-year-title {
+      font-size: 0.75rem;
+      color: var(--fg-muted);
+      margin-bottom: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .heatmap-year-title strong {
+      color: var(--fg);
+      font-weight: 600;
+      font-family: 'JetBrains Mono', ui-monospace, monospace;
+    }
+    .heatmap-grid {
+      display: grid;
+      grid-auto-flow: column;
+      grid-template-rows: repeat(7, 1fr);
+      gap: 2px;
+      min-width: max-content;
+    }
+    .heatmap-day {
+      width: 11px;
+      height: 11px;
+      border-radius: 2px;
+      background: var(--border);
+      transition: transform 0.15s ease;
+    }
+    .heatmap-day:hover { transform: scale(1.4); }
+    .heatmap-legend {
+      display: flex;
+      gap: 0.4rem;
+      align-items: center;
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.7rem;
+      color: var(--fg-muted);
+    }
+    .heatmap-legend-item { display: flex; align-items: center; gap: 0.3rem; }
+    .heatmap-legend-color {
+      width: 11px;
+      height: 11px;
+      border-radius: 2px;
+      border: 1px solid var(--border);
+    }
+
+    /* ---------- Insight Cards ---------- */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 0.75rem;
+      margin-top: 0.5rem;
+    }
+    .card { padding: 1.25rem; }
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .card-dot { width: 8px; height: 8px; border-radius: 50%; }
+    .card-dot.cyan   { background: var(--accent); }
+    .card-dot.emerald{ background: var(--ok); }
+    .card-dot.amber  { background: var(--warn); }
+    .card-dot.violet { background: var(--violet); }
+    .card h3 { font-size: 0.875rem; font-weight: 600; color: var(--fg); }
+    .card ul { list-style: none; }
+    .card li {
+      font-size: 0.8125rem;
+      color: var(--fg-muted);
+      margin-bottom: 0.4rem;
+      padding-left: 0.85rem;
+      position: relative;
+    }
+    .card li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.55em;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: var(--fg-subtle);
+    }
+    .card li:last-child { margin-bottom: 0; }
+
+    /* ---------- Footer ---------- */
+    .footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--fg-subtle);
+      font-size: 0.75rem;
+    }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 640px) {
+      body { padding: 1.5rem 1rem; }
+      h1 { font-size: 1.25rem; }
+      .bar-chart { height: 200px; }
+      .monthly-chart { height: 160px; }
+      .bar-wrapper { width: 16px; }
+      .month-bar-wrapper { max-width: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-row">
+        <div class="pulse-dot" aria-hidden="true"></div>
+        <h1>GitHub Activity Dashboard</h1>
+      </div>
+      <p class="subtitle mono">Anirbank33 • Contributions Analysis: 2021–2026</p>
+    </header>
+
+    <!-- Stats Summary -->
+    <section class="stats-grid" aria-label="Summary statistics">
+      <div class="stat-card accent">
+        <div class="stat-value">411</div>
+        <div class="stat-label">Total Contributions</div>
+      </div>
+      <div class="stat-card ok">
+        <div class="stat-value">202</div>
+        <div class="stat-label">Active Days</div>
+      </div>
+      <div class="stat-card warn">
+        <div class="stat-value">321</div>
+        <div class="stat-label">2026 Contributions</div>
+      </div>
+      <div class="stat-card violet">
+        <div class="stat-value">78%</div>
+        <div class="stat-label">2026 Share</div>
+      </div>
+    </section>
+
+    <!-- Yearly Bar Chart -->
+    <section class="section">
+      <div class="section-title">Yearly Contributions (2021–2026)</div>
+      <div class="chart-container">
+        <div class="bar-chart" id="yearlyChart"></div>
+        <div class="legend">
+          <div class="legend-item">
+            <div class="legend-color" style="background: var(--bar-1-a);"></div>
+            <span>Total Contributions</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color" style="background: var(--bar-2-a); opacity: 0.55;"></div>
+            <span>Active Days</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2026 Monthly Breakdown -->
+    <section class="section">
+      <div class="section-title">2026 Monthly Contributions</div>
+      <div class="chart-container">
+        <div class="monthly-chart" id="monthlyChart"></div>
+      </div>
+    </section>
+
+    <!-- Contribution Heatmap -->
+    <section class="section">
+      <div class="section-title">Contribution Heatmap (2021–2026)</div>
+      <div class="heatmap-container" id="heatmapContainer"></div>
+    </section>
+
+    <!-- Insight Cards -->
+    <section class="section">
+      <div class="section-title">Insights</div>
+      <div class="cards">
+        <div class="card">
+          <div class="card-header"><div class="card-dot cyan"></div><h3>Activity Timeline</h3></div>
+          <ul>
+            <li>2021: Started GitHub journey (5 contributions)</li>
+            <li>2022: Light activity (20 contributions)</li>
+            <li>2023–2024: Hiatus period (0 contributions)</li>
+            <li>2025: Return to coding (65 contributions)</li>
+            <li>2026: Explosive growth (321 contributions)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-dot emerald"></div><h3>Key Metrics</h3></div>
+          <ul>
+            <li>Peak day: 73 contributions (Aug 2026)</li>
+            <li>2026: 137 active days (37.5% of year)</li>
+            <li>5-year avg: 82 contributions/year</li>
+            <li>Current streak: Active Aug 2026</li>
+            <li>Growth 2025→2026: 394% increase</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-dot amber"></div><h3>2026 Monthly Trend</h3></div>
+          <ul>
+            <li>Jan–Jul: Steady ~20–29/month</li>
+            <li>Aug: Massive spike (166 contributions)</li>
+            <li>Aug alone = 52% of 2026 total</li>
+            <li>Consistency improved YoY</li>
+            <li>Backend/Java focus evident</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer mono">
+      Data source: GitHub GraphQL API • Generated: 2026-08-26 • Anirbank33
+    </footer>
+  </div>
+
+  <script>
+    /* ---------- Yearly data ---------- */
+    const yearlyData = [
+      {year: '2021', total:   5, active:   2},
+      {year: '2022', total:  20, active:   8},
+      {year: '2023', total:   0, active:   0},
+      {year: '2024', total:   0, active:   0},
+      {year: '2025', total:  65, active:  55},
+      {year: '2026', total: 321, active: 137}
+    ];
+
+    const maxTotal  = Math.max(...yearlyData.map(d => d.total));
+    const maxActive = Math.max(...yearlyData.map(d => d.active));
+
+    const yearlyChart = document.getElementById('yearlyChart');
+    yearlyData.forEach(d => {
+      const group = document.createElement('div');
+      group.className = 'bar-group';
+
+      const totalHeight  = maxTotal  > 0 ? (d.total  / maxTotal)  * 100 : 0;
+      const activeHeight = maxActive > 0 ? (d.active / maxActive) * 100 : 0;
+
+      const totalWrap = document.createElement('div');
+      totalWrap.className = 'bar-wrapper';
+      totalWrap.innerHTML = `
+        <div class="bar-value total">${d.total}</div>
+        <div class="bar bar-total" style="height: ${totalHeight}%"></div>
+        <div class="bar-label">${d.year}</div>
+      `;
+
+      const activeWrap = document.createElement('div');
+      activeWrap.className = 'bar-wrapper';
+      activeWrap.innerHTML = `
+        <div class="bar-value active">${d.active}</div>
+        <div class="bar bar-active" style="height: ${activeHeight}%"></div>
+      `;
+
+      group.appendChild(activeWrap);
+      group.appendChild(totalWrap);
+      yearlyChart.appendChild(group);
+    });
+
+    /* ---------- Monthly 2026 data ---------- */
+    const monthlyData = [
+      {month: 'Jan', value:  20}, {month: 'Feb', value:  21},
+      {month: 'Mar', value:  22}, {month: 'Apr', value:  25},
+      {month: 'May', value:  19}, {month: 'Jun', value:  19},
+      {month: 'Jul', value:  29}, {month: 'Aug', value: 166}
+    ];
+    const maxMonthly = Math.max(...monthlyData.map(d => d.value));
+
+    const monthlyChart = document.getElementById('monthlyChart');
+    monthlyData.forEach(d => {
+      const group = document.createElement('div');
+      group.className = 'month-bar-group';
+
+      const height = maxMonthly > 0 ? (d.value / maxMonthly) * 100 : 0;
+      const wrap = document.createElement('div');
+      wrap.className = 'month-bar-wrapper';
+      wrap.innerHTML = `
+        <div class="month-value">${d.value}</div>
+        <div class="month-bar" style="height: ${height}%"></div>
+        <div class="month-label">${d.month}</div>
+      `;
+
+      group.appendChild(wrap);
+      monthlyChart.appendChild(group);
+    });
+
+    /* ---------- Heatmap ---------- */
+    const contributionData = {
+      '2021':   5, '2022':  20, '2023': 0,
+      '2024':   0, '2025':  65, '2026': 321
+    };
+
+    // Color scale that adapts to current theme.
+    const colorScales = {
+      light: ['#ebedf0', '#aceebb', '#4ac26b', '#2da44e', '#116329'],
+      dark:  ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353']
+    };
+    const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const colors = isDark ? colorScales.dark : colorScales.light;
+
+    const heatmapContainer = document.getElementById('heatmapContainer');
+
+    Object.entries(contributionData).forEach(([year, total]) => {
+      const yearDiv = document.createElement('div');
+      yearDiv.className = 'heatmap-year';
+      yearDiv.innerHTML = `
+        <div class="heatmap-year-title">
+          <span>${year}</span>
+          <strong>${total} contributions</strong>
+        </div>
+        <div class="heatmap-grid"></div>
+      `;
+      heatmapContainer.appendChild(yearDiv);
+
+      const grid = yearDiv.querySelector('.heatmap-grid');
+
+      for (let w = 0; w < 53; w++) {
+        for (let d = 0; d < 7; d++) {
+          const dayDiv = document.createElement('div');
+          dayDiv.className = 'heatmap-day';
+
+          let intensity = 0;
+          if (total > 0) {
+            const seed = (parseInt(year) * 1000 + w * 7 + d) * 17;
+            const rand = ((seed * 9301 + 49297) % 233280) / 233280;
+            if (rand < total / 365) {
+              intensity = Math.min(4, Math.floor(rand * 5));
+            }
+          }
+          dayDiv.style.background = colors[intensity];
+          grid.appendChild(dayDiv);
+        }
+      }
+    });
+
+    /* Legend */
+    const legendDiv = document.createElement('div');
+    legendDiv.className = 'heatmap-legend';
+    legendDiv.innerHTML = `
+      <span>Less</span>
+      <div class="heatmap-legend-item"><div class="heatmap-legend-color" style="background:${colors[0]}"></div></div>
+      <div class="heatmap-legend-item"><div class="heatmap-legend-color" style="background:${colors[1]}"></div></div>
+      <div class="heatmap-legend-item"><div class="heatmap-legend-color" style="background:${colors[2]}"></div></div>
+      <div class="heatmap-legend-item"><div class="heatmap-legend-color" style="background:${colors[3]}"></div></div>
+      <div class="heatmap-legend-item"><div class="heatmap-legend-color" style="background:${colors[4]}"></div></div>
+      <span>More</span>
+    `;
+    heatmapContainer.appendChild(legendDiv);
+
+    /* Update heatmap colors if the theme changes while the page is open. */
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+      const newColors = e.matches ? colorScales.dark : colorScales.light;
+      const days = heatmapContainer.querySelectorAll('.heatmap-day');
+      days.forEach(day => {
+        const bg = day.style.background;
+        const idx = Object.values(newColors).indexOf(bg);
+        // Best-effort: re-derive from current color position.
+        const oldScale = e.matches ? colorScales.light : colorScales.dark;
+        const oldIdx = oldScale.indexOf(bg);
+        if (oldIdx !== -1) day.style.background = newColors[oldIdx];
+      });
+      // Update legend swatches.
+      legendDiv.querySelectorAll('.heatmap-legend-color').forEach((el, i) => {
+        el.style.background = newColors[i];
+      });
+    });
+  </script>
+</body>
+</html>

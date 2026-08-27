@@ -78,6 +78,32 @@
   <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/cyber-divider.svg" width="100%" alt="Divider" />
 </div>
 
+### 📊 GitHub Activity & Velocity (2021–2026)
+
+<div align="center">
+  <a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank">
+    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/activity-preview.svg" width="100%" alt="GitHub Activity Dashboard 2021-2026" />
+  </a>
+
+  <br/><br/>
+
+  <a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Dashboard-Interactive%20View-00f0ff?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Dashboard" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Anirbank33/github-activity-2021-2026" target="_blank">
+    <img src="https://img.shields.io/badge/Repository-github--activity--2021--2026-ec4899?style=for-the-badge&logo=github&logoColor=white" alt="Repository" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Anirbank33/Anirbank33/blob/main/github-activity-2021-2026.html" target="_blank">
+    <img src="https://img.shields.io/badge/Local%20File-github--activity--2021--2026.html-10b981?style=for-the-badge&logo=html5&logoColor=white" alt="Direct File" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/cyber-divider.svg" width="100%" alt="Divider" />
+</div>
+
 ### ⚡ Focus & Architecture
 
 Backend developer based in **Bengaluru**, focused on building resilient APIs, distributed services, and high-performance server-side data layers.
@@ -95,10 +121,10 @@ Backend developer based in **Bengaluru**, focused on building resilient APIs, di
 
 | Project | Stack | Focus |
 |:--------|:------|:------|
+| [**GitHub Activity Dashboard**](https://github.com/Anirbank33/github-activity-2021-2026) | `HTML` `CSS` `Vanilla JS` | Auto-themed multi-year activity dashboard with dark/light mode & velocity insights |
 | [**Medical Department Tracker**](https://github.com/Anirbank33/medical-department-tracker) | `React` `TypeScript` `Express` | Hospital ward operations, patient flow, and clinical staff management |
 | [**Backend Demo**](https://github.com/Anirbank33/backend-demo) | `Node.js` `Express` `REST` | Modular document REST API with integrated client management |
 | [**Cool Tracks from 90s**](https://github.com/Anirbank33/Cool-tracks-form-90-s) | `TypeScript` `Web Audio` | Interactive 90s Bollywood music streaming player and web experience |
-| [**Profile README Generator**](https://github.com/Anirbank33/profile-readme-generator) | `JavaScript` `HTML` `CSS` | Dynamic Profile README tooling and customization |
 | [**Java Core Troubleshooting**](https://github.com/Anirbank33/java-core-troubleshooting) | `Java` `Spring Boot` | Concurrency patterns, memory profiling, and core server practice |
 
 <div align="center">
