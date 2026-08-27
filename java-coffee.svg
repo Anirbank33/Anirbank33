@@ -1,131 +1,196 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" width="120" height="140" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <linearGradient id="cupGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2a2a3e"/>
-      <stop offset="50%" stop-color="#1e1e2e"/>
-      <stop offset="100%" stop-color="#0f0f1a"/>
+    <!-- Cup body gradient - clear plastic -->
+    <linearGradient id="cupBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e8f5e9" stop-opacity="0.15"/>
+      <stop offset="20%" stop-color="#fff" stop-opacity="0.08"/>
+      <stop offset="40%" stop-color="#c8e6c9" stop-opacity="0.12"/>
+      <stop offset="60%" stop-color="#fff" stop-opacity="0.08"/>
+      <stop offset="80%" stop-color="#a5d6a7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#e8f5e9" stop-opacity="0.15"/>
     </linearGradient>
-    <linearGradient id="coffeeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#5d3a36"/>
-      <stop offset="30%" stop-color="#3d1f1d"/>
-      <stop offset="100%" stop-color="#1a0d0c"/>
+    
+    <!-- Cup inner gradient -->
+    <linearGradient id="cupInner" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.05"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0.05"/>
     </linearGradient>
-    <linearGradient id="handleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3a7bd5"/>
-      <stop offset="100%" stop-color="#2F81F7"/>
+    
+    <!-- Starbucks green -->
+    <linearGradient id="sbuxGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#006633"/>
+      <stop offset="50%" stop-color="#007540"/>
+      <stop offset="100%" stop-color="#005a2e"/>
     </linearGradient>
-    <radialGradient id="steamGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#ccc" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#888" stop-opacity="0"/>
+    
+    <!-- Straw gradient -->
+    <linearGradient id="strawGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#006633"/>
+      <stop offset="50%" stop-color="#00a651"/>
+      <stop offset="100%" stop-color="#006633"/>
+    </linearGradient>
+    
+    <!-- Coffee/liquid gradient -->
+    <linearGradient id="liquidGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a2c20" stop-opacity="0.85"/>
+      <stop offset="30%" stop-color="#3d1f18" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#2d1812" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#1a0d08" stop-opacity="1"/>
+    </linearGradient>
+    
+    <!-- Ice cubes -->
+    <radialGradient id="iceGrad" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#b3e5fc" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#81d4fa" stop-opacity="0.2"/>
     </radialGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+    
+    <!-- Condensation droplets -->
+    <radialGradient id="dropGrad" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#e0f2f1" stop-opacity="0.1"/>
+    </radialGradient>
+    
+    <!-- Data flow gradient -->
+    <linearGradient id="dataFlowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00a651" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00d46a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00a651" stop-opacity="0"/>
+    </linearGradient>
+    
+    <filter id="plasticGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+    
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="6" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
     </filter>
     
-    <!-- Steam path definitions -->
-    <path id="steam1" d="M-5 0 Q-5 -20 0 -25 Q5 -20 5 0" fill="none" stroke="url(#steamGrad)" stroke-width="2" stroke-linecap="round" filter="url(#glow)"/>
-    <path id="steam2" d="M-5 0 Q-5 -15 0 -18 Q5 -15 5 0" fill="none" stroke="url(#steamGrad)" stroke-width="1.5" stroke-linecap="round" filter="url(#glow)"/>
-    <path id="steam3" d="M-3 0 Q-3 -12 0 -15 Q3 -12 3 0" fill="none" stroke="url(#steamGrad)" stroke-width="1" stroke-linecap="round" filter="url(#glow)"/>
+    <filter id="innerGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
   </defs>
   
   <!-- Shadow under cup -->
-  <ellipse cx="60" cy="108" rx="30" ry="6" fill="#000" opacity="0.2" filter="url(#shadow)"/>
+  <ellipse cx="60" cy="130" rx="32" ry="6" fill="#000" opacity="0.15" filter="url(#dropShadow)"/>
   
-  <!-- Cup body with 3D gradient -->
-  <path d="M35 35 L30 95 Q30 105 40 105 L80 105 Q90 105 90 95 L85 35 Z" fill="url(#cupGrad)" stroke="url(#handleGrad)" stroke-width="2" filter="url(#shadow)"/>
+  <!-- Cup body - outer wall (clear plastic) -->
+  <path d="M28 20 L22 115 Q22 125 32 125 L88 125 Q98 125 98 115 L92 20 Z" 
+        fill="url(#cupBody)" stroke="#00a651" stroke-width="0.5" opacity="0.6" filter="url(#dropShadow)"/>
   
-  <!-- Cup inner highlight (3D rim) -->
-  <path d="M38 35 L35 92 Q35 100 43 100 L77 100 Q85 100 85 92 L82 35 Z" fill="none" stroke="#3a7bd5" stroke-width="0.5" opacity="0.3"/>
+  <!-- Cup body - inner wall -->
+  <path d="M32 24 L28 112 Q28 120 36 120 L84 120 Q92 120 92 112 L88 24 Z" 
+        fill="url(#cupInner)" stroke="#fff" stroke-width="0.3" opacity="0.3"/>
   
-  <!-- Coffee with gradient -->
-  <path d="M38 40 L36 92 Q36 100 44 100 L76 100 Q84 100 84 92 L82 40 Z" fill="url(#coffeeGrad)"/>
+  <!-- Liquid/coffee inside -->
+  <path d="M33 45 L30 111 Q30 118 38 118 L82 118 Q90 118 90 111 L87 45 Z" 
+        fill="url(#liquidGrad)"/>
   
-  <!-- Coffee surface with reflection -->
-  <ellipse cx="60" cy="44" rx="20" ry="3" fill="#6a4a44" opacity="0.5"/>
-  <ellipse cx="60" cy="46" rx="18" ry="2" fill="#7a5a54" opacity="0.3"/>
+  <!-- Liquid surface with reflection -->
+  <ellipse cx="60" cy="47" rx="24" ry="3" fill="#5d3a30" opacity="0.4"/>
+  <ellipse cx="60" cy="49" rx="22" ry="2" fill="#6d4a38" opacity="0.3"/>
+  <ellipse cx="60" cy="46" rx="20" ry="1.5" fill="#fff" opacity="0.1"/>
   
-  <!-- 3D Handle with gradient -->
-  <path d="M85 50 Q105 50 105 70 Q105 90 85 90" fill="none" stroke="url(#handleGrad)" stroke-width="4" stroke-linecap="round" filter="url(#shadow)"/>
-  <path d="M88 52 Q100 52 100 70 Q100 88 88 88" fill="none" stroke="#1e1e2e" stroke-width="1.5" opacity="0.5"/>
-  
-  <!-- Steam 1 (center) - rises and fades using animateTransform -->
-  <use xlink:href="#steam1" x="60" y="35" opacity="0.7">
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -40; 0 -60" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;0.3;0" dur="3s" repeatCount="indefinite"/>
-  </use>
-  
-  <!-- Steam 2 (left) -->
-  <use xlink:href="#steam2" x="45" y="35" opacity="0.5">
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -35; 0 -55" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
-    <animate attributeName="opacity" values="0;0.5;0" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
-  </use>
-  
-  <!-- Steam 3 (right) -->
-  <use xlink:href="#steam2" x="75" y="35" opacity="0.5">
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -35; 0 -55" dur="3.2s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="opacity" values="0;0.5;0" dur="3.2s" repeatCount="indefinite" begin="1s"/>
-  </use>
-  
-  <!-- Steam 4 (far left) -->
-  <use xlink:href="#steam3" x="38" y="38" opacity="0.4">
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -30; 0 -50" dur="4s" repeatCount="indefinite" begin="0.2s"/>
-    <animate attributeName="opacity" values="0;0.4;0" dur="4s" repeatCount="indefinite" begin="0.2s"/>
-  </use>
-  
-  <!-- Steam 5 (far right) -->
-  <use xlink:href="#steam3" x="82" y="38" opacity="0.4">
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -30; 0 -50" dur="3.8s" repeatCount="indefinite" begin="1.5s"/>
-    <animate attributeName="opacity" values="0;0.4;0" dur="3.8s" repeatCount="indefinite" begin="1.5s"/>
-  </use>
-  
-  <!-- Java text on cup with 3D effect -->
-  <text x="60" y="80" font-family="monospace" font-size="16" font-weight="bold" fill="#2F81F7" text-anchor="middle" opacity="0.9" filter="url(#glow)">JAVA</text>
-  <text x="60" y="80" font-family="monospace" font-size="16" font-weight="bold" fill="#1e1e2e" text-anchor="middle" opacity="0.3" dx="1" dy="1">JAVA</text>
-  
-  <!-- Coffee beans with 3D shading -->
-  <g transform="rotate(-20 25 100)">
-    <ellipse cx="25" cy="100" rx="4" ry="2.5" fill="#2d1816"/>
-    <ellipse cx="25" cy="100" rx="3" ry="1.5" fill="#4a2c28" opacity="0.6"/>
-  </g>
-  <g transform="rotate(20 95 100)">
-    <ellipse cx="95" cy="100" rx="4" ry="2.5" fill="#2d1816"/>
-    <ellipse cx="95" cy="100" rx="3" ry="1.5" fill="#4a2c28" opacity="0.6"/>
-  </g>
-  <g transform="rotate(-35 15 105)">
-    <ellipse cx="15" cy="105" rx="3" ry="2" fill="#2d1816"/>
-    <ellipse cx="15" cy="105" rx="2" ry="1" fill="#4a2c28" opacity="0.6"/>
-  </g>
-  <g transform="rotate(35 105 105)">
-    <ellipse cx="105" cy="105" rx="3" ry="2" fill="#2d1816"/>
-    <ellipse cx="105" cy="105" rx="2" ry="1" fill="#4a2c28" opacity="0.6"/>
+  <!-- Ice cubes floating -->
+  <g filter="url(#plasticGlow)">
+    <rect x="38" y="55" width="10" height="10" rx="2" fill="url(#iceGrad)" transform="rotate(-12 43 60)">
+      <animate attributeName="y" values="55;52;55" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.7;0.5" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="68" y="60" width="9" height="9" rx="2" fill="url(#iceGrad)" transform="rotate(8 72.5 64.5)">
+      <animate attributeName="y" values="60;57;60" dur="3.5s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="opacity" values="0.5;0.7;0.5" dur="3.5s" repeatCount="indefinite" begin="1s"/>
+    </rect>
+    <rect x="52" y="52" width="7" height="7" rx="1.5" fill="url(#iceGrad)" transform="rotate(-5 55.5 55.5)">
+      <animate attributeName="y" values="52;49;52" dur="4.5s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="opacity" values="0.4;0.6;0.4" dur="4.5s" repeatCount="indefinite" begin="2s"/>
+    </rect>
   </g>
   
-  <!-- Subtle glow ring pulsing -->
-  <circle cx="60" cy="65" r="35" fill="none" stroke="#2F81F7" stroke-width="0.5" opacity="0.2">
-    <animate attributeName="r" values="35;45;35" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.15;0.3;0.15" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  
-  <!-- Floating particles -->
-  <g fill="#2F81F7" opacity="0.6">
-    <circle cx="20" cy="60" r="1.5">
-      <animate attributeName="cy" values="60;40;60" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="5s" repeatCount="indefinite"/>
+  <!-- Condensation droplets on outside -->
+  <g fill="url(#dropGrad)" opacity="0.6">
+    <circle cx="35" cy="70" r="1.5">
+      <animate attributeName="cy" values="70;100;70" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="1.5;2;1.5" dur="5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="100" cy="70" r="1">
-      <animate attributeName="cy" values="70;50;70" dur="4.5s" repeatCount="indefinite" begin="1s"/>
-      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="4.5s" repeatCount="indefinite" begin="1s"/>
+    <circle cx="85" cy="75" r="1.2">
+      <animate attributeName="cy" values="75;105;75" dur="4.5s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="r" values="1.2;1.8;1.2" dur="4.5s" repeatCount="indefinite" begin="1s"/>
     </circle>
-    <circle cx="15" cy="80" r="1">
-      <animate attributeName="cy" values="80;60;80" dur="6s" repeatCount="indefinite" begin="2s"/>
-      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="6s" repeatCount="indefinite" begin="2s"/>
+    <circle cx="45" cy="85" r="1">
+      <animate attributeName="cy" values="85;115;85" dur="6s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="r" values="1;1.5;1" dur="6s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+    <circle cx="75" cy="90" r="1.3">
+      <animate attributeName="cy" values="90;120;90" dur="5.5s" repeatCount="indefinite" begin="0.5s"/>
+      <animate attributeName="r" values="1.3;2;1.3" dur="5.5s" repeatCount="indefinite" begin="0.5s"/>
     </circle>
   </g>
+  
+  <!-- Starbucks logo (simplified siren) -->
+  <g transform="translate(60, 75) scale(0.6)">
+    <circle r="22" fill="url(#sbuxGreen)"/>
+    <!-- Siren silhouette simplified -->
+    <path d="M0 -18 Q-12 -10 -12 2 Q-12 10 -4 14 Q0 18 4 14 Q12 10 12 2 Q12 -10 0 -18" fill="#fff" opacity="0.9"/>
+    <path d="M-6 -4 Q-8 -2 -6 2 Q-4 5 0 5 Q4 5 6 2 Q8 -2 6 -4 Q4 -7 0 -7 Q-4 -7 -6 -4" fill="url(#sbuxGreen)"/>
+    <!-- Crown -->
+    <path d="M-10 -16 L-10 -22 M0 -16 L0 -24 M10 -16 L10 -22" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="-10" cy="-22" r="1.5" fill="#fff"/>
+    <circle cx="0" cy="-24" r="1.5" fill="#fff"/>
+    <circle cx="10" cy="-22" r="1.5" fill="#fff"/>
+  </g>
+  
+  <!-- Straw -->
+  <path d="M80 15 Q90 10 95 5 Q98 0 100 -5" 
+        fill="none" stroke="url(#strawGrad)" stroke-width="5" stroke-linecap="round" filter="url(#plasticGlow)">
+    <animate attributeName="d" values="M80 15 Q90 10 95 5 Q98 0 100 -5; M80 15 Q92 10 96 5 Q99 0 100 -5; M80 15 Q90 10 95 5 Q98 0 100 -5" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <!-- Straw highlight -->
+  <path d="M81 14 Q90 9 94 4" fill="none" stroke="#fff" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Lid (clear plastic dome) -->
+  <path d="M28 20 Q28 12 60 12 Q92 12 92 20" fill="url(#cupBody)" stroke="#00a651" stroke-width="0.5" opacity="0.5"/>
+  <ellipse cx="60" cy="20" rx="32" ry="4" fill="url(#cupInner)" opacity="0.4"/>
+  <!-- Lid sip hole -->
+  <ellipse cx="78" cy="20" rx="4" ry="2" fill="#1a1a2e" opacity="0.8"/>
+  
+  <!-- Cup rim highlight -->
+  <path d="M28 20 Q28 12 60 12 Q92 12 92 20" fill="none" stroke="#fff" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Data output port (right side) - connecting to API -->
+  <g filter="url(#plasticGlow)">
+    <circle cx="98" cy="75" r="6" fill="#00a651" opacity="0.3"/>
+    <circle cx="98" cy="75" r="4" fill="#00d46a" opacity="0.6">
+      <animate attributeName="r" values="4;6;4" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Outgoing data packets -->
+    <g fill="#00d46a">
+      <circle cx="105" cy="75" r="3">
+        <animate attributeName="cx" values="105;120;105" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.8;0" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="3;2;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="105" cy="70" r="2.5">
+        <animate attributeName="cx" values="105;120;105" dur="2s" repeatCount="indefinite" begin="0.7s"/>
+        <animate attributeName="opacity" values="0;0.6;0" dur="2s" repeatCount="indefinite" begin="0.7s"/>
+        <animate attributeName="r" values="2.5;1.5;1" dur="2s" repeatCount="indefinite" begin="0.7s"/>
+      </circle>
+      <circle cx="105" cy="80" r="2.5">
+        <animate attributeName="cx" values="105;120;105" dur="2s" repeatCount="indefinite" begin="1.3s"/>
+        <animate attributeName="opacity" values="0;0.6;0" dur="2s" repeatCount="indefinite" begin="1.3s"/>
+        <animate attributeName="r" values="2.5;1.5;1" dur="2s" repeatCount="indefinite" begin="1.3s"/>
+      </circle>
+    </g>
+    <text x="108" y="72" font-family="monospace" font-size="7" fill="#00a651" text-anchor="start" opacity="0.7">→ API</text>
+  </g>
+  
+  <!-- CLIENT label -->
+  <text x="60" y="138" font-family="monospace" font-size="9" font-weight="bold" fill="#00a651" text-anchor="middle" opacity="0.8">CLIENT</text>
 </svg>

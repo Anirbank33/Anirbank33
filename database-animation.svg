@@ -1,27 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" width="120" height="140" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <linearGradient id="cylGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2a2a3e"/>
-      <stop offset="30%" stop-color="#3a3a4e"/>
-      <stop offset="50%" stop-color="#2a2a3e"/>
-      <stop offset="70%" stop-color="#1e1e2e"/>
-      <stop offset="100%" stop-color="#0f0f1a"/>
-    </linearGradient>
-    <linearGradient id="topGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#3a7bd5"/>
-      <stop offset="50%" stop-color="#2F81F7"/>
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="30%" stop-color="#2a2a3e"/>
+      <stop offset="50%" stop-color "#3a3a4e"/>
+      <stop offset="70%" stop-color="#2a2a3e"/>
       <stop offset="100%" stop-color="#1e1e2e"/>
     </linearGradient>
+    <linearGradient id="topGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00a651"/>
+      <stop offset="50%" stop-color="#00d46a"/>
+      <stop offset="100%" stop-color="#006633"/>
+    </linearGradient>
     <linearGradient id="dataGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#2F81F7"/>
-      <stop offset="50%" stop-color="#4db8ff"/>
-      <stop offset="100%" stop-color="#2F81F7"/>
+      <stop offset="0%" stop-color="#00a651"/>
+      <stop offset="50%" stop-color="#00d46a"/>
+      <stop offset="100%" stop-color="#00a651"/>
     </linearGradient>
     <radialGradient id="ringGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#4db8ff" stop-opacity="0.6"/>
-      <stop offset="70%" stop-color="#2F81F7" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#2F81F7" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#00d46a" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#00a651" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00a651" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="pipeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00a651" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00d46a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00a651" stop-opacity="0"/>
+    </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
@@ -35,37 +40,63 @@
   </defs>
   
   <!-- Shadow under cylinder -->
-  <ellipse cx="60" cy="102" rx="38" ry="7" fill="#000" opacity="0.25" filter="url(#shadow)"/>
+  <ellipse cx="60" cy="130" rx="38" ry="7" fill="#000" opacity="0.25" filter="url(#shadow)"/>
+  
+  <!-- Data input pipe from API (left side) -->
+  <g filter="url(#glow)">
+    <path d="M-10 60 Q30 60 30 60" stroke="url(#pipeGrad)" stroke-width="3" fill="none" stroke-dasharray="10 8" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" values="20;0;-20" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <!-- Incoming data packets from API -->
+    <g fill="#00d46a">
+      <circle cx="20" cy="60" r="3">
+        <animate attributeName="cx" values="20;32;20" dur="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.8;0" dur="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="3;2;1" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="20" cy="56" r="2.5">
+        <animate attributeName="cx" values="20;32;20" dur="1.5s" repeatCount="indefinite" begin="0.5s"/>
+        <animate attributeName="opacity" values="0;0.6;0" dur="1.5s" repeatCount="indefinite" begin="0.5s"/>
+        <animate attributeName="r" values="2.5;1.5;1" dur="1.5s" repeatCount="indefinite" begin="0.5s"/>
+      </circle>
+      <circle cx="20" cy="64" r="2.5">
+        <animate attributeName="cx" values="20;32;20" dur="1.5s" repeatCount="indefinite" begin="1s"/>
+        <animate attributeName="opacity" values="0;0.6;0" dur="1.5s" repeatCount="indefinite" begin="1s"/>
+        <animate attributeName="r" values="2.5;1.5;1" dur="1.5s" repeatCount="indefinite" begin="1s"/>
+      </circle>
+    </g>
+    <text x="18" y="54" font-family="monospace" font-size="7" fill="#00a651" text-anchor="middle" opacity="0.7">API →</text>
+  </g>
   
   <!-- Database cylinder - bottom ellipse (base) -->
-  <ellipse cx="60" cy="95" rx="35" ry="10" fill="url(#cylGrad)" stroke="#2F81F7" stroke-width="1.5" opacity="0.6"/>
+  <ellipse cx="60" cy="110" rx="35" ry="10" fill="url(#cylGrad)" stroke="#00a651" stroke-width="1.5" opacity="0.7"/>
   
   <!-- Database cylinder - sides with 3D gradient -->
-  <path d="M25 30 L25 95" fill="none" stroke="url(#cylGrad)" stroke-width="2" opacity="0.5"/>
-  <path d="M95 30 L95 95" fill="none" stroke="#1a1a2a" stroke-width="2" opacity="0.5"/>
+  <path d="M25 30 L25 110" fill="none" stroke="url(#cylGrad)" stroke-width="2" opacity="0.4"/>
+  <path d="M95 30 L95 110" fill="none" stroke="#0f0f1a" stroke-width="2" opacity="0.5"/>
   
   <!-- Database cylinder - top ellipse (lid) with 3D gradient -->
-  <ellipse cx="60" cy="30" rx="35" ry="10" fill="url(#topGrad)" stroke="#2F81F7" stroke-width="1.5" filter="url(#glow)"/>
+  <ellipse cx="60" cy="30" rx="35" ry="10" fill="url(#topGrad)" stroke="#00a651" stroke-width="1.5" filter="url(#glow)"/>
   
   <!-- Inner top ellipse (data surface) with depth -->
-  <ellipse cx="60" cy="33" rx="30" ry="8" fill="#1e1e2e" opacity="0.8"/>
+  <ellipse cx="60" cy="33" rx="30" ry="8" fill="#1a1a2a" opacity="0.8"/>
   <ellipse cx="60" cy="33" rx="28" ry="7" fill="url(#dataGrad)" opacity="0.3"/>
   
   <!-- Data rings pulsing from center (3D expanding rings) -->
   <g stroke="url(#ringGrad)" stroke-width="2" fill="none" filter="url(#glow)">
-    <ellipse cx="60" cy="62" rx="8" ry="4">
+    <ellipse cx="60" cy="70" rx="8" ry="4">
       <animate attributeName="rx" values="8;32" dur="2.5s" repeatCount="indefinite"/>
       <animate attributeName="ry" values="4;15" dur="2.5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.6;0" dur="2.5s" repeatCount="indefinite"/>
       <animate attributeName="stroke-width" values="2;0.5" dur="2.5s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse cx="60" cy="62" rx="8" ry="4">
+    <ellipse cx="60" cy="70" rx="8" ry="4">
       <animate attributeName="rx" values="8;32" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
       <animate attributeName="ry" values="4;15" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
       <animate attributeName="opacity" values="0.6;0" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
       <animate attributeName="stroke-width" values="2;0.5" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
     </ellipse>
-    <ellipse cx="60" cy="62" rx="8" ry="4">
+    <ellipse cx="60" cy="70" rx="8" ry="4">
       <animate attributeName="rx" values="8;32" dur="2.5s" repeatCount="indefinite" begin="1.6s"/>
       <animate attributeName="ry" values="4;15" dur="2.5s" repeatCount="indefinite" begin="1.6s"/>
       <animate attributeName="opacity" values="0.6;0" dur="2.5s" repeatCount="indefinite" begin="1.6s"/>
@@ -75,65 +106,83 @@
   
   <!-- Data blocks inside cylinder with 3D effect -->
   <g filter="url(#glow)">
-    <rect x="35" y="40" width="50" height="10" rx="3" fill="url(#dataGrad)" opacity="0.5">
-      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" begin="0s"/>
-      <animate attributeName="height" values="10;12;10" dur="2s" repeatCount="indefinite" begin="0s"/>
-      <animate attributeName="y" values="40;39;40" dur="2s" repeatCount="indefinite" begin="0s"/>
+    <rect x="35" y="45" width="50" height="12" rx="3" fill="url(#dataGrad)" opacity="0.5">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="height" values="12;14;12" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="45;44;45" dur="2s" repeatCount="indefinite"/>
     </rect>
-    <rect x="38" y="55" width="44" height="10" rx="3" fill="url(#dataGrad)" opacity="0.5">
+    <rect x="38" y="62" width="44" height="12" rx="3" fill="url(#dataGrad)" opacity="0.5">
       <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" begin="0.4s"/>
-      <animate attributeName="height" values="10;12;10" dur="2s" repeatCount="indefinite" begin="0.4s"/>
-      <animate attributeName="y" values="55;54;55" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+      <animate attributeName="height" values="12;14;12" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+      <animate attributeName="y" values="62;61;62" dur="2s" repeatCount="indefinite" begin="0.4s"/>
     </rect>
-    <rect x="35" y="70" width="50" height="10" rx="3" fill="url(#dataGrad)" opacity="0.5">
+    <rect x="35" y="79" width="50" height="12" rx="3" fill="url(#dataGrad)" opacity="0.5">
       <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" begin="0.8s"/>
-      <animate attributeName="height" values="10;12;10" dur="2s" repeatCount="indefinite" begin="0.8s"/>
-      <animate attributeName="y" values="70;69;70" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="height" values="12;14;12" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="y" values="79;78;79" dur="2s" repeatCount="indefinite" begin="0.8s"/>
     </rect>
-    <rect x="38" y="85" width="44" height="10" rx="3" fill="url(#dataGrad)" opacity="0.5">
+    <rect x="38" y="96" width="44" height="12" rx="3" fill="url(#dataGrad)" opacity="0.5">
       <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" begin="1.2s"/>
-      <animate attributeName="height" values="10;12;10" dur="2s" repeatCount="indefinite" begin="1.2s"/>
-      <animate attributeName="y" values="85;84;85" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+      <animate attributeName="height" values="12;14;12" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+      <animate attributeName="y" values="96;95;96" dur="2s" repeatCount="indefinite" begin="1.2s"/>
     </rect>
   </g>
   
   <!-- Floating data particles inside -->
-  <g fill="#4db8ff" filter="url(#glow)">
-    <circle cx="45" cy="50" r="2">
-      <animate attributeName="cy" values="50;45;50" dur="3s" repeatCount="indefinite"/>
+  <g fill="#00d46a" filter="url(#glow)">
+    <circle cx="45" cy="55" r="2">
+      <animate attributeName="cy" values="55;50;55" dur="3s" repeatCount="indefinite"/>
       <animate attributeName="cx" values="45;48;45" dur="3s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="75" cy="65" r="1.5">
-      <animate attributeName="cy" values="65;60;65" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+    <circle cx="75" cy="70" r="1.5">
+      <animate attributeName="cy" values="70;65;70" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
       <animate attributeName="cx" values="75;72;75" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
       <animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
     </circle>
-    <circle cx="50" cy="80" r="2">
-      <animate attributeName="cy" values="80;75;80" dur="3.5s" repeatCount="indefinite" begin="1s"/>
+    <circle cx="50" cy="85" r="2">
+      <animate attributeName="cy" values="85;80;85" dur="3.5s" repeatCount="indefinite" begin="1s"/>
       <animate attributeName="cx" values="50;53;50" dur="3.5s" repeatCount="indefinite" begin="1s"/>
       <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.5s" repeatCount="indefinite" begin="1s"/>
     </circle>
-    <circle cx="70" cy="45" r="1.5">
-      <animate attributeName="cy" values="45;40;45" dur="2.8s" repeatCount="indefinite" begin="1.5s"/>
+    <circle cx="70" cy="50" r="1.5">
+      <animate attributeName="cy" values="50;45;50" dur="2.8s" repeatCount="indefinite" begin="1.5s"/>
       <animate attributeName="cx" values="70;67;70" dur="2.8s" repeatCount="indefinite" begin="1.5s"/>
       <animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.8s" repeatCount="indefinite" begin="1.5s"/>
     </circle>
   </g>
   
-  <!-- Connection lines from sides with gradient -->
-  <g stroke="url(#dataGrad)" stroke-width="2" stroke-dasharray="8 6" fill="none" opacity="0.6" filter="url(#glow)">
-    <path d="M15 62 Q30 62 30 62">
-      <animate attributeName="stroke-dashoffset" values="15;0;-15" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite"/>
-    </path>
-    <path d="M90 62 Q105 62 105 62">
-      <animate attributeName="stroke-dashoffset" values="15;0;-15" dur="2s" repeatCount="indefinite" begin="0.5s"/>
-      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" begin="0.5s"/>
-    </path>
+  <!-- Data output port (right side) - sending to TERMINAL/LOGS -->
+  <g filter="url(#glow)">
+    <circle cx="95" cy="70" r="5" fill="#00a651" opacity="0.3"/>
+    <circle cx="95" cy="70" r="3" fill="#00d46a" opacity="0.6">
+      <animate attributeName="r" values="3;5;3" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Outgoing data packets -->
+    <g fill="#00d46a">
+      <circle cx="102" cy="70" r="2.5">
+        <animate attributeName="cx" values="102;115;102" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.8;0" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="2.5;1.5;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="102" cy="66" r="2">
+        <animate attributeName="cx" values="102;115;102" dur="2s" repeatCount="indefinite" begin="0.7s"/>
+        <animate attributeName="opacity" values="0;0.6;0" dur="2s" repeatCount="indefinite" begin="0.7s"/>
+        <animate attributeName="r" values="2;1;0.5" dur="2s" repeatCount="indefinite" begin="0.7s"/>
+      </circle>
+      <circle cx="102" cy="74" r="2">
+        <animate attributeName="cx" values="102;115;102" dur="2s" repeatCount="indefinite" begin="1.3s"/>
+        <animate attributeName="opacity" values="0;0.6;0" dur="2s" repeatCount="indefinite" begin="1.3s"/>
+        <animate attributeName="r" values="2;1;0.5" dur="2s" repeatCount="indefinite" begin="1.3s"/>
+      </circle>
+    </g>
+    <text x="108" y="68" font-family="monospace" font-size="7" fill="#00a651" text-anchor="start" opacity="0.7">→ LOGS</text>
   </g>
   
-  <!-- DB text with 3D effect -->
-  <text x="60" y="115" font-family="monospace" font-size="11" font-weight="bold" fill="#2F81F7" text-anchor="middle" opacity="0.8" filter="url(#glow)">DB</text>
-  <text x="60" y="115" font-family="monospace" font-size="11" font-weight="bold" fill="#0f0f1a" text-anchor="middle" opacity="0.3" dx="1" dy="1">DB</text>
+  <!-- DB label -->
+  <text x="60" y="135" font-family="monospace" font-size="10" font-weight="bold" fill="#00a651" text-anchor="middle" opacity="0.8">DATABASE</text>
+  
+  <!-- Connection line label -->
+  <text x="60" y="12" font-family="monospace" font-size="7" fill="#00a651" text-anchor="middle" opacity="0.5">← API QUERIES → LOG OUTPUT</text>
 </svg>
