@@ -235,62 +235,26 @@
 
 <br/>
 
-<!-- Interactive Playgrounds & Contribution Games (All Games Intact) -->
+<!-- Space Galaga Arcade Contribution Game (Single Aesthetic Showcase) -->
 <div align="center">
-  <p>
-    <b>🕹️ INTERACTIVE PLAYGROUNDS &amp; CONTRIBUTION GAMES &nbsp;·&nbsp; <font color="#0284c7">Puzzle Bobble</font> &nbsp;•&nbsp; <font color="#d946ef">Snake</font> &nbsp;•&nbsp; <font color="#8b5cf6">Pac-Man</font> &nbsp;•&nbsp; <font color="#d97706">Galaga</font> &nbsp;•&nbsp; <font color="#059669">3D Space War</font> &nbsp;•&nbsp; <font color="#f43f5e">Bomberman</font></b>
-  </p>
-  <p><sub>Interactive contribution games generated dynamically from real GitHub commit telemetry.</sub></p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph.svg" />
-    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph-dark.svg" width="100%" alt="Puzzle Bobble contribution game" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/galaga-header.svg?v=1" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/galaga-header-light.svg?v=1" />
+    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/galaga-header.svg?v=1" width="100%" alt="Space Galaga Arcade Arena" />
   </picture>
-  <br/><br/>
-  <table align="center">
-    <tr>
-      <td align="center">
-        <b>🐍 Snake</b><br/>
-        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/github-contribution-grid-snake.svg" width="430" alt="Snake" />
-      </td>
-      <td align="center">
-        <b>🟡 Pac-Man</b><br/>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/pacman-contribution-graph-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/pacman-contribution-graph.svg" />
-          <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/pacman-contribution-graph-dark.svg" width="430" alt="Pac-Man" />
-        </picture>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <b>🚀 Galaga</b><br/>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph.svg" />
-          <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph-dark.svg" width="430" alt="Galaga" />
-        </picture>
-      </td>
-      <td align="center">
-        <b>⚔️ 3D Space War</b><br/>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/war-game-3d.svg?v=2" />
-          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/war-game-3d-light.svg?v=2" />
-          <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/war-game-3d.svg?v=2" width="430" alt="3D Space War Game" />
-        </picture>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <b>💣 Bomberman</b><br/>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/bomberman-contribution-graph-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/bomberman-contribution-graph.svg" />
-          <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/bomberman-contribution-graph-dark.svg" width="430" alt="Bomberman" />
-        </picture>
-      </td>
-    </tr>
-  </table>
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph-dark.svg?v=1" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph.svg?v=1" />
+    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph-dark.svg?v=1" width="100%" alt="Space Galaga Arcade Contribution Game" />
+  </picture>
+  <p>
+    <sub><code><font color="#0284c7">Galaga Interceptor</font> ──► <font color="#d946ef">Alien Ingress Defense</font> ──► <font color="#059669">52-Week GitHub Commits</font> ──► <font color="#d97706">12h Live Telemetry</font></code></sub>
+  </p>
 </div>
 
 <br/>
