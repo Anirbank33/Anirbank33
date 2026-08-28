@@ -144,10 +144,9 @@
 <br/>
 
 <div align="center">
-  <table border="0" cellpadding="0" cellspacing="10" width="100%">
-    <!-- Row 1: Flagship Hero Card (github-activity-2021-2026) -->
+  <table border="0" cellpadding="0" cellspacing="6" width="100%">
     <tr>
-      <td colspan="2" align="center">
+      <td width="20%" align="center">
         <a href="https://github.com/Anirbank33/github-activity-2021-2026" target="_blank">
           <picture>
             <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-github-activity.svg" />
@@ -156,10 +155,7 @@
           </picture>
         </a>
       </td>
-    </tr>
-    <!-- Row 2: Clinical Platform & Backend REST API -->
-    <tr>
-      <td width="50%" align="center">
+      <td width="20%" align="center">
         <a href="https://github.com/Anirbank33/medical-department-tracker" target="_blank">
           <picture>
             <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-medical-tracker.svg" />
@@ -168,7 +164,7 @@
           </picture>
         </a>
       </td>
-      <td width="50%" align="center">
+      <td width="20%" align="center">
         <a href="https://github.com/Anirbank33/backend-demo" target="_blank">
           <picture>
             <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-backend-demo.svg" />
@@ -177,10 +173,7 @@
           </picture>
         </a>
       </td>
-    </tr>
-    <!-- Row 3: 90s Web Audio & Java Concurrency -->
-    <tr>
-      <td width="50%" align="center">
+      <td width="20%" align="center">
         <a href="https://github.com/Anirbank33/Cool-tracks-form-90-s" target="_blank">
           <picture>
             <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-cool-tracks.svg" />
@@ -189,7 +182,7 @@
           </picture>
         </a>
       </td>
-      <td width="50%" align="center">
+      <td width="20%" align="center">
         <a href="https://github.com/Anirbank33/java-core-troubleshooting" target="_blank">
           <picture>
             <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-java-troubleshooting.svg" />
