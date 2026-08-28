@@ -238,7 +238,7 @@
 <!-- Interactive Playgrounds & Contribution Games (All Games Intact) -->
 <div align="center">
   <details>
-    <summary><b>🕹️ INTERACTIVE PLAYGROUNDS &amp; CONTRIBUTION GAMES &nbsp;·&nbsp; <font color="#0284c7">Puzzle Bobble</font> &nbsp;•&nbsp; <font color="#d946ef">Snake</font> &nbsp;•&nbsp; <font color="#8b5cf6">Pac-Man</font> &nbsp;•&nbsp; <font color="#d97706">Galaga</font> &nbsp;•&nbsp; <font color="#059669">Breakout</font> &nbsp;•&nbsp; <font color="#f43f5e">Bomberman</font></b></summary>
+    <summary><b>🕹️ INTERACTIVE PLAYGROUNDS &amp; CONTRIBUTION GAMES &nbsp;·&nbsp; <font color="#0284c7">Puzzle Bobble</font> &nbsp;•&nbsp; <font color="#d946ef">Snake</font> &nbsp;•&nbsp; <font color="#8b5cf6">Pac-Man</font> &nbsp;•&nbsp; <font color="#d97706">Galaga</font> &nbsp;•&nbsp; <font color="#059669">3D Space War</font> &nbsp;•&nbsp; <font color="#f43f5e">Bomberman</font></b></summary>
     <br/>
     <p><sub>Interactive contribution games generated dynamically from real GitHub commit telemetry.</sub></p>
     <picture>
@@ -272,11 +272,11 @@
           </picture>
         </td>
         <td align="center">
-          <b>🧱 Breakout</b><br/>
+          <b>⚔️ 3D Space War</b><br/>
           <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/breakout-contribution-graph-dark.svg" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/breakout-contribution-graph.svg" />
-            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/breakout-contribution-graph-dark.svg" width="430" alt="Breakout" />
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/war-game-3d.svg?v=1" />
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/war-game-3d-light.svg?v=1" />
+            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/war-game-3d.svg?v=1" width="430" alt="3D Space War Game" />
           </picture>
         </td>
       </tr>
