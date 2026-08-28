@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 240" width="100%" height="240" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="medGlassLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#f0fdf4" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ecfdf5" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="medBorderLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.75"/>
+      <stop offset="40%" stop-color="#10b981" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <linearGradient id="medSheenLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="medShimmerLight" x1="-100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#059669" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+      <animate attributeName="x1" values="-100%;220%" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;320%" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="medOrbBlurLight" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+
+  <circle cx="80" cy="60" r="55" fill="#34d399" opacity="0.2" filter="url(#medOrbBlurLight)">
+    <animate attributeName="cx" values="80;110;80" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="180" r="60" fill="#10b981" opacity="0.18" filter="url(#medOrbBlurLight)">
+    <animate attributeName="cy" values="180;150;180" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="2" y="2" width="426" height="236" rx="16" fill="url(#medGlassLight)" stroke="url(#medBorderLight)" stroke-width="1.4"/>
+  <rect x="2" y="2" width="426" height="236" rx="16" fill="url(#medSheenLight)"/>
+  <rect x="2" y="2" width="426" height="236" rx="16" fill="url(#medShimmerLight)"/>
+  <line x1="16" y1="2" x2="414" y2="2" stroke="#059669" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- HEADER -->
+  <g transform="translate(20, 18)">
+    <rect x="0" y="0" width="160" height="22" rx="5" fill="#ecfdf5" stroke="#059669" stroke-opacity="0.5" stroke-width="1"/>
+    <path d="M10,8 h4 v-3 h3 v3 h4 v3 h-4 v4 h-3 v-4 h-4 z" fill="#059669"/>
+    <text x="26" y="15" fill="#047857" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5">
+      CLINICAL PLATFORM
+    </text>
+    <text x="388" y="15" text-anchor="end" fill="#047857" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="600">
+      ● WARDLINE TS
+    </text>
+  </g>
+
+  <!-- Project Title -->
+  <text x="20" y="66" fill="#0f172a" font-family="'JetBrains Mono', 'Segoe UI', Inter, sans-serif" font-size="17" font-weight="800" letter-spacing="0.3">
+    medical-department-tracker
+  </text>
+
+  <!-- Description Lines -->
+  <text x="20" y="88" fill="#334155" font-family="'Segoe UI', Inter, -apple-system, sans-serif" font-size="12.5" font-weight="500">
+    Hospital ward operations &amp; clinical staff workflow platform.
+  </text>
+  <text x="20" y="105" fill="#64748b" font-family="'Segoe UI', Inter, -apple-system, sans-serif" font-size="12" font-weight="400">
+    Patient bed telemetry, clinical shift coordination &amp; triage management.
+  </text>
+
+  <!-- ECG Oscilloscope Monitor -->
+  <g transform="translate(20, 116)">
+    <rect x="0" y="0" width="390" height="52" rx="8" fill="#ffffff" fill-opacity="0.9" stroke="#cbd5e1" stroke-width="1"/>
+    <line x1="0" y1="26" x2="280" y2="26" stroke="#f1f5f9" stroke-width="1"/>
+    <line x1="95" y1="0" x2="95" y2="52" stroke="#f1f5f9" stroke-width="1"/>
+    <line x1="190" y1="0" x2="190" y2="52" stroke="#f1f5f9" stroke-width="1"/>
+    <line x1="285" y1="0" x2="285" y2="52" stroke="#cbd5e1" stroke-width="1"/>
+
+    <path d="M 0,26 L 30,26 L 40,22 L 50,30 L 60,26 L 75,26 L 85,8 L 95,44 L 105,22 L 115,26 L 140,26 L 150,24 L 160,26 L 195,26 L 205,8 L 215,44 L 225,22 L 235,26 L 280,26" 
+          fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          stroke-dasharray="280" stroke-dashoffset="280">
+      <animate attributeName="stroke-dashoffset" values="280;0" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+
+    <text x="296" y="17" fill="#047857" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">
+      BPM: 74
+    </text>
+    <circle cx="368" cy="14" r="3" fill="#059669">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="296" y="32" fill="#065f46" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500">
+      STATUS: STABLE
+    </text>
+    <text x="296" y="44" fill="#047857" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="500">
+      WARD A • BED 12
+    </text>
+  </g>
+
+  <!-- Badges -->
+  <g transform="translate(20, 178)">
+    <rect x="0" y="0" width="56" height="20" rx="4" fill="#ecfdf5" stroke="#059669" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="28" y="14" text-anchor="middle" fill="#047857" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">React</text>
+
+    <rect x="62" y="0" width="84" height="20" rx="4" fill="#ecfdf5" stroke="#059669" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="104" y="14" text-anchor="middle" fill="#047857" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">TypeScript</text>
+
+    <rect x="152" y="0" width="64" height="20" rx="4" fill="#ecfdf5" stroke="#059669" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="184" y="14" text-anchor="middle" fill="#047857" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">Express</text>
+
+    <rect x="222" y="0" width="46" height="20" rx="4" fill="#ecfdf5" stroke="#059669" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="245" y="14" text-anchor="middle" fill="#047857" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">Vite</text>
+
+    <rect x="274" y="0" width="70" height="20" rx="4" fill="#ecfdf5" stroke="#059669" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="309" y="14" text-anchor="middle" fill="#047857" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">Tailwind</text>
+  </g>
+
+  <g transform="translate(20, 206)">
+    <rect x="0" y="0" width="390" height="22" rx="11" fill="#059669" fill-opacity="0.14" stroke="#059669" stroke-width="1.1"/>
+    <text x="195" y="15" text-anchor="middle" fill="#047857" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5">
+      ⚡ EXPLORE CLINICAL WORKFLOW ↗
+    </text>
+  </g>
+</svg>

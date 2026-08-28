@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 240" width="100%" height="240" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="trkGlassDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b0720" stop-opacity="0.8"/>
+      <stop offset="45%" stop-color="#500724" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1f020f" stop-opacity="0.88"/>
+    </linearGradient>
+
+    <linearGradient id="trkBorderDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#ec4899" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#be185d" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="trkSheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="trkShimmer" x1="-100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      <animate attributeName="x1" values="-100%;220%" dur="7.8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;320%" dur="7.8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="trkOrbBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+
+    <filter id="trkGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <linearGradient id="eqGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#db2777"/>
+      <stop offset="60%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="80" cy="50" r="55" fill="#ec4899" opacity="0.25" filter="url(#trkOrbBlur)">
+    <animate attributeName="cx" values="80;110;80" dur="7.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="180" r="60" fill="#f43f5e" opacity="0.22" filter="url(#trkOrbBlur)">
+    <animate attributeName="cy" values="180;150;180" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="2" y="2" width="426" height="236" rx="16" fill="url(#trkGlassDark)" stroke="url(#trkBorderDark)" stroke-width="1.4"/>
+  <rect x="2" y="2" width="426" height="236" rx="16" fill="url(#trkSheen)"/>
+  <rect x="2" y="2" width="426" height="236" rx="16" fill="url(#trkShimmer)"/>
+  <line x1="16" y1="2" x2="414" y2="2" stroke="#f472b6" stroke-width="2" stroke-linecap="round" opacity="0.9" filter="url(#trkGlow)"/>
+
+  <!-- HEADER -->
+  <g transform="translate(20, 18)">
+    <rect x="0" y="0" width="160" height="22" rx="5" fill="#ec4899" fill-opacity="0.2" stroke="#f472b6" stroke-opacity="0.5" stroke-width="1"/>
+    <path d="M12,14 A2.5,2.5 0 1,1 9.5,11.5 L13,11.5 L13,6 L18,7.5 L18,10 L14,9 L14,14 Z" fill="#f472b6" filter="url(#trkGlow)"/>
+    <text x="24" y="15" fill="#f472b6" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5">
+      AUDIO &amp; STREAMING
+    </text>
+    <text x="388" y="15" text-anchor="end" fill="#fbcfe8" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="600">
+      ● 90s NOSTALGIA
+    </text>
+  </g>
+
+  <!-- Project Title -->
+  <text x="20" y="66" fill="#ffffff" font-family="'JetBrains Mono', 'Segoe UI', Inter, sans-serif" font-size="17" font-weight="800" letter-spacing="0.3">
+    Cool-tracks-form-90-s
+  </text>
+
+  <!-- Description Lines -->
+  <text x="20" y="88" fill="#cbd5e1" font-family="'Segoe UI', Inter, -apple-system, sans-serif" font-size="12.5" font-weight="400">
+    Nostalgic 1990s Bollywood music streaming player &amp; web app.
+  </text>
+  <text x="20" y="105" fill="#94a3b8" font-family="'Segoe UI', Inter, -apple-system, sans-serif" font-size="12" font-weight="400">
+    Curated vintage playlist, dynamic spectrum visualizer &amp; glass UI.
+  </text>
+
+  <!-- ANIMATED AUDIO EQUALIZER & SPINNING VINYL -->
+  <g transform="translate(20, 116)">
+    <rect x="0" y="0" width="390" height="52" rx="8" fill="#1b030e" fill-opacity="0.8" stroke="#831843" stroke-width="1"/>
+
+    <!-- Spinning Vinyl Record (Local rotation about 0,0) -->
+    <g transform="translate(32, 26)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="4.5s" repeatCount="indefinite"/>
+        <circle cx="0" cy="0" r="16" fill="#0f172a" stroke="#ec4899" stroke-width="1.2"/>
+        <circle cx="0" cy="0" r="11" fill="none" stroke="#334155" stroke-width="0.8" stroke-dasharray="2,2"/>
+        <circle cx="0" cy="0" r="5" fill="#f43f5e"/>
+        <circle cx="0" cy="0" r="1.8" fill="#ffffff"/>
+      </g>
+    </g>
+
+    <!-- 8 Equalizer Bars -->
+    <rect x="62" y="16" width="16" height="28" rx="3" fill="url(#eqGrad)">
+      <animate attributeName="height" values="12;32;16;28;12" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="32;12;28;16;32" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="84" y="12" width="16" height="32" rx="3" fill="url(#eqGrad)">
+      <animate attributeName="height" values="28;14;34;20;28" dur="1.0s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="16;30;10;24;16" dur="1.0s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="106" y="20" width="16" height="24" rx="3" fill="url(#eqGrad)">
+      <animate attributeName="height" values="16;36;22;14;16" dur="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="28;8;22;30;28" dur="1.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="128" y="8" width="16" height="36" rx="3" fill="url(#eqGrad)">
+      <animate attributeName="height" values="36;20;32;16;36" dur="0.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="8;24;12;28;8" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="150" y="14" width="16" height="30" rx="3" fill="url(#eqGrad)">
+      <animate attributeName="height" values="24;36;16;32;24" dur="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="20;8;28;12;20" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="172" y="10" width="16" height="34" rx="3" fill="url(#eqGrad)">
+      <animate attributeName="height" values="32;18;34;22;32" dur="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="12;26;10;22;12" dur="1.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="194" y="18" width="16" height="26" rx="3" fill="url(#eqGrad)">
+      <animate attributeName="height" values="18;34;14;30;18" dur="0.85s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="26;10;30;14;26" dur="0.85s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="216" y="12" width="16" height="32" rx="3" fill="url(#eqGrad)">
+      <animate attributeName="height" values="30;16;36;20;30" dur="1.15s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="14;28;8;24;14" dur="1.15s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Right Audio Meta -->
+    <text x="252" y="21" fill="#f472b6" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">
+      HQ STEREO DSP
+    </text>
+    <text x="252" y="37" fill="#fda4af" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500">
+      44.1kHz • 24-BIT
+    </text>
+    <circle cx="366" cy="22" r="3.5" fill="#f43f5e" filter="url(#trkGlow)">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="0.9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- TECH BADGES & CTA -->
+  <g transform="translate(20, 178)">
+    <rect x="0" y="0" width="84" height="20" rx="4" fill="#500724" fill-opacity="0.6" stroke="#f472b6" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="42" y="14" text-anchor="middle" fill="#fbcfe8" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">TypeScript</text>
+
+    <rect x="92" y="0" width="80" height="20" rx="4" fill="#500724" fill-opacity="0.6" stroke="#f472b6" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="132" y="14" text-anchor="middle" fill="#fbcfe8" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">Web Audio</text>
+
+    <rect x="180" y="0" width="94" height="20" rx="4" fill="#500724" fill-opacity="0.6" stroke="#f472b6" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="227" y="14" text-anchor="middle" fill="#fbcfe8" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">Glassmorphism</text>
+
+    <rect x="282" y="0" width="86" height="20" rx="4" fill="#500724" fill-opacity="0.6" stroke="#f472b6" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="325" y="14" text-anchor="middle" fill="#fbcfe8" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">HTML5 Audio</text>
+  </g>
+
+  <g transform="translate(20, 206)">
+    <rect x="0" y="0" width="390" height="22" rx="11" fill="#ec4899" fill-opacity="0.18" stroke="#f472b6" stroke-width="1.1"/>
+    <text x="195" y="15" text-anchor="middle" fill="#f472b6" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5">
+      ⚡ STREAM NOSTALGIC AUDIO ↗
+    </text>
+  </g>
+</svg>

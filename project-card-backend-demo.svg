@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 240" width="100%" height="240" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="bkGlassDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1338" stop-opacity="0.8"/>
+      <stop offset="45%" stop-color="#2e1065" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0f0728" stop-opacity="0.88"/>
+    </linearGradient>
+
+    <linearGradient id="bkBorderDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#a855f7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="bkSheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="bkShimmer" x1="-100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      <animate attributeName="x1" values="-100%;220%" dur="7.2s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;320%" dur="7.2s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="bkOrbBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+
+    <filter id="bkGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <circle cx="90" cy="50" r="55" fill="#a855f7" opacity="0.24" filter="url(#bkOrbBlur)">
+    <animate attributeName="cx" values="90;120;90" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="340" cy="180" r="60" fill="#7c3aed" opacity="0.22" filter="url(#bkOrbBlur)">
+    <animate attributeName="cy" values="180;150;180" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="2" y="2" width="426" height="236" rx="16" fill="url(#bkGlassDark)" stroke="url(#bkBorderDark)" stroke-width="1.4"/>
+  <rect x="2" y="2" width="426" height="236" rx="16" fill="url(#bkSheen)"/>
+  <rect x="2" y="2" width="426" height="236" rx="16" fill="url(#bkShimmer)"/>
+  <line x1="16" y1="2" x2="414" y2="2" stroke="#c084fc" stroke-width="2" stroke-linecap="round" opacity="0.9" filter="url(#bkGlow)"/>
+
+  <!-- HEADER -->
+  <g transform="translate(20, 18)">
+    <rect x="0" y="0" width="160" height="22" rx="5" fill="#7c3aed" fill-opacity="0.2" stroke="#c084fc" stroke-opacity="0.5" stroke-width="1"/>
+    <circle cx="12" cy="11" r="3.5" fill="#c084fc" filter="url(#bkGlow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="24" y="15" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5">
+      SYSTEM ARCHITECTURE
+    </text>
+    <text x="388" y="15" text-anchor="end" fill="#e9d5ff" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="600">
+      ● REST API 200 OK
+    </text>
+  </g>
+
+  <!-- Project Title -->
+  <text x="20" y="66" fill="#ffffff" font-family="'JetBrains Mono', 'Segoe UI', Inter, sans-serif" font-size="17" font-weight="800" letter-spacing="0.3">
+    backend-demo
+  </text>
+
+  <!-- Description Lines -->
+  <text x="20" y="88" fill="#cbd5e1" font-family="'Segoe UI', Inter, -apple-system, sans-serif" font-size="12.5" font-weight="400">
+    Modular document management REST API architecture.
+  </text>
+  <text x="20" y="105" fill="#94a3b8" font-family="'Segoe UI', Inter, -apple-system, sans-serif" font-size="12" font-weight="400">
+    Tiered routing, controller-service pattern, token auth &amp; bundled client.
+  </text>
+
+  <!-- MICROSERVICE PACKET FLOW -->
+  <g transform="translate(20, 116)">
+    <rect x="0" y="0" width="390" height="52" rx="8" fill="#0d081f" fill-opacity="0.8" stroke="#4c1d95" stroke-width="1"/>
+
+    <line x1="80" y1="26" x2="160" y2="26" stroke="#6b21a8" stroke-width="2" stroke-dasharray="3,3"/>
+    <line x1="230" y1="26" x2="310" y2="26" stroke="#6b21a8" stroke-width="2" stroke-dasharray="3,3"/>
+
+    <g transform="translate(18, 12)">
+      <rect x="0" y="0" width="60" height="28" rx="6" fill="#1e1b4b" stroke="#818cf8" stroke-width="1"/>
+      <text x="30" y="18" text-anchor="middle" fill="#c7d2fe" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">CLIENT</text>
+    </g>
+
+    <g transform="translate(160, 12)">
+      <rect x="0" y="0" width="70" height="28" rx="6" fill="#3b0764" stroke="#c084fc" stroke-width="1"/>
+      <text x="35" y="18" text-anchor="middle" fill="#f5d0fe" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">EXPRESS</text>
+    </g>
+
+    <g transform="translate(310, 12)">
+      <rect x="0" y="0" width="62" height="28" rx="6" fill="#1e1b4b" stroke="#34d399" stroke-width="1"/>
+      <text x="31" y="18" text-anchor="middle" fill="#a7f3d0" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">STORAGE</text>
+    </g>
+
+    <circle cx="85" cy="26" r="3.5" fill="#00f0ff" filter="url(#bkGlow)">
+      <animate attributeName="cx" values="85;155;85" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="235" cy="26" r="3.5" fill="#ec4899" filter="url(#bkGlow)">
+      <animate attributeName="cx" values="235;305;235" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- TECH BADGES & CTA -->
+  <g transform="translate(20, 178)">
+    <rect x="0" y="0" width="64" height="20" rx="4" fill="#3b0764" fill-opacity="0.6" stroke="#c084fc" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="32" y="14" text-anchor="middle" fill="#e9d5ff" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">Node.js</text>
+
+    <rect x="70" y="0" width="66" height="20" rx="4" fill="#3b0764" fill-opacity="0.6" stroke="#c084fc" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="103" y="14" text-anchor="middle" fill="#e9d5ff" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">Express</text>
+
+    <rect x="142" y="0" width="76" height="20" rx="4" fill="#3b0764" fill-opacity="0.6" stroke="#c084fc" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="180" y="14" text-anchor="middle" fill="#e9d5ff" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">REST API</text>
+
+    <rect x="224" y="0" width="74" height="20" rx="4" fill="#3b0764" fill-opacity="0.6" stroke="#c084fc" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="261" y="14" text-anchor="middle" fill="#e9d5ff" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">JWT Auth</text>
+
+    <rect x="304" y="0" width="66" height="20" rx="4" fill="#3b0764" fill-opacity="0.6" stroke="#c084fc" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="337" y="14" text-anchor="middle" fill="#e9d5ff" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">Modular</text>
+  </g>
+
+  <g transform="translate(20, 206)">
+    <rect x="0" y="0" width="390" height="22" rx="11" fill="#7c3aed" fill-opacity="0.18" stroke="#c084fc" stroke-width="1.1"/>
+    <text x="195" y="15" text-anchor="middle" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5">
+      ⚡ INSPECT DOCUMENT REST API ↗
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 240" width="100%" height="240" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="javGlassDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#382107" stop-opacity="0.8"/>
+      <stop offset="45%" stop-color="#451a03" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1f0e03" stop-opacity="0.88"/>
+    </linearGradient>
+
+    <linearGradient id="javBorderDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#f59e0b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#b45309" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="javSheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="javShimmer" x1="-100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      <animate attributeName="x1" values="-100%;220%" dur="7.4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;320%" dur="7.4s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="javOrbBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+
+    <filter id="javGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <circle cx="80" cy="50" r="55" fill="#f59e0b" opacity="0.24" filter="url(#javOrbBlur)">
+    <animate attributeName="cx" values="80;110;80" dur="7.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="180" r="60" fill="#d97706" opacity="0.22" filter="url(#javOrbBlur)">
+    <animate attributeName="cy" values="180;150;180" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="2" y="2" width="426" height="236" rx="16" fill="url(#javGlassDark)" stroke="url(#javBorderDark)" stroke-width="1.4"/>
+  <rect x="2" y="2" width="426" height="236" rx="16" fill="url(#javSheen)"/>
+  <rect x="2" y="2" width="426" height="236" rx="16" fill="url(#javShimmer)"/>
+  <line x1="16" y1="2" x2="414" y2="2" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" opacity="0.9" filter="url(#javGlow)"/>
+
+  <!-- HEADER -->
+  <g transform="translate(20, 18)">
+    <rect x="0" y="0" width="160" height="22" rx="5" fill="#d97706" fill-opacity="0.2" stroke="#fbbf24" stroke-opacity="0.5" stroke-width="1"/>
+    <path d="M9,7 h7 v5 c0,2 -2,4 -3.5,4 c-1.5,0 -3.5,-2 -3.5,-4 z M16,8 h3 c1,0 1,2 0,2 h-3 z M8,17 h9" fill="none" stroke="#fbbf24" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="24" y="15" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5">
+      JVM &amp; CONCURRENCY
+    </text>
+    <text x="388" y="15" text-anchor="end" fill="#fef3c7" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="600">
+      ● JAVA 17+ RESILIENCE
+    </text>
+  </g>
+
+  <!-- Project Title -->
+  <text x="20" y="66" fill="#ffffff" font-family="'JetBrains Mono', 'Segoe UI', Inter, sans-serif" font-size="17" font-weight="800" letter-spacing="0.3">
+    java-core-troubleshooting
+  </text>
+
+  <!-- Description Lines -->
+  <text x="20" y="88" fill="#cbd5e1" font-family="'Segoe UI', Inter, -apple-system, sans-serif" font-size="12.5" font-weight="400">
+    JVM multi-threading patterns, deadlock resolution &amp; server debugging.
+  </text>
+  <text x="20" y="105" fill="#94a3b8" font-family="'Segoe UI', Inter, -apple-system, sans-serif" font-size="12" font-weight="400">
+    Object lifecycle analysis, thread pool starvation &amp; Spring resilience.
+  </text>
+
+  <!-- MULTI-THREAD CONCURRENCY LANES -->
+  <g transform="translate(20, 116)">
+    <rect x="0" y="0" width="390" height="52" rx="8" fill="#180e03" fill-opacity="0.8" stroke="#78350f" stroke-width="1"/>
+
+    <!-- Lane 1: Thread-0 [RUNNABLE] -->
+    <g transform="translate(12, 10)">
+      <text x="0" y="8" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700">T-0 [EXEC]</text>
+      <line x1="68" y1="5" x2="270" y2="5" stroke="#451a03" stroke-width="3" stroke-linecap="round"/>
+      <rect x="70" y="2" width="34" height="6" rx="2" fill="#fbbf24" filter="url(#javGlow)">
+        <animate attributeName="x" values="70;230;70" dur="2.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Lane 2: Thread-1 [SYNC/LOCK] -->
+    <g transform="translate(12, 24)">
+      <text x="0" y="8" fill="#f97316" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700">T-1 [SYNC]</text>
+      <line x1="68" y1="5" x2="270" y2="5" stroke="#451a03" stroke-width="3" stroke-linecap="round"/>
+      <rect x="180" y="2" width="28" height="6" rx="2" fill="#f97316">
+        <animate attributeName="x" values="180;100;180" dur="2.6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Lane 3: Thread-2 [WORKER] -->
+    <g transform="translate(12, 38)">
+      <text x="0" y="8" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700">T-2 [POOL]</text>
+      <line x1="68" y1="5" x2="270" y2="5" stroke="#451a03" stroke-width="3" stroke-linecap="round"/>
+      <rect x="120" y="2" width="40" height="6" rx="2" fill="#34d399">
+        <animate attributeName="x" values="120;220;120" dur="1.9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Right Heap Memory Gauge -->
+    <text x="290" y="22" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">
+      HEAP: 42%
+    </text>
+    <rect x="290" y="28" width="80" height="8" rx="3" fill="#291804" stroke="#78350f" stroke-width="0.8"/>
+    <rect x="291" y="29" width="34" height="6" rx="2" fill="#f59e0b">
+      <animate attributeName="width" values="34;48;34" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="376" cy="18" r="3" fill="#10b981" filter="url(#javGlow)">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- TECH BADGES & CTA -->
+  <g transform="translate(20, 178)">
+    <rect x="0" y="0" width="70" height="20" rx="4" fill="#451a03" fill-opacity="0.6" stroke="#fbbf24" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="35" y="14" text-anchor="middle" fill="#fef3c7" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">Java 17+</text>
+
+    <rect x="78" y="0" width="82" height="20" rx="4" fill="#451a03" fill-opacity="0.6" stroke="#fbbf24" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="119" y="14" text-anchor="middle" fill="#fef3c7" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">Spring Boot</text>
+
+    <rect x="168" y="0" width="84" height="20" rx="4" fill="#451a03" fill-opacity="0.6" stroke="#fbbf24" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="210" y="14" text-anchor="middle" fill="#fef3c7" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">Concurrency</text>
+
+    <rect x="260" y="0" width="60" height="20" rx="4" fill="#451a03" fill-opacity="0.6" stroke="#fbbf24" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="290" y="14" text-anchor="middle" fill="#fef3c7" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">Threads</text>
+
+    <rect x="328" y="0" width="56" height="20" rx="4" fill="#451a03" fill-opacity="0.6" stroke="#fbbf24" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="356" y="14" text-anchor="middle" fill="#fef3c7" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">JVM</text>
+  </g>
+
+  <g transform="translate(20, 206)">
+    <rect x="0" y="0" width="390" height="22" rx="11" fill="#d97706" fill-opacity="0.18" stroke="#fbbf24" stroke-width="1.1"/>
+    <text x="195" y="15" text-anchor="middle" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5">
+      ⚡ EXPLORE JVM CONCURRENCY PATTERNS ↗
+    </text>
+  </g>
+</svg>
