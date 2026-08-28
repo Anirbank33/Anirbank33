@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="120" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Outer 3D Cyan/Violet Diamond Rim -->
+    <radialGradient id="voyRim" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#a5f3fc"/>
+      <stop offset="35%" stop-color="#06b6d4"/>
+      <stop offset="70%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </radialGradient>
+
+    <!-- Inner Cosmic Dial -->
+    <radialGradient id="voyDial" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#082f49"/>
+      <stop offset="60%" stop-color="#021324"/>
+      <stop offset="100%" stop-color="#01060e"/>
+    </radialGradient>
+
+    <filter id="voy3dShadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <filter id="voyGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#voy3dShadow)">
+    <!-- Base 3D Coin Outer Bevel -->
+    <circle cx="60" cy="56" r="48" fill="url(#voyRim)"/>
+    <ellipse cx="60" cy="14" rx="22" ry="4" fill="#ffffff" opacity="0.4"/>
+
+    <!-- Inner Recessed Dial -->
+    <circle cx="60" cy="56" r="41" fill="url(#voyDial)" stroke="#00f0ff" stroke-width="1.2"/>
+    <!-- Orbit Rings -->
+    <circle cx="60" cy="56" r="35" fill="none" stroke="#0284c7" stroke-width="0.8" stroke-dasharray="3,3"/>
+
+    <!-- Background Stars -->
+    <circle cx="40" cy="38" r="1" fill="#ffffff" opacity="0.8"/>
+    <circle cx="78" cy="42" r="1.2" fill="#38bdf8" opacity="0.9"/>
+    <circle cx="48" cy="68" r="0.8" fill="#ffffff" opacity="0.6"/>
+    <circle cx="74" cy="66" r="1" fill="#a855f7" opacity="0.8"/>
+
+    <!-- 3D Rocket / Starship Cruising Through Velocity Surge -->
+    <g transform="translate(44, 30)">
+      <!-- Jet Thrust Flame -->
+      <polygon points="16,36 12,46 16,42 20,46" fill="#f97316" filter="url(#voyGlow)">
+        <animate attributeName="points" values="16,36 12,46 16,42 20,46; 16,36 10,50 16,44 22,50; 16,36 12,46 16,42 20,46" dur="0.3s" repeatCount="indefinite"/>
+      </polygon>
+      <polygon points="16,36 14,42 16,40 18,42" fill="#fef08a"/>
+
+      <!-- Rocket Body -->
+      <path d="M16,6 C10,14 8,28 10,36 L22,36 C24,28 22,14 16,6 Z" fill="#f8fafc" stroke="#38bdf8" stroke-width="1.2"/>
+      <!-- Rocket Cockpit Window -->
+      <circle cx="16" cy="19" r="4" fill="#0284c7" stroke="#00f0ff" stroke-width="1" filter="url(#voyGlow)"/>
+      <circle cx="17.2" cy="17.8" r="1.2" fill="#ffffff"/>
+
+      <!-- Left Wing -->
+      <polygon points="8,26 1,35 9,35" fill="#0284c7"/>
+      <!-- Right Wing -->
+      <polygon points="24,26 31,35 23,35" fill="#0284c7"/>
+    </g>
+
+    <!-- 3D Banner Ribbon at bottom -->
+    <g transform="translate(12, 86)">
+      <polygon points="0,6 10,0 8,14" fill="#0c4a6e"/>
+      <polygon points="96,6 86,0 88,14" fill="#0c4a6e"/>
+      <rect x="6" y="0" width="84" height="17" rx="3" fill="url(#voyRim)" stroke="#0c4a6e" stroke-width="0.8"/>
+      <text x="48" y="12" text-anchor="middle" fill="#082f49" font-family="'JetBrains Mono', sans-serif" font-size="7.5" font-weight="900" letter-spacing="0.5">
+        CODE VOYAGER
+      </text>
+    </g>
+  </g>
+</svg>
