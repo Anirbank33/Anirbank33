@@ -2,14 +2,15 @@
   <defs>
     <linearGradient id="trkCmpBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
-      <stop offset="50%" stop-color="#fdf2f8" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#fce7f3" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#f8fafc" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f1f5f9" stop-opacity="0.95"/>
     </linearGradient>
 
     <linearGradient id="trkCmpBorderLight" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#db2777" stop-opacity="0.75"/>
-      <stop offset="40%" stop-color="#ec4899" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.25"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#cbd5e1" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#94a3b8" stop-opacity="0.4"/>
     </linearGradient>
 
     <linearGradient id="trkCmpSheenLight" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -19,9 +20,9 @@
     </linearGradient>
 
     <linearGradient id="trkCmpShimmerLight" x1="-100%" y1="0%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#db2777" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#db2777" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#db2777" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
       <animate attributeName="x1" values="-100%;220%" dur="7.8s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="0%;320%" dur="7.8s" repeatCount="indefinite"/>
     </linearGradient>
@@ -31,29 +32,29 @@
     </filter>
 
     <linearGradient id="eqCmpGradLt" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#be185d"/>
-      <stop offset="60%" stop-color="#db2777"/>
-      <stop offset="100%" stop-color="#f59e0b"/>
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="70%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#ffffff"/>
     </linearGradient>
   </defs>
 
-  <circle cx="45" cy="50" r="40" fill="#f472b6" opacity="0.2" filter="url(#trkCmpOrbLight)">
+  <circle cx="45" cy="50" r="40" fill="#ffffff" opacity="0.5" filter="url(#trkCmpOrbLight)">
     <animate attributeName="cx" values="45;70;45" dur="7.5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="130" cy="190" r="45" fill="#fb7185" opacity="0.18" filter="url(#trkCmpOrbLight)">
+  <circle cx="130" cy="190" r="45" fill="#e0f2fe" opacity="0.4" filter="url(#trkCmpOrbLight)">
     <animate attributeName="cy" values="190;160;190" dur="8s" repeatCount="indefinite"/>
   </circle>
 
   <rect x="2" y="2" width="166" height="276" rx="14" fill="url(#trkCmpBgLight)" stroke="url(#trkCmpBorderLight)" stroke-width="1.4"/>
   <rect x="2" y="2" width="166" height="276" rx="14" fill="url(#trkCmpSheenLight)"/>
   <rect x="2" y="2" width="166" height="276" rx="14" fill="url(#trkCmpShimmerLight)"/>
-  <line x1="14" y1="2" x2="156" y2="2" stroke="#db2777" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+  <line x1="14" y1="2" x2="156" y2="2" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.95"/>
 
   <!-- Category Tag -->
   <g transform="translate(10, 14)">
-    <rect x="0" y="0" width="150" height="18" rx="5" fill="#fdf2f8" stroke="#db2777" stroke-opacity="0.5" stroke-width="0.8"/>
-    <path d="M9,11 A2,2 0 1,1 7,9 L10,9 L10,5 L14,6 L14,8 L11,7.5 L11,11 Z" fill="#db2777"/>
-    <text x="18" y="12.5" fill="#9d174d" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="0.5">
+    <rect x="0" y="0" width="150" height="18" rx="5" fill="#0284c7" fill-opacity="0.1" stroke="#0284c7" stroke-opacity="0.4" stroke-width="0.8"/>
+    <path d="M9,11 A2,2 0 1,1 7,9 L10,9 L10,5 L14,6 L14,8 L11,7.5 L11,11 Z" fill="#0284c7"/>
+    <text x="18" y="12.5" fill="#0284c7" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="0.5">
       WEB AUDIO DSP
     </text>
   </g>
@@ -62,7 +63,7 @@
   <text x="10" y="48" fill="#0f172a" font-family="'JetBrains Mono', 'Segoe UI', sans-serif" font-size="12.5" font-weight="800" letter-spacing="0.2">
     Cool-tracks-90s
   </text>
-  <text x="10" y="62" fill="#db2777" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">
+  <text x="10" y="62" fill="#0284c7" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">
     Bollywood Streaming
   </text>
 
@@ -73,28 +74,28 @@
 
   <!-- ANIMATED AUDIO EQUALIZER HUD -->
   <g transform="translate(10, 88)">
-    <rect x="0" y="0" width="150" height="78" rx="8" fill="#ffffff" fill-opacity="0.9" stroke="#cbd5e1" stroke-width="1"/>
+    <rect x="0" y="0" width="150" height="78" rx="8" fill="#ffffff" fill-opacity="0.92" stroke="#cbd5e1" stroke-width="1"/>
 
     <line x1="0" y1="18" x2="150" y2="18" stroke="#f1f5f9" stroke-width="0.8"/>
-    <text x="10" y="12" fill="#9d174d" font-family="'JetBrains Mono', monospace" font-size="7.5" font-weight="700">
+    <text x="10" y="12" fill="#334155" font-family="'JetBrains Mono', monospace" font-size="7.5" font-weight="700">
       NOW PLAYING
     </text>
-    <text x="142" y="12" text-anchor="end" fill="#be185d" font-family="'JetBrains Mono', monospace" font-size="7.5" font-weight="700">
+    <text x="142" y="12" text-anchor="end" fill="#0284c7" font-family="'JetBrains Mono', monospace" font-size="7.5" font-weight="700">
       44.1kHz
     </text>
 
-    <!-- Spinning Vinyl Record -->
+    <!-- Spinning Glass Record -->
     <g transform="translate(24, 46)">
       <g>
         <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="4.5s" repeatCount="indefinite"/>
-        <circle cx="0" cy="0" r="14" fill="#f8fafc" stroke="#db2777" stroke-width="1"/>
-        <circle cx="0" cy="0" r="9" fill="none" stroke="#cbd5e1" stroke-width="0.6" stroke-dasharray="1.5,1.5"/>
-        <circle cx="0" cy="0" r="4.5" fill="#db2777"/>
+        <circle cx="0" cy="0" r="14" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+        <circle cx="0" cy="0" r="9" fill="none" stroke="#94a3b8" stroke-width="0.6" stroke-dasharray="1.5,1.5"/>
+        <circle cx="0" cy="0" r="4.5" fill="#0284c7"/>
         <circle cx="0" cy="0" r="1.5" fill="#ffffff"/>
       </g>
     </g>
 
-    <!-- 6 Bars -->
+    <!-- 6 Jumping Equalizer Bars -->
     <rect x="48" y="34" width="12" height="24" rx="2" fill="url(#eqCmpGradLt)">
       <animate attributeName="height" values="10;26;12;22;10" dur="1.2s" repeatCount="indefinite"/>
       <animate attributeName="y" values="48;32;46;36;48" dur="1.2s" repeatCount="indefinite"/>
@@ -120,30 +121,30 @@
       <animate attributeName="y" values="32;44;30;40;32" dur="1.3s" repeatCount="indefinite"/>
     </rect>
 
-    <text x="75" y="70" text-anchor="middle" fill="#9d174d" font-family="'JetBrains Mono', monospace" font-size="7.5" font-weight="600">
+    <text x="75" y="70" text-anchor="middle" fill="#475569" font-family="'JetBrains Mono', monospace" font-size="7.5" font-weight="600">
       HQ STEREO • 24-BIT
     </text>
   </g>
 
   <!-- TECH BADGES -->
   <g transform="translate(10, 178)">
-    <rect x="0" y="0" width="70" height="18" rx="4" fill="#fdf2f8" stroke="#db2777" stroke-opacity="0.4" stroke-width="0.8"/>
-    <text x="35" y="12.5" text-anchor="middle" fill="#9d174d" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">TypeScript</text>
+    <rect x="0" y="0" width="70" height="18" rx="4" fill="#ffffff" fill-opacity="0.8" stroke="#cbd5e1" stroke-width="0.8"/>
+    <text x="35" y="12.5" text-anchor="middle" fill="#0f172a" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">TypeScript</text>
 
-    <rect x="76" y="0" width="74" height="18" rx="4" fill="#fdf2f8" stroke="#db2777" stroke-opacity="0.4" stroke-width="0.8"/>
-    <text x="113" y="12.5" text-anchor="middle" fill="#9d174d" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">Web Audio</text>
+    <rect x="76" y="0" width="74" height="18" rx="4" fill="#ffffff" fill-opacity="0.8" stroke="#cbd5e1" stroke-width="0.8"/>
+    <text x="113" y="12.5" text-anchor="middle" fill="#0f172a" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">Web Audio</text>
 
-    <rect x="0" y="24" width="78" height="18" rx="4" fill="#fdf2f8" stroke="#db2777" stroke-opacity="0.4" stroke-width="0.8"/>
-    <text x="39" y="36.5" text-anchor="middle" fill="#9d174d" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">Glassmorphism</text>
+    <rect x="0" y="24" width="78" height="18" rx="4" fill="#ffffff" fill-opacity="0.8" stroke="#cbd5e1" stroke-width="0.8"/>
+    <text x="39" y="36.5" text-anchor="middle" fill="#0f172a" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">Glassmorphism</text>
 
-    <rect x="84" y="24" width="66" height="18" rx="4" fill="#fdf2f8" stroke="#db2777" stroke-opacity="0.4" stroke-width="0.8"/>
-    <text x="117" y="36.5" text-anchor="middle" fill="#9d174d" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">HTML5 Audio</text>
+    <rect x="84" y="24" width="66" height="18" rx="4" fill="#ffffff" fill-opacity="0.8" stroke="#cbd5e1" stroke-width="0.8"/>
+    <text x="117" y="36.5" text-anchor="middle" fill="#0f172a" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">HTML5 Audio</text>
   </g>
 
   <!-- Bottom CTA Pill -->
   <g transform="translate(10, 248)">
-    <rect x="0" y="0" width="150" height="22" rx="11" fill="#db2777" fill-opacity="0.14" stroke="#db2777" stroke-width="1.1"/>
-    <text x="75" y="15" text-anchor="middle" fill="#9d174d" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" letter-spacing="0.4">
+    <rect x="0" y="0" width="150" height="22" rx="11" fill="#ffffff" fill-opacity="0.9" stroke="#0284c7" stroke-width="1.1"/>
+    <text x="75" y="15" text-anchor="middle" fill="#0284c7" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" letter-spacing="0.4">
       ⚡ STREAM AUDIO ↗
     </text>
   </g>
