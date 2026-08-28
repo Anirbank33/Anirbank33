@@ -34,6 +34,11 @@
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
     }
+    @media (prefers-color-scheme: light) {
+      .name-title { fill: #0f172a; }
+      .role-text { fill: #0284c7; }
+      .cursor { fill: #0284c7; }
+    }
     @keyframes slideRole1 {
       0%, 21% { opacity: 1; transform: translateY(0); }
       24% { opacity: 0; transform: translateY(-8px); }

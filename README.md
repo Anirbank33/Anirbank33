@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation-light.svg" />
-    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation.svg" width="100%" alt="Anirban Kar — Backend Software Engineer" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation.svg?v=1" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation-light.svg?v=1" />
+    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation.svg?v=1" width="100%" alt="Anirban Kar — Backend Software Engineer" />
   </picture>
   <p>
     <sub>📍 Bengaluru, Karnataka, India &nbsp;•&nbsp; <font color="#059669">● Open to Engineering Opportunities</font> &nbsp;•&nbsp; Remote &amp; Hybrid</sub>
