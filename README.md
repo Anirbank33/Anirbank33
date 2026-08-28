@@ -1,9 +1,9 @@
 <div align="center">
-  <h1>Anirban Kar</h1>
-  <p>
-    <b><font color="#0284c7">Backend Software Engineer</font></b> &nbsp;·&nbsp;
-    <b>Java · Spring Boot · Microservices · Distributed Systems · REST APIs</b>
-  </p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation-light.svg" />
+    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation.svg" width="100%" alt="Anirban Kar — Backend Software Engineer" />
+  </picture>
   <p>
     <sub>📍 Bengaluru, Karnataka, India &nbsp;•&nbsp; <font color="#059669">● Open to Engineering Opportunities</font> &nbsp;•&nbsp; Remote &amp; Hybrid</sub>
   </p>
