@@ -84,9 +84,9 @@
 <!-- Featured Engineering Projects (Single-Line Compact Glassmorphism) -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/featured-projects-header.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/featured-projects-header-light.svg" />
-    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/featured-projects-header.svg" width="100%" alt="Featured Projects &amp; Labs" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/featured-projects-header.svg?v=bw2" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/featured-projects-header-light.svg?v=bw2" />
+    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/featured-projects-header.svg?v=bw2" width="100%" alt="Featured Projects &amp; Labs" />
   </picture>
 </div>
 
@@ -98,45 +98,45 @@
       <td width="20%" align="center">
         <a href="https://github.com/Anirbank33/github-activity-2021-2026" target="_blank">
           <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-github-activity.svg" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-github-activity-light.svg" />
-            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-github-activity.svg" width="100%" alt="github-activity-2021-2026" />
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-github-activity.svg?v=bw2" />
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-github-activity-light.svg?v=bw2" />
+            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-github-activity.svg?v=bw2" width="100%" alt="github-activity-2021-2026" />
           </picture>
         </a>
       </td>
       <td width="20%" align="center">
         <a href="https://github.com/Anirbank33/medical-department-tracker" target="_blank">
           <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-medical-tracker.svg" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-medical-tracker-light.svg" />
-            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-medical-tracker.svg" width="100%" alt="medical-department-tracker" />
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-medical-tracker.svg?v=bw2" />
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-medical-tracker-light.svg?v=bw2" />
+            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-medical-tracker.svg?v=bw2" width="100%" alt="medical-department-tracker" />
           </picture>
         </a>
       </td>
       <td width="20%" align="center">
         <a href="https://github.com/Anirbank33/backend-demo" target="_blank">
           <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-backend-demo.svg" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-backend-demo-light.svg" />
-            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-backend-demo.svg" width="100%" alt="backend-demo" />
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-backend-demo.svg?v=bw2" />
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-backend-demo-light.svg?v=bw2" />
+            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-backend-demo.svg?v=bw2" width="100%" alt="backend-demo" />
           </picture>
         </a>
       </td>
       <td width="20%" align="center">
         <a href="https://github.com/Anirbank33/Cool-tracks-form-90-s" target="_blank">
           <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-cool-tracks.svg" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-cool-tracks-light.svg" />
-            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-cool-tracks.svg" width="100%" alt="Cool-tracks-form-90-s" />
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-cool-tracks.svg?v=bw2" />
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-cool-tracks-light.svg?v=bw2" />
+            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-cool-tracks.svg?v=bw2" width="100%" alt="Cool-tracks-form-90-s" />
           </picture>
         </a>
       </td>
       <td width="20%" align="center">
         <a href="https://github.com/Anirbank33/java-core-troubleshooting" target="_blank">
           <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-java-troubleshooting.svg" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-java-troubleshooting-light.svg" />
-            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-java-troubleshooting.svg" width="100%" alt="java-core-troubleshooting" />
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-java-troubleshooting.svg?v=bw2" />
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-java-troubleshooting-light.svg?v=bw2" />
+            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-java-troubleshooting.svg?v=bw2" width="100%" alt="java-core-troubleshooting" />
           </picture>
         </a>
       </td>
@@ -144,15 +144,15 @@
   </table>
   <p>
     <sub>
-      <b><a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank"><font color="#0284c7">⚡ Activity Live Demo ↗</font></a></b>
+      <b><a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank">⚡ Activity Live Demo ↗</a></b>
       &nbsp;&nbsp;•&nbsp;&nbsp;
-      <b><a href="https://github.com/Anirbank33/medical-department-tracker" target="_blank"><font color="#059669">🏥 Clinical Tracker ↗</font></a></b>
+      <b><a href="https://github.com/Anirbank33/medical-department-tracker" target="_blank">🏥 Clinical Tracker ↗</a></b>
       &nbsp;&nbsp;•&nbsp;&nbsp;
-      <b><a href="https://github.com/Anirbank33/backend-demo" target="_blank"><font color="#7c3aed">🚀 Modular REST API ↗</font></a></b>
+      <b><a href="https://github.com/Anirbank33/backend-demo" target="_blank">🚀 Modular REST API ↗</a></b>
       &nbsp;&nbsp;•&nbsp;&nbsp;
-      <b><a href="https://github.com/Anirbank33/Cool-tracks-form-90-s" target="_blank"><font color="#db2777">🎵 90s Web Audio ↗</font></a></b>
+      <b><a href="https://github.com/Anirbank33/Cool-tracks-form-90-s" target="_blank">🎵 90s Web Audio ↗</a></b>
       &nbsp;&nbsp;•&nbsp;&nbsp;
-      <b><a href="https://github.com/Anirbank33/java-core-troubleshooting" target="_blank"><font color="#d97706">☕ JVM Concurrency ↗</font></a></b>
+      <b><a href="https://github.com/Anirbank33/java-core-troubleshooting" target="_blank">☕ JVM Concurrency ↗</a></b>
     </sub>
   </p>
 </div>
