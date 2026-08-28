@@ -1,4 +1,32 @@
 <div align="center">
+  <h1>Anirban Kar</h1>
+  <p>
+    <b><font color="#0284c7">Backend Software Engineer</font></b> &nbsp;·&nbsp;
+    <b>Java · Spring Boot · Microservices · Distributed Systems · REST APIs</b>
+  </p>
+  <p>
+    <sub>📍 Bengaluru, Karnataka, India &nbsp;•&nbsp; <font color="#059669">● Open to Engineering Opportunities</font> &nbsp;•&nbsp; Remote &amp; Hybrid</sub>
+  </p>
+
+  <p>
+    <a href="https://www.linkedin.com/in/anirban-kar-23645414a/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    &nbsp;
+    <a href="mailto:anirbankar23@gmail.com">
+      <img src="https://img.shields.io/badge/Email-Get%20in%20Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/Anirbank33?tab=repositories">
+      <img src="https://img.shields.io/badge/GitHub-23%20Repos-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
+    </a>
+  </p>
+</div>
+
+<br/>
+
+<!-- Skills Stream Animation -->
+<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/backend-skills-stream.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/backend-skills-stream-light.svg" />
@@ -8,67 +36,7 @@
 
 <br/>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph.svg" />
-    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph-dark.svg" width="100%" alt="Puzzle Bobble contribution game" />
-  </picture>
-</div>
-
-<div align="center">
-  <details>
-    <summary><b>🕹️ ARCADE MATRIX &nbsp;·&nbsp; <font color="#0284c7">Snake</font> &nbsp;•&nbsp; <font color="#d946ef">Pac-Man</font> &nbsp;•&nbsp; <font color="#8b5cf6">Galaga</font> &nbsp;•&nbsp; <font color="#d97706">Breakout</font> &nbsp;•&nbsp; <font color="#059669">Bomberman</font></b></summary>
-    <br/>
-    <table align="center">
-      <tr>
-        <td align="center">
-          <b>🐍 Snake</b><br/>
-          <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/github-contribution-grid-snake.svg" width="430" alt="Snake" />
-        </td>
-        <td align="center">
-          <b>🟡 Pac-Man</b><br/>
-          <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/pacman-contribution-graph-dark.svg" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/pacman-contribution-graph.svg" />
-            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/pacman-contribution-graph-dark.svg" width="430" alt="Pac-Man" />
-          </picture>
-        </td>
-      </tr>
-      <tr>
-        <td align="center">
-          <b>🚀 Galaga</b><br/>
-          <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph-dark.svg" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph.svg" />
-            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph-dark.svg" width="430" alt="Galaga" />
-          </picture>
-        </td>
-        <td align="center">
-          <b>🧱 Breakout</b><br/>
-          <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/breakout-contribution-graph-dark.svg" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/breakout-contribution-graph.svg" />
-            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/breakout-contribution-graph-dark.svg" width="430" alt="Breakout" />
-          </picture>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2" align="center">
-          <b>💣 Bomberman</b><br/>
-          <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/bomberman-contribution-graph-dark.svg" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/bomberman-contribution-graph.svg" />
-            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/bomberman-contribution-graph-dark.svg" width="430" alt="Bomberman" />
-          </picture>
-        </td>
-      </tr>
-    </table>
-  </details>
-</div>
-
-<br/>
-
+<!-- Terminal Profile Card (Dual Theme) -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/dark_mode.svg" />
@@ -79,6 +47,7 @@
 
 <br/>
 
+<!-- 3D Distributed Systems Architecture Pipeline -->
 <div align="center">
   <table>
     <tr align="center" valign="middle">
@@ -112,27 +81,7 @@
 
 <br/>
 
-<div align="center">
-  <a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/activity-preview.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/activity-preview-light.svg" />
-      <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/activity-preview.svg" width="100%" alt="GitHub Activity Dashboard 2021-2026" />
-    </picture>
-  </a>
-  <p>
-    <sub>
-      <b><a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank"><font color="#0284c7">⚡ Open Live Dashboard ↗</font></a></b>
-      &nbsp;&nbsp;•&nbsp;&nbsp;
-      <b><a href="https://github.com/Anirbank33/github-activity-2021-2026" target="_blank"><font color="#d946ef">📦 Activity Repo ↗</font></a></b>
-      &nbsp;&nbsp;•&nbsp;&nbsp;
-      <b><a href="https://github.com/Anirbank33/Anirbank33/blob/main/github-activity-2021-2026.html" target="_blank"><font color="#059669">📄 Direct Source ↗</font></a></b>
-    </sub>
-  </p>
-</div>
-
-<br/>
-
+<!-- Featured Engineering Projects (Single-Line Compact Glassmorphism) -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/featured-projects-header.svg" />
@@ -210,6 +159,29 @@
 
 <br/>
 
+<!-- Engineering Activity Telemetry -->
+<div align="center">
+  <a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/activity-preview.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/activity-preview-light.svg" />
+      <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/activity-preview.svg" width="100%" alt="GitHub Activity Dashboard 2021-2026" />
+    </picture>
+  </a>
+  <p>
+    <sub>
+      <b><a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank"><font color="#0284c7">⚡ Open Live Dashboard ↗</font></a></b>
+      &nbsp;&nbsp;•&nbsp;&nbsp;
+      <b><a href="https://github.com/Anirbank33/github-activity-2021-2026" target="_blank"><font color="#d946ef">📦 Activity Repo ↗</font></a></b>
+      &nbsp;&nbsp;•&nbsp;&nbsp;
+      <b><a href="https://github.com/Anirbank33/Anirbank33/blob/main/github-activity-2021-2026.html" target="_blank"><font color="#059669">📄 Direct Source ↗</font></a></b>
+    </sub>
+  </p>
+</div>
+
+<br/>
+
+<!-- Moving Tech Stack Stream -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/skills-icons-moving.svg" />
@@ -220,6 +192,33 @@
 
 <br/>
 
+<!-- Recruiter Tech Competency Matrix -->
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="8" width="100%">
+    <tr>
+      <td width="25%" align="center">
+        <b><font color="#0284c7">☕ Core Languages</font></b><br/>
+        <sub>Java (17/21) · TypeScript · JavaScript · SQL</sub>
+      </td>
+      <td width="25%" align="center">
+        <b><font color="#059669">⚙️ Backend &amp; APIs</font></b><br/>
+        <sub>Spring Boot · Node.js · Express · REST · Microservices</sub>
+      </td>
+      <td width="25%" align="center">
+        <b><font color="#7c3aed">🗄️ Persistence</font></b><br/>
+        <sub>PostgreSQL · MySQL · MongoDB · Redis Caching</sub>
+      </td>
+      <td width="25%" align="center">
+        <b><font color="#d97706">🚀 Architecture &amp; Ops</font></b><br/>
+        <sub>Docker · Concurrency · Git CI/CD · Distributed Systems</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<!-- GitHub Metrics & Language Distribution -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ghstats.vercel.app/api?username=Anirbank33&show_icons=true&theme=transparent&hide_border=true&title_color=00F0FF&icon_color=EC4899&text_color=C9D1D9&rank_icon=github" />
@@ -234,7 +233,75 @@
   </picture>
 </div>
 
+<br/>
+
+<!-- Interactive Playgrounds & Contribution Games (All Games Intact) -->
 <div align="center">
+  <details>
+    <summary><b>🕹️ INTERACTIVE PLAYGROUNDS &amp; CONTRIBUTION GAMES &nbsp;·&nbsp; <font color="#0284c7">Puzzle Bobble</font> &nbsp;•&nbsp; <font color="#d946ef">Snake</font> &nbsp;•&nbsp; <font color="#8b5cf6">Pac-Man</font> &nbsp;•&nbsp; <font color="#d97706">Galaga</font> &nbsp;•&nbsp; <font color="#059669">Breakout</font> &nbsp;•&nbsp; <font color="#f43f5e">Bomberman</font></b></summary>
+    <br/>
+    <p><sub>Interactive contribution games generated dynamically from real GitHub commit telemetry.</sub></p>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph.svg" />
+      <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/puzzle-bobble-contribution-graph-dark.svg" width="100%" alt="Puzzle Bobble contribution game" />
+    </picture>
+    <br/><br/>
+    <table align="center">
+      <tr>
+        <td align="center">
+          <b>🐍 Snake</b><br/>
+          <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/github-contribution-grid-snake.svg" width="430" alt="Snake" />
+        </td>
+        <td align="center">
+          <b>🟡 Pac-Man</b><br/>
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/pacman-contribution-graph-dark.svg" />
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/pacman-contribution-graph.svg" />
+            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/pacman-contribution-graph-dark.svg" width="430" alt="Pac-Man" />
+          </picture>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <b>🚀 Galaga</b><br/>
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph-dark.svg" />
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph.svg" />
+            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/galaga-contribution-graph-dark.svg" width="430" alt="Galaga" />
+          </picture>
+        </td>
+        <td align="center">
+          <b>🧱 Breakout</b><br/>
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/breakout-contribution-graph-dark.svg" />
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/breakout-contribution-graph.svg" />
+            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/breakout-contribution-graph-dark.svg" width="430" alt="Breakout" />
+          </picture>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <b>💣 Bomberman</b><br/>
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/bomberman-contribution-graph-dark.svg" />
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/bomberman-contribution-graph.svg" />
+            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/output/bomberman-contribution-graph-dark.svg" width="430" alt="Bomberman" />
+          </picture>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+<br/>
+
+<!-- Footer Connect -->
+<div align="center">
+  <p>
+    <b>Let's build reliable distributed systems together.</b><br/>
+    <sub>Open to Backend Engineering, Distributed Architecture &amp; Cloud API opportunities.</sub>
+  </p>
   <a href="https://www.linkedin.com/in/anirban-kar-23645414a/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
