@@ -36,162 +36,6 @@
 
 <br/>
 
-<!-- Terminal Profile Card (Dual Theme) -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/dark_mode.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/light_mode.svg" />
-    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/light_mode.svg" alt="Anirban Kar — GitHub profile" width="100%" />
-  </picture>
-</div>
-
-<br/>
-
-<!-- 3D Distributed Systems Architecture Pipeline -->
-<div align="center">
-  <table>
-    <tr align="center" valign="middle">
-      <td align="center" width="22%">
-        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/java-coffee.svg" width="140" alt="3D Client Node" />
-        <br />
-        <font color="#0284c7"><b>01 / CLIENT</b></font>
-      </td>
-      <td align="center" width="4%"><font color="#6366f1"><b>➜</b></font></td>
-      <td align="center" width="22%">
-        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/server-animation.svg" width="140" alt="3D API Gateway" />
-        <br />
-        <font color="#d946ef"><b>02 / GATEWAY</b></font>
-      </td>
-      <td align="center" width="4%"><font color="#8b5cf6"><b>➜</b></font></td>
-      <td align="center" width="22%">
-        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/database-animation.svg" width="140" alt="3D Database Engine" />
-        <br />
-        <font color="#059669"><b>03 / DATABASE</b></font>
-      </td>
-      <td align="center" width="4%"><font color="#14b8a6"><b>➜</b></font></td>
-      <td align="center" width="22%">
-        <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/terminal-animation.svg" width="140" alt="3D Terminal &amp; Metrics" />
-        <br />
-        <font color="#d97706"><b>04 / TELEMETRY</b></font>
-      </td>
-    </tr>
-  </table>
-  <p><sub><code><font color="#0284c7">Client Ingress</font> ──► <font color="#d946ef">Spring Gateway</font> ──► <font color="#059669">Distributed Persistence</font> ──► <font color="#d97706">Live Metrics</font></code></sub></p>
-</div>
-
-<br/>
-
-<!-- Featured Engineering Projects (Single-Line Compact Glassmorphism) -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/featured-projects-header.svg?v=bw2" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/featured-projects-header-light.svg?v=bw2" />
-    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/featured-projects-header.svg?v=bw2" width="100%" alt="Featured Projects &amp; Labs" />
-  </picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <table border="0" cellpadding="0" cellspacing="6" width="100%">
-    <tr>
-      <td width="20%" align="center">
-        <a href="https://github.com/Anirbank33/github-activity-2021-2026" target="_blank">
-          <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-github-activity.svg?v=bw2" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-github-activity-light.svg?v=bw2" />
-            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-github-activity.svg?v=bw2" width="100%" alt="github-activity-2021-2026" />
-          </picture>
-        </a>
-      </td>
-      <td width="20%" align="center">
-        <a href="https://github.com/Anirbank33/medical-department-tracker" target="_blank">
-          <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-medical-tracker.svg?v=bw2" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-medical-tracker-light.svg?v=bw2" />
-            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-medical-tracker.svg?v=bw2" width="100%" alt="medical-department-tracker" />
-          </picture>
-        </a>
-      </td>
-      <td width="20%" align="center">
-        <a href="https://github.com/Anirbank33/backend-demo" target="_blank">
-          <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-backend-demo.svg?v=bw2" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-backend-demo-light.svg?v=bw2" />
-            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-backend-demo.svg?v=bw2" width="100%" alt="backend-demo" />
-          </picture>
-        </a>
-      </td>
-      <td width="20%" align="center">
-        <a href="https://github.com/Anirbank33/Cool-tracks-form-90-s" target="_blank">
-          <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-cool-tracks.svg?v=bw2" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-cool-tracks-light.svg?v=bw2" />
-            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-cool-tracks.svg?v=bw2" width="100%" alt="Cool-tracks-form-90-s" />
-          </picture>
-        </a>
-      </td>
-      <td width="20%" align="center">
-        <a href="https://github.com/Anirbank33/java-core-troubleshooting" target="_blank">
-          <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-java-troubleshooting.svg?v=bw2" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-java-troubleshooting-light.svg?v=bw2" />
-            <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/project-card-java-troubleshooting.svg?v=bw2" width="100%" alt="java-core-troubleshooting" />
-          </picture>
-        </a>
-      </td>
-    </tr>
-  </table>
-  <p>
-    <sub>
-      <b><a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank">⚡ Activity Live Demo ↗</a></b>
-      &nbsp;&nbsp;•&nbsp;&nbsp;
-      <b><a href="https://github.com/Anirbank33/medical-department-tracker" target="_blank">🏥 Clinical Tracker ↗</a></b>
-      &nbsp;&nbsp;•&nbsp;&nbsp;
-      <b><a href="https://github.com/Anirbank33/backend-demo" target="_blank">🚀 Modular REST API ↗</a></b>
-      &nbsp;&nbsp;•&nbsp;&nbsp;
-      <b><a href="https://github.com/Anirbank33/Cool-tracks-form-90-s" target="_blank">🎵 90s Web Audio ↗</a></b>
-      &nbsp;&nbsp;•&nbsp;&nbsp;
-      <b><a href="https://github.com/Anirbank33/java-core-troubleshooting" target="_blank">☕ JVM Concurrency ↗</a></b>
-    </sub>
-  </p>
-</div>
-
-<br/>
-
-<!-- Engineering Activity Telemetry -->
-<div align="center">
-  <a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/activity-preview.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/activity-preview-light.svg" />
-      <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/activity-preview.svg" width="100%" alt="GitHub Activity Dashboard 2021-2026" />
-    </picture>
-  </a>
-  <p>
-    <sub>
-      <b><a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank"><font color="#0284c7">⚡ Open Live Dashboard ↗</font></a></b>
-      &nbsp;&nbsp;•&nbsp;&nbsp;
-      <b><a href="https://github.com/Anirbank33/github-activity-2021-2026" target="_blank"><font color="#d946ef">📦 Activity Repo ↗</font></a></b>
-      &nbsp;&nbsp;•&nbsp;&nbsp;
-      <b><a href="https://github.com/Anirbank33/Anirbank33/blob/main/github-activity-2021-2026.html" target="_blank"><font color="#059669">📄 Direct Source ↗</font></a></b>
-    </sub>
-  </p>
-</div>
-
-<br/>
-
-<!-- Moving Tech Stack Stream -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/skills-icons-moving.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/skills-icons-moving-light.svg" />
-    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/skills-icons-moving.svg" width="100%" alt="Tech Stack Icons Moving Stream" />
-  </picture>
-</div>
-
-<br/>
-
 <!-- Recruiter Tech Competency Matrix -->
 <div align="center">
   <table border="0" cellpadding="0" cellspacing="8" width="100%">
@@ -218,19 +62,81 @@
 
 <br/>
 
-<!-- GitHub Metrics & Language Distribution -->
+<!-- Featured Engineering Projects -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ghstats.vercel.app/api?username=Anirbank33&show_icons=true&theme=transparent&hide_border=true&title_color=00F0FF&icon_color=EC4899&text_color=C9D1D9&rank_icon=github" />
-    <source media="(prefers-color-scheme: light)" srcset="https://ghstats.vercel.app/api?username=Anirbank33&show_icons=true&theme=transparent&hide_border=true&title_color=0284C7&icon_color=DB2777&text_color=334155&rank_icon=github" />
-    <img height="155" src="https://ghstats.vercel.app/api?username=Anirbank33&show_icons=true&theme=transparent&hide_border=true&title_color=00F0FF&icon_color=EC4899&text_color=C9D1D9&rank_icon=github" alt="GitHub stats" />
-  </picture>
-  &nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ghstats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=transparent&hide_border=true&title_color=00F0FF&text_color=C9D1D9&langs_count=6" />
-    <source media="(prefers-color-scheme: light)" srcset="https://ghstats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=transparent&hide_border=true&title_color=0284C7&text_color=334155&langs_count=6" />
-    <img height="155" src="https://ghstats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=transparent&hide_border=true&title_color=00F0FF&text_color=C9D1D9&langs_count=6" alt="Top languages" />
-  </picture>
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <thead>
+      <tr align="left">
+        <th width="32%"><b>Project</b></th>
+        <th width="28%"><b>Tech Stack</b></th>
+        <th width="40%"><b>Focus &amp; Architecture</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <b><a href="https://github.com/Anirbank33/github-activity-2021-2026">⚡ GitHub Activity Telemetry</a></b><br/>
+          <sub><a href="https://anirbank33.github.io/github-activity-2021-2026/">[Live Demo ↗]</a> · <a href="https://github.com/Anirbank33/github-activity-2021-2026">[Repo ↗]</a></sub>
+        </td>
+        <td><code>JavaScript</code> <code>Canvas</code> <code>REST</code></td>
+        <td>Multi-year commit analytics &amp; interactive telemetry visualizer</td>
+      </tr>
+      <tr>
+        <td>
+          <b><a href="https://github.com/Anirbank33/medical-department-tracker">🏥 Medical Department Tracker</a></b><br/>
+          <sub><a href="https://github.com/Anirbank33/medical-department-tracker">[Repo ↗]</a></sub>
+        </td>
+        <td><code>Java 17</code> <code>Spring Boot</code> <code>MySQL</code></td>
+        <td>Clinical ward triage system &amp; patient department workflow queue</td>
+      </tr>
+      <tr>
+        <td>
+          <b><a href="https://github.com/Anirbank33/backend-demo">🚀 Modular REST Backend</a></b><br/>
+          <sub><a href="https://github.com/Anirbank33/backend-demo">[Repo ↗]</a></sub>
+        </td>
+        <td><code>Node.js</code> <code>Express</code> <code>REST APIs</code></td>
+        <td>Modular service architecture with JWT auth &amp; request validation</td>
+      </tr>
+      <tr>
+        <td>
+          <b><a href="https://github.com/Anirbank33/Cool-tracks-form-90-s">🎵 90s Web Audio Studio</a></b><br/>
+          <sub><a href="https://github.com/Anirbank33/Cool-tracks-form-90-s">[Repo ↗]</a></sub>
+        </td>
+        <td><code>JavaScript</code> <code>Web Audio</code> <code>CSS</code></td>
+        <td>Retro workstation &amp; interactive waveform playback engine</td>
+      </tr>
+      <tr>
+        <td>
+          <b><a href="https://github.com/Anirbank33/java-core-troubleshooting">☕ JVM Concurrency &amp; Diagnostics</a></b><br/>
+          <sub><a href="https://github.com/Anirbank33/java-core-troubleshooting">[Repo ↗]</a></sub>
+        </td>
+        <td><code>Java 21</code> <code>JVM</code> <code>Concurrency</code></td>
+        <td>Multithreading diagnostics, deadlock detection &amp; benchmark suite</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br/>
+
+<!-- Engineering Activity Telemetry -->
+<div align="center">
+  <a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/activity-preview.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/activity-preview-light.svg" />
+      <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/activity-preview.svg" width="100%" alt="GitHub Activity Dashboard 2021-2026" />
+    </picture>
+  </a>
+  <p>
+    <sub>
+      <b><a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank"><font color="#0284c7">⚡ Open Live Dashboard ↗</font></a></b>
+      &nbsp;&nbsp;•&nbsp;&nbsp;
+      <b><a href="https://github.com/Anirbank33/github-activity-2021-2026" target="_blank"><font color="#d946ef">📦 Activity Repo ↗</font></a></b>
+      &nbsp;&nbsp;•&nbsp;&nbsp;
+      <b><a href="https://github.com/Anirbank33/Anirbank33/blob/main/github-activity-2021-2026.html" target="_blank"><font color="#059669">📄 Direct Source ↗</font></a></b>
+    </sub>
+  </p>
 </div>
 
 <br/>
@@ -255,6 +161,23 @@
   <p>
     <sub><code><font color="#0284c7">Galaga Interceptor</font> ──► <font color="#d946ef">Alien Ingress Defense</font> ──► <font color="#059669">52-Week GitHub Commits</font> ──► <font color="#d97706">12h Live Telemetry</font></code></sub>
   </p>
+</div>
+
+<br/>
+
+<!-- GitHub Metrics & Language Distribution -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ghstats.vercel.app/api?username=Anirbank33&show_icons=true&theme=transparent&hide_border=true&title_color=00F0FF&icon_color=EC4899&text_color=C9D1D9&rank_icon=github" />
+    <source media="(prefers-color-scheme: light)" srcset="https://ghstats.vercel.app/api?username=Anirbank33&show_icons=true&theme=transparent&hide_border=true&title_color=0284C7&icon_color=DB2777&text_color=334155&rank_icon=github" />
+    <img height="155" src="https://ghstats.vercel.app/api?username=Anirbank33&show_icons=true&theme=transparent&hide_border=true&title_color=00F0FF&icon_color=EC4899&text_color=C9D1D9&rank_icon=github" alt="GitHub stats" />
+  </picture>
+  &nbsp;&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ghstats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=transparent&hide_border=true&title_color=00F0FF&text_color=C9D1D9&langs_count=6" />
+    <source media="(prefers-color-scheme: light)" srcset="https://ghstats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=transparent&hide_border=true&title_color=0284C7&text_color=334155&langs_count=6" />
+    <img height="155" src="https://ghstats.vercel.app/api/top-langs/?username=Anirbank33&layout=compact&theme=transparent&hide_border=true&title_color=00F0FF&text_color=C9D1D9&langs_count=6" alt="Top languages" />
+  </picture>
 </div>
 
 <br/>
