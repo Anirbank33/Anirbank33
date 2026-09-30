@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation.svg?v=1" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation-light.svg?v=1" />
-    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation.svg?v=1" width="100%" alt="Anirban Kar — Backend Software Engineer" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation.svg?v=js1" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation-light.svg?v=js1" />
+    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation.svg?v=js1" width="100%" alt="Anirban Kar — JavaScript &amp; Backend Software Engineer" />
   </picture>
   <p>
     <sub>📍 Bengaluru, Karnataka, India &nbsp;•&nbsp; <font color="#059669">● Open to Engineering Opportunities</font> &nbsp;•&nbsp; Remote &amp; Hybrid</sub>
@@ -28,9 +28,9 @@
 <!-- Skills Stream Animation -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/backend-skills-stream.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/backend-skills-stream-light.svg" />
-    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/backend-skills-stream.svg" width="100%" alt="Backend Developer Learning Journey &amp; Skills Stream" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/backend-skills-stream.svg?v=js1" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/backend-skills-stream-light.svg?v=js1" />
+    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/backend-skills-stream.svg?v=js1" width="100%" alt="JavaScript &amp; Backend Developer Skills Stream" />
   </picture>
 </div>
 
@@ -41,20 +41,20 @@
   <table border="0" cellpadding="0" cellspacing="8" width="100%">
     <tr>
       <td width="25%" align="center">
-        <b><font color="#0284c7">☕ Core Languages</font></b><br/>
-        <sub>Java (17/21) · TypeScript · JavaScript · SQL</sub>
+        <b><font color="#f59e0b">💛 JavaScript Ecosystem</font></b><br/>
+        <sub>JavaScript (ES6+) · TypeScript · Node.js · SQL</sub>
       </td>
       <td width="25%" align="center">
-        <b><font color="#059669">⚙️ Backend &amp; APIs</font></b><br/>
-        <sub>Spring Boot · Node.js · Express · REST · Microservices</sub>
+        <b><font color="#10b981">⚙️ Backend &amp; Runtimes</font></b><br/>
+        <sub>Node.js · Express · REST APIs · WebSockets · Microservices</sub>
       </td>
       <td width="25%" align="center">
-        <b><font color="#7c3aed">🗄️ Persistence</font></b><br/>
-        <sub>PostgreSQL · MySQL · MongoDB · Redis Caching</sub>
+        <b><font color="#8b5cf6">🗄️ Persistence &amp; Caching</font></b><br/>
+        <sub>PostgreSQL · MongoDB · Redis Caching · MySQL</sub>
       </td>
       <td width="25%" align="center">
-        <b><font color="#d97706">🚀 Architecture &amp; Ops</font></b><br/>
-        <sub>Docker · Concurrency · Git CI/CD · Distributed Systems</sub>
+        <b><font color="#06b6d4">🚀 Architecture &amp; Tooling</font></b><br/>
+        <sub>Docker · Async I/O · Git CI/CD · Distributed Systems</sub>
       </td>
     </tr>
   </table>
@@ -75,19 +75,19 @@
     <tbody>
       <tr>
         <td>
-          <b><a href="https://github.com/Anirbank33/github-activity-2021-2026">⚡ GitHub Activity Telemetry</a></b><br/>
-          <sub><a href="https://anirbank33.github.io/github-activity-2021-2026/">[Live Demo ↗]</a> · <a href="https://github.com/Anirbank33/github-activity-2021-2026">[Repo ↗]</a></sub>
+          <b><a href="https://github.com/Anirbank33/jarvis-ai-assistant">⚡ JARVIS Voice &amp; Vision AI</a></b><br/>
+          <sub><a href="https://github.com/Anirbank33/jarvis-ai-assistant">[Repo ↗]</a></sub>
         </td>
-        <td><code>JavaScript</code> <code>Canvas</code> <code>REST</code></td>
-        <td>Multi-year commit analytics &amp; interactive telemetry visualizer</td>
+        <td><code>TypeScript</code> <code>JavaScript</code> <code>Gemini AI</code></td>
+        <td>Futuristic AI voice assistant with real-time speech, vision &amp; telemetry</td>
       </tr>
       <tr>
         <td>
           <b><a href="https://github.com/Anirbank33/medical-department-tracker">🏥 Medical Department Tracker</a></b><br/>
           <sub><a href="https://github.com/Anirbank33/medical-department-tracker">[Repo ↗]</a></sub>
         </td>
-        <td><code>Java 17</code> <code>Spring Boot</code> <code>MySQL</code></td>
-        <td>Clinical ward triage system &amp; patient department workflow queue</td>
+        <td><code>React</code> <code>TypeScript</code> <code>Express</code></td>
+        <td>Wardline clinical operations tracker with patient department queue flow</td>
       </tr>
       <tr>
         <td>
@@ -99,19 +99,19 @@
       </tr>
       <tr>
         <td>
-          <b><a href="https://github.com/Anirbank33/Cool-tracks-form-90-s">🎵 90s Web Audio Studio</a></b><br/>
-          <sub><a href="https://github.com/Anirbank33/Cool-tracks-form-90-s">[Repo ↗]</a></sub>
+          <b><a href="https://github.com/Anirbank33/github-activity-2021-2026">📊 GitHub Activity Telemetry</a></b><br/>
+          <sub><a href="https://anirbank33.github.io/github-activity-2021-2026/">[Live Demo ↗]</a> · <a href="https://github.com/Anirbank33/github-activity-2021-2026">[Repo ↗]</a></sub>
         </td>
-        <td><code>JavaScript</code> <code>Web Audio</code> <code>CSS</code></td>
-        <td>Retro workstation &amp; interactive waveform playback engine</td>
+        <td><code>JavaScript</code> <code>Canvas</code> <code>REST</code></td>
+        <td>Multi-year commit analytics &amp; interactive telemetry visualizer</td>
       </tr>
       <tr>
         <td>
-          <b><a href="https://github.com/Anirbank33/java-core-troubleshooting">☕ JVM Concurrency &amp; Diagnostics</a></b><br/>
-          <sub><a href="https://github.com/Anirbank33/java-core-troubleshooting">[Repo ↗]</a></sub>
+          <b><a href="https://github.com/Anirbank33/Cool-tracks-form-90-s">🎵 90s Web Audio Studio</a></b><br/>
+          <sub><a href="https://github.com/Anirbank33/Cool-tracks-form-90-s">[Repo ↗]</a></sub>
         </td>
-        <td><code>Java 21</code> <code>JVM</code> <code>Concurrency</code></td>
-        <td>Multithreading diagnostics, deadlock detection &amp; benchmark suite</td>
+        <td><code>JavaScript</code> <code>Web Audio</code> <code>CSS Glass</code></td>
+        <td>Retro workstation &amp; interactive waveform synthesis engine</td>
       </tr>
     </tbody>
   </table>
@@ -185,8 +185,8 @@
 <!-- Footer Connect -->
 <div align="center">
   <p>
-    <b>Let's build reliable distributed systems together.</b><br/>
-    <sub>Open to Backend Engineering, Distributed Architecture &amp; Cloud API opportunities.</sub>
+    <b>Let's build scalable, event-driven JavaScript systems together.</b><br/>
+    <sub>Open to JavaScript, Node.js, TypeScript &amp; Distributed Backend Engineering opportunities.</sub>
   </p>
   <a href="https://www.linkedin.com/in/anirban-kar-23645414a/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
