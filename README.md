@@ -1,13 +1,13 @@
 <div align="center">
 
 # Anirban Kar
-### Software Engineer — Full-Stack & Backend (JavaScript & TypeScript)
+### Software Engineer — Full-Stack & Frontend (JavaScript & TypeScript)
 
 📍 Bengaluru, India &nbsp;•&nbsp; **Open to Remote Engineering Opportunities (India & Worldwide)**
 
 <p align="center">
   <a href="https://anirbank33.github.io/portfolio/" target="_blank">
-    <img src="https://img.shields.io/badge/Live%20Portfolio-Interactive%20Terminal-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
+    <img src="https://img.shields.io/badge/Live%20Portfolio-Sketchy%20Dark%20React%2018-0284C7?style=for-the-badge&logo=react&logoColor=white" alt="Live Portfolio" />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/anirban-kar-23645414a/" target="_blank">
@@ -31,7 +31,7 @@
 
 Software Engineer specializing in **JavaScript (ES6+)**, **TypeScript**, **React**, and **Node.js**. Focused on developing reliable full-stack web applications, contract-first RESTful APIs, and responsive interactive interfaces. Experienced in end-to-end type safety (OpenAPI / Zod), clean layered backend architecture, real-time WebSockets, and automated integration testing.
 
-Actively seeking **Remote Software Engineer / Full-Stack / Backend** opportunities across India and globally.
+Actively seeking **Remote Software Engineer / Full-Stack / Frontend** opportunities across India and globally.
 
 ---
 
@@ -50,7 +50,17 @@ Actively seeking **Remote Software Engineer / Full-Stack / Backend** opportuniti
 
 ### 🚀 Featured Engineering Projects
 
-#### 1. [JARVIS — AI Voice & Desktop Operating Assistant](https://github.com/Anirbank33/jarvis-ai-assistant)
+#### 1. [Minimalist Sketchy Dark Portfolio (React 18)](https://github.com/Anirbank33/portfolio)
+> **Tech Stack**: `React 18` · `JavaScript (ES6+)` · `HTML5` · `CSS3 Dark Mode` · `GitHub Pages`
+
+* **The Problem**: Standard developer portfolios are bloated, visually overwhelming, and fail to demonstrate clean React component design, disciplined code structure, or responsive dark UX to busy recruiters.
+* **The Solution**: Engineered a zero-bundler React 18 portfolio using pure CSS hand-drawn sketch borders (`border-radius: 255px 15px...`), an animated 3D avatar, state-driven project/skill filters, and WCAG AAA contrast on pure black (`#050505`).
+* **Real-World Impact**: Demonstrates modular design system tokens, critical rendering path optimization, and accessible cross-browser UI execution applicable to high-scale enterprise SaaS products.
+* **Links**: [Live Website ↗](https://anirbank33.github.io/portfolio/) · [GitHub Repository ↗](https://github.com/Anirbank33/portfolio)
+
+---
+
+#### 2. [JARVIS — AI Voice & Desktop Operating Assistant](https://github.com/Anirbank33/jarvis-ai-assistant)
 > **Tech Stack**: `TypeScript` · `React 18` · `Node.js` · `Express` · `WebSockets` · `Gemini AI` · `Tailwind CSS`
 
 * **The Problem**: Desktop multitasking requires repetitive window switching, mouse clicks, and manual status lookups. Connecting AI voice agents directly to native OS actions also introduces critical security risks of accidental or unverified command execution.
@@ -60,7 +70,7 @@ Actively seeking **Remote Software Engineer / Full-Stack / Backend** opportuniti
 
 ---
 
-#### 2. [Wardline — Clinical Department & Patient Census Management System](https://github.com/Anirbank33/medical-department-tracker)
+#### 3. [Wardline — Clinical Department & Patient Census Management System](https://github.com/Anirbank33/medical-department-tracker)
 > **Tech Stack**: `TypeScript` · `React 18` · `Vite` · `Express` · `Zod` · `OpenAPI 3.0` · `TanStack Query` · `pnpm`
 
 * **The Problem**: Clinical charge nurses and unit managers face heavy cognitive overhead during shift handovers due to slow, cluttered legacy hospital software, creating delays in bed turnover, pending admissions, and priority task triage.
@@ -70,23 +80,13 @@ Actively seeking **Remote Software Engineer / Full-Stack / Backend** opportuniti
 
 ---
 
-#### 3. [Production Document REST API & Microservice Engine](https://github.com/Anirbank33/backend-demo)
+#### 4. [Production Document REST API & Microservice Engine](https://github.com/Anirbank33/backend-demo)
 > **Tech Stack**: `Node.js` · `Express.js` · `JavaScript` · `Supertest` · `Helmet` · `Clean Architecture`
 
 * **The Problem**: Backend microservices frequently encounter unhandled edge cases in REST semantics (`PUT` vs `PATCH`), unvalidated request payloads, race conditions in file storage during concurrent writes, and vulnerability to client request flooding.
 * **The Solution**: Architected a production-grade RESTful microservice implementing clean layered architecture (`routes → controllers → services → store → middleware`). Implemented atomic serialized file locks to eliminate lost updates, an in-memory per-IP sliding window rate limiter, Helmet security headers, and an automated 16-test suite using Node's native `node:test` runner and Supertest.
 * **Real-World Impact**: Provides a predictable, secure, and stress-tested backend with explicit REST status handling (`201` + `Location`, `204`, `400`, `405` + `Allow`, `409`, `415`, `429` + `Retry-After`) and 100% automated test coverage.
 * **Links**: [GitHub Repository ↗](https://github.com/Anirbank33/backend-demo)
-
----
-
-#### 4. [Interactive Developer Portfolio & In-Browser Terminal CLI](https://github.com/Anirbank33/portfolio)
-> **Tech Stack**: `JavaScript (ES6+)` · `HTML5` · `Modern CSS` · `GitHub REST API` · `GitHub Pages`
-
-* **The Problem**: Traditional static developer portfolios feel generic and fail to showcase actual programmatic problem-solving or frontend state handling capabilities to technical hiring managers.
-* **The Solution**: Created an interactive developer portfolio featuring a fully functional in-browser terminal CLI emulator supporting custom commands (`help`, `skills`, `projects`, `architecture`, `telemetry`) with command history navigation (`↑`/`↓`), a dynamic 4-node system architecture diagram, live GitHub API telemetry with local caching, and OS-aware theme switching.
-* **Real-World Impact**: Creates a memorable, interactive hiring touchpoint demonstrating solid JavaScript fundamentals, API integration, and user-centric frontend design.
-* **Links**: [Live Website ↗](https://anirbank33.github.io/portfolio/) · [GitHub Repository ↗](https://github.com/Anirbank33/portfolio)
 
 ---
 
