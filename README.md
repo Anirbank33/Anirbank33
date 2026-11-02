@@ -2,13 +2,17 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation.svg?v=js1" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation-light.svg?v=js1" />
-    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation.svg?v=js1" width="100%" alt="Anirban Kar — JavaScript &amp; Backend Software Engineer" />
+    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/header-animation.svg?v=js1" width="100%" alt="Anirban Kar — Full-Stack &amp; Backend Software Engineer" />
   </picture>
   <p>
-    <sub>📍 Bengaluru, Karnataka, India &nbsp;•&nbsp; <font color="#059669">● Open to Engineering Opportunities</font> &nbsp;•&nbsp; Remote &amp; Hybrid</sub>
+    <sub>📍 Bengaluru, India &nbsp;•&nbsp; <font color="#059669">● Open to Software Engineering Opportunities (Global Remote / Hybrid)</font></sub>
   </p>
 
   <p>
+    <a href="https://anirbank33.github.io/portfolio/" target="_blank">
+      <img src="https://img.shields.io/badge/Live%20Portfolio-Interactive%20Terminal-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
+    </a>
+    &nbsp;
     <a href="https://www.linkedin.com/in/anirban-kar-23645414a/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
@@ -18,7 +22,7 @@
     </a>
     &nbsp;
     <a href="https://github.com/Anirbank33?tab=repositories">
-      <img src="https://img.shields.io/badge/GitHub-23%20Repos-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
+      <img src="https://img.shields.io/badge/GitHub-Public%20Repos-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
     </a>
   </p>
 </div>
@@ -30,7 +34,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/backend-skills-stream.svg?v=js1" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/backend-skills-stream-light.svg?v=js1" />
-    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/backend-skills-stream.svg?v=js1" width="100%" alt="JavaScript &amp; Backend Developer Skills Stream" />
+    <img src="https://raw.githubusercontent.com/Anirbank33/Anirbank33/main/backend-skills-stream.svg?v=js1" width="100%" alt="Software Engineering Skills Stream" />
   </picture>
 </div>
 
@@ -41,20 +45,20 @@
   <table border="0" cellpadding="0" cellspacing="8" width="100%">
     <tr>
       <td width="25%" align="center">
-        <b><font color="#f59e0b">💛 JavaScript Ecosystem</font></b><br/>
-        <sub>JavaScript (ES6+) · TypeScript · Node.js · SQL</sub>
+        <b><font color="#f59e0b">💻 Languages &amp; Runtimes</font></b><br/>
+        <sub>TypeScript · JavaScript (ES6+) · Java 17/21 · SQL · Python</sub>
       </td>
       <td width="25%" align="center">
-        <b><font color="#10b981">⚙️ Backend &amp; Runtimes</font></b><br/>
-        <sub>Node.js · Express · REST APIs · WebSockets · Microservices</sub>
+        <b><font color="#10b981">⚙️ Backend &amp; Microservices</font></b><br/>
+        <sub>Node.js · Express · RESTful APIs · WebSockets · OpenAPI / Zod</sub>
       </td>
       <td width="25%" align="center">
         <b><font color="#8b5cf6">🗄️ Persistence &amp; Caching</font></b><br/>
-        <sub>PostgreSQL · MongoDB · Redis Caching · MySQL</sub>
+        <sub>PostgreSQL · MongoDB · Redis (Caching/PubSub) · MySQL</sub>
       </td>
       <td width="25%" align="center">
-        <b><font color="#06b6d4">🚀 Architecture &amp; Tooling</font></b><br/>
-        <sub>Docker · Async I/O · Git CI/CD · Distributed Systems</sub>
+        <b><font color="#06b6d4">🚀 Cloud, DevOps &amp; Quality</font></b><br/>
+        <sub>Docker · Git CI/CD · Automated Testing · Clean Architecture · Linux</sub>
       </td>
     </tr>
   </table>
@@ -67,51 +71,59 @@
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <thead>
       <tr align="left">
-        <th width="32%"><b>Project</b></th>
+        <th width="32%"><b>Project &amp; Repository</b></th>
         <th width="28%"><b>Tech Stack</b></th>
-        <th width="40%"><b>Focus &amp; Architecture</b></th>
+        <th width="40%"><b>Architecture &amp; Engineering Focus</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>
-          <b><a href="https://github.com/Anirbank33/jarvis-ai-assistant">⚡ JARVIS Voice &amp; Vision AI</a></b><br/>
+          <b><a href="https://github.com/Anirbank33/jarvis-ai-assistant">⚡ JARVIS Voice &amp; Desktop OS</a></b><br/>
           <sub><a href="https://github.com/Anirbank33/jarvis-ai-assistant">[Repo ↗]</a></sub>
         </td>
-        <td><code>TypeScript</code> <code>JavaScript</code> <code>Gemini AI</code></td>
-        <td>Futuristic AI voice assistant with real-time speech, vision &amp; telemetry</td>
+        <td><code>TypeScript</code> <code>React 18</code> <code>Node.js</code> <code>Gemini AI</code></td>
+        <td>Futuristic AI Voice OS for macOS with real-time speech, neural reasoning, system telemetry &amp; security gateway</td>
       </tr>
       <tr>
         <td>
-          <b><a href="https://github.com/Anirbank33/medical-department-tracker">🏥 Medical Department Tracker</a></b><br/>
+          <b><a href="https://github.com/Anirbank33/medical-department-tracker">🏥 Wardline Medical Operations</a></b><br/>
           <sub><a href="https://github.com/Anirbank33/medical-department-tracker">[Repo ↗]</a></sub>
         </td>
-        <td><code>React</code> <code>TypeScript</code> <code>Express</code></td>
-        <td>Wardline clinical operations tracker with patient department queue flow</td>
+        <td><code>React 18</code> <code>TypeScript</code> <code>Express</code> <code>Zod</code></td>
+        <td>Enterprise hospital patient census &amp; ward operations tracker with OpenAPI contract codegen and runtime validation</td>
       </tr>
       <tr>
         <td>
-          <b><a href="https://github.com/Anirbank33/backend-demo">🚀 Modular REST Backend</a></b><br/>
+          <b><a href="https://github.com/Anirbank33/backend-demo">🚀 Document REST API Engine</a></b><br/>
           <sub><a href="https://github.com/Anirbank33/backend-demo">[Repo ↗]</a></sub>
         </td>
-        <td><code>Node.js</code> <code>Express</code> <code>REST APIs</code></td>
-        <td>Modular service architecture with JWT auth &amp; request validation</td>
+        <td><code>Node.js</code> <code>Express</code> <code>Clean Architecture</code> <code>Supertest</code></td>
+        <td>Production-grade RESTful microservice with layered architecture, per-IP rate limiting, atomic I/O, and 16 passing tests</td>
       </tr>
       <tr>
         <td>
           <b><a href="https://github.com/Anirbank33/github-activity-2021-2026">📊 GitHub Activity Telemetry</a></b><br/>
-          <sub><a href="https://anirbank33.github.io/github-activity-2021-2026/">[Live Demo ↗]</a> · <a href="https://github.com/Anirbank33/github-activity-2021-2026">[Repo ↗]</a></sub>
+          <sub><a href="https://anirbank33.github.io/github-activity-2021-2026/" target="_blank">[Live Demo ↗]</a> · <a href="https://github.com/Anirbank33/github-activity-2021-2026">[Repo ↗]</a></sub>
         </td>
-        <td><code>JavaScript</code> <code>Canvas</code> <code>REST</code></td>
-        <td>Multi-year commit analytics &amp; interactive telemetry visualizer</td>
+        <td><code>JavaScript</code> <code>Canvas</code> <code>GitHub API</code> <code>CSS Themes</code></td>
+        <td>Multi-year commit analytics &amp; interactive telemetry dashboard with automated dark/light theme persistence</td>
       </tr>
       <tr>
         <td>
-          <b><a href="https://github.com/Anirbank33/Cool-tracks-form-90-s">🎵 90s Web Audio Studio</a></b><br/>
-          <sub><a href="https://github.com/Anirbank33/Cool-tracks-form-90-s">[Repo ↗]</a></sub>
+          <b><a href="https://github.com/Anirbank33/java-core-troubleshooting">☕ Java Core Diagnostics Suite</a></b><br/>
+          <sub><a href="https://github.com/Anirbank33/java-core-troubleshooting">[Repo ↗]</a></sub>
         </td>
-        <td><code>JavaScript</code> <code>Web Audio</code> <code>CSS Glass</code></td>
-        <td>Retro workstation &amp; interactive waveform synthesis engine</td>
+        <td><code>Java 17/21</code> <code>Streams API</code> <code>Clean OOP</code> <code>Optional</code></td>
+        <td>Rigorous enterprise troubleshooting case study and modern refactored solution for compile-time, runtime &amp; logic faults</td>
+      </tr>
+      <tr>
+        <td>
+          <b><a href="https://github.com/Anirbank33/portfolio">🌐 Official Portfolio &amp; Terminal CLI</a></b><br/>
+          <sub><a href="https://anirbank33.github.io/portfolio/" target="_blank">[Live Site ↗]</a> · <a href="https://github.com/Anirbank33/portfolio">[Repo ↗]</a></sub>
+        </td>
+        <td><code>HTML5</code> <code>Modern CSS</code> <code>Vanilla JS</code> <code>CLI Terminal</code></td>
+        <td>High-performance portfolio website featuring interactive browser CLI, 4-node architecture visualizer &amp; live GitHub sync</td>
       </tr>
     </tbody>
   </table>
@@ -185,9 +197,13 @@
 <!-- Footer Connect -->
 <div align="center">
   <p>
-    <b>Let's build scalable, event-driven JavaScript systems together.</b><br/>
-    <sub>Open to JavaScript, Node.js, TypeScript &amp; Distributed Backend Engineering opportunities.</sub>
+    <b>Let's build scalable, resilient web applications &amp; distributed backend systems together.</b><br/>
+    <sub>Open to Full-Stack, Backend, Node.js, TypeScript &amp; Java Software Engineering opportunities (Global Remote &amp; Hybrid).</sub>
   </p>
+  <a href="https://anirbank33.github.io/portfolio/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-0284C7?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>
+  &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/anirban-kar-23645414a/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
